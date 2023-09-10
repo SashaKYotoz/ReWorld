@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reworld:block/block_spawn_ent"
+    },
+    "facing=east": {
+      "model": "reworld:block/block_spawn_ent",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reworld:block/block_spawn_ent",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reworld:block/block_spawn_ent",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reworld:block/blue_mossy_stone"
+    },
+    "facing=east": {
+      "model": "reworld:block/blue_mossy_stone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reworld:block/blue_mossy_stone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reworld:block/blue_mossy_stone",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "reworld:tamorindric_forest",
+    "swamp"
+  ],
+  "features": "reworld:fibrous_bush",
+  "step": "vegetal_decoration"
+}

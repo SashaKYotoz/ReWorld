@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "grove",
+    "taiga",
+    "snowy_taiga"
+  ],
+  "features": "reworld:viking_villager_house",
+  "step": "surface_structures"
+}

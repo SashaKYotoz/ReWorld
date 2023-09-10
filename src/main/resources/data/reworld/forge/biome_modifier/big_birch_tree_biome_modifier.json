@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "birch_forest",
+  "features": "reworld:big_birch_tree",
+  "step": "surface_structures"
+}

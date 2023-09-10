@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "reworld:mycenae_cavern",
+  "spawners": {
+    "type": "reworld:alive_blue_pomegranate_stone",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

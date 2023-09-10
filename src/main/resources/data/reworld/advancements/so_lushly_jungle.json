@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "reworld:orange_aster"
+    },
+    "title": {
+      "translate": "advancements.so_lushly_jungle.title"
+    },
+    "description": {
+      "translate": "advancements.so_lushly_jungle.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "so_lushly_jungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "reworld:wild_blooming_jungle"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "reworld:rebirthofyourworld"
+}

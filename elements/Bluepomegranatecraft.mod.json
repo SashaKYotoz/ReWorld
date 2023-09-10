@@ -1,0 +1,22 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:BluePomegranateCobblestone"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:BluePomegranate"
+    },
+    "name": "blue_pomegranate_craft",
+    "namespace": "mod"
+  }
+}

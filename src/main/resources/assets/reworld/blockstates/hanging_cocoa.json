@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reworld:block/hanging_cocoa"
+    },
+    "facing=east": {
+      "model": "reworld:block/hanging_cocoa",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reworld:block/hanging_cocoa",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reworld:block/hanging_cocoa",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "reworld:block/hanging_cocoa",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "reworld:block/hanging_cocoa",
+      "x": 90
+    }
+  }
+}

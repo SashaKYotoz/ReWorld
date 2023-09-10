@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "reworld:tamorindric_planks"
+    },
+    {
+      "item": "reworld:tamorindric_planks"
+    },
+    {
+      "item": "reworld:tamorindric_planks"
+    },
+    {
+      "item": "reworld:tamorindric_planks"
+    }
+  ],
+  "result": {
+    "item": "minecraft:crafting_table",
+    "count": 1
+  }
+}

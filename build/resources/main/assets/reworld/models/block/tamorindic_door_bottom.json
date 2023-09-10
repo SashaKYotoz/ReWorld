@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "reworld:blocks/tamorindic_door_bottom",
+    "top": "reworld:blocks/tamorindic_door_top"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "reworld:block/blue_mycenae_hanging",
+    "particle": "reworld:block/blue_mycenae_hanging"
+  },
+  "render_type": "translucent"
+}

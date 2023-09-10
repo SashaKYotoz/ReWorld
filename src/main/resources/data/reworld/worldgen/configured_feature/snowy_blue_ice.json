@@ -1,0 +1,70 @@
+{
+  "type": "reworld:snowy_blue_ice",
+  "config": {
+    "size": 4,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:snow",
+            "Properties": {
+              "layers": "1"
+            }
+          }
+        },
+        "state": {
+          "Name": "reworld:snowy_blue_ice"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:grass"
+          }
+        },
+        "state": {
+          "Name": "reworld:snowy_blue_ice"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:fern"
+          }
+        },
+        "state": {
+          "Name": "reworld:snowy_blue_ice"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:tall_grass",
+            "Properties": {
+              "half": "lower"
+            }
+          }
+        },
+        "state": {
+          "Name": "reworld:snowy_blue_ice"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        "state": {
+          "Name": "reworld:snowy_blue_ice"
+        }
+      }
+    ]
+  }
+}

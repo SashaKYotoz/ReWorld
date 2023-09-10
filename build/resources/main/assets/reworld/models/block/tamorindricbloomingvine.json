@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "reworld:block/tamorindic_blooming_vine",
+    "particle": "reworld:block/tamorindic_blooming_vine"
+  },
+  "render_type": "translucent"
+}

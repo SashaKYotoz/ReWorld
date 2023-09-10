@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reworld:block/blue_pomegranate_stone_bricks",
+    "up": "reworld:block/blue_pomegranate_stone_bricks",
+    "north": "reworld:block/block_golem_spawn",
+    "east": "reworld:block/block_golem_spawn",
+    "south": "reworld:block/block_golem_spawn",
+    "west": "reworld:block/block_golem_spawn",
+    "particle": "reworld:block/blue_pomegranate_stone_bricks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "reworld:tamorindric_forest",
+    "mangrove_swamp"
+  ],
+  "features": "reworld:ent_tree",
+  "step": "surface_structures"
+}

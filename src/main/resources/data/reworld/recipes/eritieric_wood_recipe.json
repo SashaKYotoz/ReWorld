@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "reworld:eritieric_log"
+    },
+    "1": {
+      "item": "reworld:eritieric_log"
+    },
+    "2": {
+      "item": "reworld:eritieric_log"
+    },
+    "3": {
+      "item": "reworld:eritieric_log"
+    }
+  },
+  "result": {
+    "item": "reworld:eritieric_wood",
+    "count": 3
+  }
+}

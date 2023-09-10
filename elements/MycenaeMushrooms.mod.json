@@ -1,0 +1,16 @@
+{
+  "_fv": 43,
+  "_type": "feature",
+  "definition": {
+    "generationStep": "UNDERGROUND_DECORATION",
+    "restrictionDimensions": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:MycenaeCavern"
+      }
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"332\" y=\"65\"><value name=\"feature\"><block type=\"feature_huge_fungus\"><field name=\"planted\">TRUE</field><comment pinned=\"false\" h=\"99\" w=\"243\">This block represent a crimson fungus, like the ones found in the Crimson Forest biome.This feature should be added during the VEGETAL_DECORATION stage</comment><value name=\"stem\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.MUSHROOM_STEM</field><comment pinned=\"false\" h=\"80\" w=\"160\">This is the stem of the fungus</comment></block></value><value name=\"hat\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:BlueMycenaeBlock</field><comment pinned=\"false\" h=\"80\" w=\"160\">This is the hat (or \"leaves\") of the fungus</comment></block></value><value name=\"decor\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:BlueMycenaeHanging</field><comment pinned=\"false\" h=\"80\" w=\"160\">This is the decorative block that can appear inside the fungus cap</comment></block></value><value name=\"ground\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:BlueMossyStone</field><comment pinned=\"false\" h=\"80\" w=\"160\">This is the valid ground for the fungus. It cannot generate on other blocks</comment></block></value></block></value><next><block type=\"placement_count_on_every_layer\"><comment pinned=\"false\" h=\"101\" w=\"207\">This placement type works best for Nether biomes. We generate the huge fungus 8 times on each vertical layer, so that we have a proper forest at any height</comment><value name=\"count\"><block type=\"int_provider_constant\"><field name=\"value\">6</field></block></value><next><block type=\"placement_biome_filter\"><comment pinned=\"false\" h=\"80\" w=\"160\">We add a biome filter, so that the fungi don't generate outside of the current biome</comment></block></next></block></next></block></xml>"
+  }
+}

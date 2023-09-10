@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reworld:block/blue_pomegranate_stone_bricks",
+    "up": "reworld:block/blue_pomegranate_stone_bricks",
+    "north": "reworld:block/blue_pomegranate_stone_bricks",
+    "east": "reworld:block/blue_pomegranate_stone_bricks",
+    "south": "reworld:block/blue_pomegranate_stone_bricks",
+    "west": "reworld:block/blue_pomegranate_stone_bricks",
+    "particle": "reworld:block/blue_pomegranate_stone_bricks"
+  },
+  "render_type": "solid"
+}

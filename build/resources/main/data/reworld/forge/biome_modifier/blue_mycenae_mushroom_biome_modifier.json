@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "reworld:mycenae_cavern",
+  "features": "reworld:blue_mycenae_mushroom",
+  "step": "underground_structures"
+}

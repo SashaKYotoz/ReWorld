@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "reworld:block/tamorindric_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "reworld:basalt_brick"
+    },
+    "3": {
+      "item": "reworld:basalt_brick"
+    },
+    "4": {
+      "item": "reworld:basalt_brick"
+    },
+    "6": {
+      "item": "reworld:basalt_brick"
+    },
+    "7": {
+      "item": "reworld:basalt_brick"
+    },
+    "8": {
+      "item": "reworld:basalt_brick"
+    }
+  },
+  "result": {
+    "item": "reworld:basalt_brick_stairs",
+    "count": 6
+  }
+}

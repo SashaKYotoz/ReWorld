@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "reworld:block/eritieric_planks",
+    "top": "reworld:block/eritieric_planks",
+    "side": "reworld:block/eritieric_planks"
+  },
+  "render_type": "solid"
+}

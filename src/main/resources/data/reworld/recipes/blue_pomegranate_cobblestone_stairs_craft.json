@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "reworld:blue_pomegranate_cobblestone"
+    },
+    "3": {
+      "item": "reworld:blue_pomegranate_cobblestone"
+    },
+    "4": {
+      "item": "reworld:blue_pomegranate_cobblestone"
+    },
+    "6": {
+      "item": "reworld:blue_pomegranate_cobblestone"
+    },
+    "7": {
+      "item": "reworld:blue_pomegranate_cobblestone"
+    },
+    "8": {
+      "item": "reworld:blue_pomegranate_cobblestone"
+    }
+  },
+  "result": {
+    "item": "reworld:blue_pomegranate_cobblestone_stairs",
+    "count": 6
+  }
+}

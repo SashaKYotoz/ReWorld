@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "reworld:block/sprout_melothria_stage0",
+    "particle": "reworld:block/sprout_melothria_stage0"
+  },
+  "render_type": "cutout"
+}

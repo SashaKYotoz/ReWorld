@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "reworld:purifiedfiber"
+    },
+    "2": {
+      "item": "reworld:purifiedfiber"
+    },
+    "3": {
+      "item": "reworld:tamorindric_log"
+    },
+    "4": {
+      "item": "reworld:heart_of_forest"
+    },
+    "5": {
+      "item": "reworld:tamorindric_log"
+    }
+  },
+  "result": {
+    "item": "reworld:fibery_hearted_boots",
+    "count": 1
+  }
+}

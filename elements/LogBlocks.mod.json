@@ -1,0 +1,30 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:TamorindricWood"
+      },
+      {
+        "value": "CUSTOM:TamorindricLog"
+      },
+      {
+        "value": "CUSTOM:EritiericWood"
+      },
+      {
+        "value": "CUSTOM:EritiericLog"
+      },
+      {
+        "value": "CUSTOM:HangingCocoa"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "logs",
+    "namespace": "minecraft"
+  }
+}

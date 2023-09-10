@@ -1,0 +1,188 @@
+
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.reworld.init;
+
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.client.event.RegisterColorHandlersEvent;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.level.block.Block;
+
+import net.mcreator.reworld.block.TrapMossyBluePomegranatePlateBlock;
+import net.mcreator.reworld.block.TrapBluePomegrantePlateBlock;
+import net.mcreator.reworld.block.TamorindricWoodBlock;
+import net.mcreator.reworld.block.TamorindricTrapdoorBlock;
+import net.mcreator.reworld.block.TamorindricStairsBlock;
+import net.mcreator.reworld.block.TamorindricSlabBlock;
+import net.mcreator.reworld.block.TamorindricPressurePlateBlock;
+import net.mcreator.reworld.block.TamorindricPlanksBlock;
+import net.mcreator.reworld.block.TamorindricLogBlock;
+import net.mcreator.reworld.block.TamorindricLeavesBlock;
+import net.mcreator.reworld.block.TamorindricFenceGateBlock;
+import net.mcreator.reworld.block.TamorindricFenceBlock;
+import net.mcreator.reworld.block.TamorindricButtonBlock;
+import net.mcreator.reworld.block.TamorindicvineBlock;
+import net.mcreator.reworld.block.TamorindicbloomingvineBlock;
+import net.mcreator.reworld.block.TamorindicSaplingBlock;
+import net.mcreator.reworld.block.TamorindicDoorBlock;
+import net.mcreator.reworld.block.SnowySpruceSaplingBlock;
+import net.mcreator.reworld.block.SnowySpruceLeavesBlock;
+import net.mcreator.reworld.block.SnowyBlueIceBlock;
+import net.mcreator.reworld.block.ScaryBasaltBrickWallBlock;
+import net.mcreator.reworld.block.ScaryBasaltBrickStairsBlock;
+import net.mcreator.reworld.block.ScaryBasaltBrickSlabBlock;
+import net.mcreator.reworld.block.ScaryBasaltBrickBlock;
+import net.mcreator.reworld.block.SandrouseBlock;
+import net.mcreator.reworld.block.RedstonePistonSpikesBlock;
+import net.mcreator.reworld.block.RedstonePistonSpikesActivatedBlock;
+import net.mcreator.reworld.block.RedstoneMinerBlock;
+import net.mcreator.reworld.block.PitayaBlock;
+import net.mcreator.reworld.block.PhysalisBlock;
+import net.mcreator.reworld.block.OrangeAsterBlock;
+import net.mcreator.reworld.block.MelothriaBlock;
+import net.mcreator.reworld.block.LooseClayBlock;
+import net.mcreator.reworld.block.HangingCocoaBlock;
+import net.mcreator.reworld.block.GrownPitayaBlock;
+import net.mcreator.reworld.block.GreenAsterBlock;
+import net.mcreator.reworld.block.FibrousBushBlock;
+import net.mcreator.reworld.block.FiberBlockBlock;
+import net.mcreator.reworld.block.EritiericWoodBlock;
+import net.mcreator.reworld.block.EritiericTrapdoorBlock;
+import net.mcreator.reworld.block.EritiericStairsBlock;
+import net.mcreator.reworld.block.EritiericSlabBlock;
+import net.mcreator.reworld.block.EritiericSaplingBlock;
+import net.mcreator.reworld.block.EritiericPressurePlateBlock;
+import net.mcreator.reworld.block.EritiericPlanksBlock;
+import net.mcreator.reworld.block.EritiericLogBlock;
+import net.mcreator.reworld.block.EritiericLeavesBlock;
+import net.mcreator.reworld.block.EritiericFenceGateBlock;
+import net.mcreator.reworld.block.EritiericFenceBlock;
+import net.mcreator.reworld.block.EritiericDoorBlock;
+import net.mcreator.reworld.block.EritiericButtonBlock;
+import net.mcreator.reworld.block.EdiblerootBlock;
+import net.mcreator.reworld.block.CrocusBlock;
+import net.mcreator.reworld.block.CloversGrassBlock;
+import net.mcreator.reworld.block.ChufaBlock;
+import net.mcreator.reworld.block.ChocoBlock;
+import net.mcreator.reworld.block.BluePomegranateStoneMossyBricksStairsBlock;
+import net.mcreator.reworld.block.BluePomegranateStoneMossyBricksSlabBlock;
+import net.mcreator.reworld.block.BluePomegranateStoneMossyBricksBlock;
+import net.mcreator.reworld.block.BluePomegranateStoneBricksStairsBlock;
+import net.mcreator.reworld.block.BluePomegranateStoneBricksSlabBlock;
+import net.mcreator.reworld.block.BluePomegranateStoneBricksBlock;
+import net.mcreator.reworld.block.BluePomegranateCobblestoneStairsBlock;
+import net.mcreator.reworld.block.BluePomegranateCobblestoneSlabBlock;
+import net.mcreator.reworld.block.BluePomegranateCobblestoneBlock;
+import net.mcreator.reworld.block.BluePomegranateBlock;
+import net.mcreator.reworld.block.BlueMycenaeHangingBlock;
+import net.mcreator.reworld.block.BlueMycenaeBlockBlock;
+import net.mcreator.reworld.block.BlueMycenaeBlock;
+import net.mcreator.reworld.block.BlueMossyStoneBlock;
+import net.mcreator.reworld.block.BlockSpawnPomegranateGolemBlock;
+import net.mcreator.reworld.block.BlockSpawnEntBlock;
+import net.mcreator.reworld.block.BlockIcyCreatureSpawnBlock;
+import net.mcreator.reworld.block.BlackPepperBushBlock;
+import net.mcreator.reworld.block.BlackPepperBlock;
+import net.mcreator.reworld.block.BasaltBrickWallBlock;
+import net.mcreator.reworld.block.BasaltBrickStairsBlock;
+import net.mcreator.reworld.block.BasaltBrickSlabBlock;
+import net.mcreator.reworld.block.BasaltBrickBlock;
+import net.mcreator.reworld.ReworldMod;
+
+public class ReworldModBlocks {
+	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, ReworldMod.MODID);
+	public static final RegistryObject<Block> BASALT_BRICK = REGISTRY.register("basalt_brick", () -> new BasaltBrickBlock());
+	public static final RegistryObject<Block> BASALT_BRICK_SLAB = REGISTRY.register("basalt_brick_slab", () -> new BasaltBrickSlabBlock());
+	public static final RegistryObject<Block> BASALT_BRICK_STAIRS = REGISTRY.register("basalt_brick_stairs", () -> new BasaltBrickStairsBlock());
+	public static final RegistryObject<Block> BASALT_BRICK_WALL = REGISTRY.register("basalt_brick_wall", () -> new BasaltBrickWallBlock());
+	public static final RegistryObject<Block> SCARY_BASALT_BRICK = REGISTRY.register("scary_basalt_brick", () -> new ScaryBasaltBrickBlock());
+	public static final RegistryObject<Block> SCARY_BASALT_BRICK_SLAB = REGISTRY.register("scary_basalt_brick_slab", () -> new ScaryBasaltBrickSlabBlock());
+	public static final RegistryObject<Block> SCARY_BASALT_BRICK_STAIRS = REGISTRY.register("scary_basalt_brick_stairs", () -> new ScaryBasaltBrickStairsBlock());
+	public static final RegistryObject<Block> SCARY_BASALT_BRICK_WALL = REGISTRY.register("scary_basalt_brick_wall", () -> new ScaryBasaltBrickWallBlock());
+	public static final RegistryObject<Block> TAMORINDRIC_SAPLING = REGISTRY.register("tamorindric_sapling", () -> new TamorindicSaplingBlock());
+	public static final RegistryObject<Block> TAMORINDRIC_LEAVES = REGISTRY.register("tamorindric_leaves", () -> new TamorindricLeavesBlock());
+	public static final RegistryObject<Block> TAMORINDRIC_WOOD = REGISTRY.register("tamorindric_wood", () -> new TamorindricWoodBlock());
+	public static final RegistryObject<Block> TAMORINDRIC_LOG = REGISTRY.register("tamorindric_log", () -> new TamorindricLogBlock());
+	public static final RegistryObject<Block> TAMORINDRIC_PLANKS = REGISTRY.register("tamorindric_planks", () -> new TamorindricPlanksBlock());
+	public static final RegistryObject<Block> TAMORINDRIC_STAIRS = REGISTRY.register("tamorindric_stairs", () -> new TamorindricStairsBlock());
+	public static final RegistryObject<Block> TAMORINDRIC_SLAB = REGISTRY.register("tamorindric_slab", () -> new TamorindricSlabBlock());
+	public static final RegistryObject<Block> TAMORINDRIC_FENCE = REGISTRY.register("tamorindric_fence", () -> new TamorindricFenceBlock());
+	public static final RegistryObject<Block> TAMORINDRIC_FENCE_GATE = REGISTRY.register("tamorindric_fence_gate", () -> new TamorindricFenceGateBlock());
+	public static final RegistryObject<Block> TAMORINDRIC_PRESSURE_PLATE = REGISTRY.register("tamorindric_pressure_plate", () -> new TamorindricPressurePlateBlock());
+	public static final RegistryObject<Block> TAMORINDRIC_BUTTON = REGISTRY.register("tamorindric_button", () -> new TamorindricButtonBlock());
+	public static final RegistryObject<Block> TAMORINDRIC_DOOR = REGISTRY.register("tamorindric_door", () -> new TamorindicDoorBlock());
+	public static final RegistryObject<Block> TAMORINDRIC_TRAPDOOR = REGISTRY.register("tamorindric_trapdoor", () -> new TamorindricTrapdoorBlock());
+	public static final RegistryObject<Block> TAMORINDRICVINE = REGISTRY.register("tamorindricvine", () -> new TamorindicvineBlock());
+	public static final RegistryObject<Block> TAMORINDRICBLOOMINGVINE = REGISTRY.register("tamorindricbloomingvine", () -> new TamorindicbloomingvineBlock());
+	public static final RegistryObject<Block> ERITIERIC_SAPLING = REGISTRY.register("eritieric_sapling", () -> new EritiericSaplingBlock());
+	public static final RegistryObject<Block> ERITIERIC_LEAVES = REGISTRY.register("eritieric_leaves", () -> new EritiericLeavesBlock());
+	public static final RegistryObject<Block> ERITIERIC_WOOD = REGISTRY.register("eritieric_wood", () -> new EritiericWoodBlock());
+	public static final RegistryObject<Block> ERITIERIC_LOG = REGISTRY.register("eritieric_log", () -> new EritiericLogBlock());
+	public static final RegistryObject<Block> ERITIERIC_PLANKS = REGISTRY.register("eritieric_planks", () -> new EritiericPlanksBlock());
+	public static final RegistryObject<Block> ERITIERIC_STAIRS = REGISTRY.register("eritieric_stairs", () -> new EritiericStairsBlock());
+	public static final RegistryObject<Block> ERITIERIC_SLAB = REGISTRY.register("eritieric_slab", () -> new EritiericSlabBlock());
+	public static final RegistryObject<Block> ERITIERIC_FENCE = REGISTRY.register("eritieric_fence", () -> new EritiericFenceBlock());
+	public static final RegistryObject<Block> ERITIERIC_FENCE_GATE = REGISTRY.register("eritieric_fence_gate", () -> new EritiericFenceGateBlock());
+	public static final RegistryObject<Block> ERITIERIC_PRESSURE_PLATE = REGISTRY.register("eritieric_pressure_plate", () -> new EritiericPressurePlateBlock());
+	public static final RegistryObject<Block> ERITIERIC_BUTTON = REGISTRY.register("eritieric_button", () -> new EritiericButtonBlock());
+	public static final RegistryObject<Block> ERITIERIC_DOOR = REGISTRY.register("eritieric_door", () -> new EritiericDoorBlock());
+	public static final RegistryObject<Block> ERITIERIC_TRAPDOOR = REGISTRY.register("eritieric_trapdoor", () -> new EritiericTrapdoorBlock());
+	public static final RegistryObject<Block> SNOWY_SPRUCE_LEAVES = REGISTRY.register("snowy_spruce_leaves", () -> new SnowySpruceLeavesBlock());
+	public static final RegistryObject<Block> SNOWY_SPRUCE_SAPLING = REGISTRY.register("snowy_spruce_sapling", () -> new SnowySpruceSaplingBlock());
+	public static final RegistryObject<Block> FIBER_BLOCK = REGISTRY.register("fiber_block", () -> new FiberBlockBlock());
+	public static final RegistryObject<Block> EDIBLEROOT = REGISTRY.register("edibleroot", () -> new EdiblerootBlock());
+	public static final RegistryObject<Block> MELOTHRIA = REGISTRY.register("melothria", () -> new MelothriaBlock());
+	public static final RegistryObject<Block> CHUFA = REGISTRY.register("chufa", () -> new ChufaBlock());
+	public static final RegistryObject<Block> PHYSALIS = REGISTRY.register("physalis", () -> new PhysalisBlock());
+	public static final RegistryObject<Block> PITAYA = REGISTRY.register("pitaya", () -> new PitayaBlock());
+	public static final RegistryObject<Block> SANDROUSE = REGISTRY.register("sandrouse", () -> new SandrouseBlock());
+	public static final RegistryObject<Block> ORANGE_ASTER = REGISTRY.register("orange_aster", () -> new OrangeAsterBlock());
+	public static final RegistryObject<Block> GREEN_ASTER = REGISTRY.register("green_aster", () -> new GreenAsterBlock());
+	public static final RegistryObject<Block> CROCUS = REGISTRY.register("crocus", () -> new CrocusBlock());
+	public static final RegistryObject<Block> CHOCO = REGISTRY.register("choco", () -> new ChocoBlock());
+	public static final RegistryObject<Block> FIBROUS_BUSH = REGISTRY.register("fibrous_bush", () -> new FibrousBushBlock());
+	public static final RegistryObject<Block> BLACK_PEPPER = REGISTRY.register("black_pepper", () -> new BlackPepperBlock());
+	public static final RegistryObject<Block> CLOVERS_GRASS = REGISTRY.register("clovers_grass", () -> new CloversGrassBlock());
+	public static final RegistryObject<Block> HANGING_COCOA = REGISTRY.register("hanging_cocoa", () -> new HangingCocoaBlock());
+	public static final RegistryObject<Block> BLUE_POMEGRANATE = REGISTRY.register("blue_pomegranate", () -> new BluePomegranateBlock());
+	public static final RegistryObject<Block> BLUE_POMEGRANATE_COBBLESTONE = REGISTRY.register("blue_pomegranate_cobblestone", () -> new BluePomegranateCobblestoneBlock());
+	public static final RegistryObject<Block> BLUE_POMEGRANATE_COBBLESTONE_SLAB = REGISTRY.register("blue_pomegranate_cobblestone_slab", () -> new BluePomegranateCobblestoneSlabBlock());
+	public static final RegistryObject<Block> BLUE_POMEGRANATE_COBBLESTONE_STAIRS = REGISTRY.register("blue_pomegranate_cobblestone_stairs", () -> new BluePomegranateCobblestoneStairsBlock());
+	public static final RegistryObject<Block> BLUE_POMEGRANATE_STONE_BRICKS = REGISTRY.register("blue_pomegranate_stone_bricks", () -> new BluePomegranateStoneBricksBlock());
+	public static final RegistryObject<Block> BLUE_POMEGRANATE_STONE_MOSSY_BRICKS = REGISTRY.register("blue_pomegranate_stone_mossy_bricks", () -> new BluePomegranateStoneMossyBricksBlock());
+	public static final RegistryObject<Block> BLUE_POMEGRANATE_STONE_BRICKS_SLAB = REGISTRY.register("blue_pomegranate_stone_bricks_slab", () -> new BluePomegranateStoneBricksSlabBlock());
+	public static final RegistryObject<Block> BLUE_POMEGRANATE_STONE_BRICKS_STAIRS = REGISTRY.register("blue_pomegranate_stone_bricks_stairs", () -> new BluePomegranateStoneBricksStairsBlock());
+	public static final RegistryObject<Block> BLUE_POMEGRANATE_STONE_MOSSY_BRICKS_SLAB = REGISTRY.register("blue_pomegranate_stone_mossy_bricks_slab", () -> new BluePomegranateStoneMossyBricksSlabBlock());
+	public static final RegistryObject<Block> BLUE_POMEGRANATE_STONE_MOSSY_BRICKS_STAIRS = REGISTRY.register("blue_pomegranate_stone_mossy_bricks_stairs", () -> new BluePomegranateStoneMossyBricksStairsBlock());
+	public static final RegistryObject<Block> BLUE_MOSSY_STONE = REGISTRY.register("blue_mossy_stone", () -> new BlueMossyStoneBlock());
+	public static final RegistryObject<Block> BLUE_MYCENAE_BLOCK = REGISTRY.register("blue_mycenae_block", () -> new BlueMycenaeBlockBlock());
+	public static final RegistryObject<Block> BLUE_MYCENAE_HANGING = REGISTRY.register("blue_mycenae_hanging", () -> new BlueMycenaeHangingBlock());
+	public static final RegistryObject<Block> LOOSE_CLAY = REGISTRY.register("loose_clay", () -> new LooseClayBlock());
+	public static final RegistryObject<Block> SNOWY_BLUE_ICE = REGISTRY.register("snowy_blue_ice", () -> new SnowyBlueIceBlock());
+	public static final RegistryObject<Block> BLOCK_SPAWN_ENT = REGISTRY.register("block_spawn_ent", () -> new BlockSpawnEntBlock());
+	public static final RegistryObject<Block> BLOCK_SPAWN_POMEGRANATE_GOLEM = REGISTRY.register("block_spawn_pomegranate_golem", () -> new BlockSpawnPomegranateGolemBlock());
+	public static final RegistryObject<Block> BLOCK_ICY_CREATURE_SPAWN = REGISTRY.register("block_icy_creature_spawn", () -> new BlockIcyCreatureSpawnBlock());
+	public static final RegistryObject<Block> REDSTONE_PISTON_SPIKES = REGISTRY.register("redstone_piston_spikes", () -> new RedstonePistonSpikesBlock());
+	public static final RegistryObject<Block> REDSTONE_MINER = REGISTRY.register("redstone_miner", () -> new RedstoneMinerBlock());
+	public static final RegistryObject<Block> TRAP_BLUE_POMEGRANTE_PLATE = REGISTRY.register("trap_blue_pomegrante_plate", () -> new TrapBluePomegrantePlateBlock());
+	public static final RegistryObject<Block> TRAP_MOSSY_BLUE_POMEGRANATE_PLATE = REGISTRY.register("trap_mossy_blue_pomegranate_plate", () -> new TrapMossyBluePomegranatePlateBlock());
+	public static final RegistryObject<Block> BLUE_MYCENAE = REGISTRY.register("blue_mycenae", () -> new BlueMycenaeBlock());
+	public static final RegistryObject<Block> BLACK_PEPPER_BUSH = REGISTRY.register("black_pepper_bush", () -> new BlackPepperBushBlock());
+	public static final RegistryObject<Block> REDSTONE_PISTON_SPIKES_ACTIVATED = REGISTRY.register("redstone_piston_spikes_activated", () -> new RedstonePistonSpikesActivatedBlock());
+	public static final RegistryObject<Block> GROWN_PITAYA = REGISTRY.register("grown_pitaya", () -> new GrownPitayaBlock());
+
+	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+	public static class ClientSideHandler {
+		@SubscribeEvent
+		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
+			TamorindicDoorBlock.blockColorLoad(event);
+			CloversGrassBlock.blockColorLoad(event);
+		}
+	}
+}

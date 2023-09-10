@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "reworld:block/eritieric_slab"
+    },
+    "type=top": {
+      "model": "reworld:block/eritieric_slab_top"
+    },
+    "type=double": {
+      "model": "reworld:block/eritieric_slab_full"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "reworld:icy_fur"
+    },
+    "2": {
+      "item": "reworld:icy_fur"
+    },
+    "3": {
+      "item": "minecraft:brown_wool"
+    },
+    "4": {
+      "item": "reworld:heart_of_ice"
+    },
+    "5": {
+      "item": "minecraft:brown_wool"
+    }
+  },
+  "result": {
+    "item": "reworld:furred_icy_boots",
+    "count": 1
+  }
+}

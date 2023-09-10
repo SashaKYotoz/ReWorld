@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reworld:block/friber_block",
+    "up": "reworld:block/friber_block",
+    "north": "reworld:block/friber_block",
+    "east": "reworld:block/friber_block",
+    "south": "reworld:block/friber_block",
+    "west": "reworld:block/friber_block",
+    "particle": "reworld:block/friber_block"
+  },
+  "render_type": "solid"
+}

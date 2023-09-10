@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "reworld:snowy_blue_ice"
+    },
+    "1": {
+      "item": "reworld:heart_of_ice"
+    },
+    "2": {
+      "item": "reworld:snowy_blue_ice"
+    },
+    "3": {
+      "item": "reworld:icy_fur"
+    },
+    "5": {
+      "item": "reworld:icy_fur"
+    }
+  },
+  "result": {
+    "item": "reworld:furred_icy_helmet",
+    "count": 1
+  }
+}

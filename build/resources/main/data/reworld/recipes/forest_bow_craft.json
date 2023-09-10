@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 12",
+    "3 5",
+    " 78"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "reworld:purifiedfiber"
+    },
+    "3": {
+      "item": "reworld:heart_of_forest"
+    },
+    "5": {
+      "item": "reworld:purifiedfiber"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    },
+    "8": {
+      "item": "reworld:purifiedfiber"
+    }
+  },
+  "result": {
+    "item": "reworld:forestbow",
+    "count": 1
+  }
+}

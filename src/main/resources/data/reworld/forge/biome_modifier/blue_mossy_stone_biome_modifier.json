@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "reworld:mycenae_cavern",
+  "features": "reworld:blue_mossy_stone",
+  "step": "underground_ores"
+}

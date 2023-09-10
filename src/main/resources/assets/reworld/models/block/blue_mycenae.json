@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "reworld:block/blue_mycenae",
+    "particle": "reworld:block/blue_mycenae"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "reworld:block/tamorindric_leaves",
+    "particle": "reworld:block/tamorindric_leaves"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_fv": 43,
+  "_type": "particle",
+  "definition": {
+    "texture": "greenish_grass_particle_animated.png",
+    "animate": true,
+    "frameDuration": 1,
+    "width": 0.4,
+    "height": 0.4,
+    "scale": 1.5,
+    "speedFactor": 1.0,
+    "gravity": 0.1,
+    "maxAge": 30,
+    "maxAgeDiff": 1,
+    "angularVelocity": 0.1,
+    "angularAcceleration": 0.01,
+    "canCollide": true,
+    "alwaysShow": false,
+    "renderType": "TRANSLUCENT"
+  }
+}

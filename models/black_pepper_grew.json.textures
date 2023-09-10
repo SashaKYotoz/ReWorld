@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "black_pepper",
+        "1": "pepper_plant"
+      },
+      "name": "default"
+    }
+  }
+}

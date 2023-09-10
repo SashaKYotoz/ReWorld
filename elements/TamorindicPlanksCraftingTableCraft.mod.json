@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TamorindricPlanks"
+      },
+      {
+        "value": "CUSTOM:TamorindricPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TamorindricPlanks"
+      },
+      {
+        "value": "CUSTOM:TamorindricPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.CRAFTING_TABLE"
+    },
+    "name": "tamorindic_planks_crafting_table_craft",
+    "namespace": "mod"
+  }
+}

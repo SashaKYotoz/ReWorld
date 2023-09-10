@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "reworld:broken_totemof_undying"
+    },
+    "title": {
+      "translate": "advancements.broken_totem_of_undying_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.broken_totem_of_undying_advancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "broken_totem_of_undying_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "reworld:broken_totemof_undying"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 3,
+    "recipes": [
+      "minecraft:totem_craft"
+    ]
+  },
+  "parent": "reworld:rebirthofyourworld"
+}

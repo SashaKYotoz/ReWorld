@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BluePomegranate"
+      },
+      {
+        "value": "CUSTOM:BluePomegranate"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BluePomegranate"
+      },
+      {
+        "value": "CUSTOM:BluePomegranate"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BluePomegranateStoneBricks"
+    },
+    "name": "blue_pomegranate_stone_bricks_craft",
+    "namespace": "mod"
+  }
+}

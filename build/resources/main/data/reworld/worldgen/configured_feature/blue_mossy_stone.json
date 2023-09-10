@@ -1,0 +1,23 @@
+{
+  "type": "reworld:blue_mossy_stone",
+  "config": {
+    "size": 4,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "reworld:blue_mossy_stone",
+            "Properties": {
+              "facing": "north"
+            }
+          }
+        },
+        "state": {
+          "Name": "reworld:blue_mossy_stone"
+        }
+      }
+    ]
+  }
+}

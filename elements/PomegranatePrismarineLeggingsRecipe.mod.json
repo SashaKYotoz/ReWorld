@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BluePomegranate"
+      },
+      {
+        "value": "CUSTOM:HeartOfMushrooms"
+      },
+      {
+        "value": "CUSTOM:BluePomegranate"
+      },
+      {
+        "value": "Items.PRISMARINE_CRYSTALS"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.PRISMARINE_CRYSTALS"
+      },
+      {
+        "value": "Blocks.PRISMARINE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.PRISMARINE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PomegranatePrismarine.legs"
+    },
+    "name": "pomegranate_prismarine_leggings_recipe",
+    "namespace": "mod"
+  }
+}

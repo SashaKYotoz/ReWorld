@@ -1,0 +1,122 @@
+{
+  "_fv": 43,
+  "_type": "biome",
+  "definition": {
+    "name": "Tamorindric Forest",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#1"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.CLAY"
+    },
+    "airColor": {
+      "value": -13186088,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -10640070,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -13382656,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -10518660,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": "ambient.cave"
+    },
+    "music": {
+      "value": "CUSTOM:tamorindic_void"
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 2000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "CUSTOM:Fireflies"
+    },
+    "particlesProbability": 0.1,
+    "rainingPossibility": 0.9,
+    "temperature": 0.85,
+    "spawnBiome": true,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": 0.25,
+      "max": 0.8735
+    },
+    "genHumidity": {
+      "min": 0.16000000000000003,
+      "max": 1.22
+    },
+    "genContinentalness": {
+      "min": -0.18,
+      "max": 0.88
+    },
+    "genErosion": {
+      "min": -0.375,
+      "max": 1.44
+    },
+    "genWeirdness": {
+      "min": -1.0359525193063552,
+      "max": 0.24404748069364468
+    },
+    "treesPerChunk": 12,
+    "vanillaTreeType": "Savanna trees",
+    "treeType": 1,
+    "minHeight": 5,
+    "treeStem": {
+      "value": "CUSTOM:TamorindricLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:TamorindricLeaves"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer",
+      "SwampClayDisks",
+      "Lakes",
+      "TaigaRocks",
+      "ForestGrass",
+      "DefaultFlowers"
+    ],
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "plains",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": true,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "SWAMP",
+    "spawnEntries": []
+  }
+}

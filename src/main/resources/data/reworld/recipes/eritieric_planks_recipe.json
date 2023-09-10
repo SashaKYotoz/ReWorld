@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "reworld:eritieric_log"
+    }
+  ],
+  "result": {
+    "item": "reworld:eritieric_planks",
+    "count": 4
+  }
+}

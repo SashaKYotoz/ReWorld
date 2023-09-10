@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reworld:block/basalt_bricks",
+    "up": "reworld:block/basalt_bricks",
+    "north": "reworld:block/basalt_bricks",
+    "east": "reworld:block/basalt_bricks",
+    "south": "reworld:block/basalt_bricks",
+    "west": "reworld:block/basalt_bricks",
+    "particle": "reworld:block/basalt_bricks"
+  },
+  "render_type": "solid"
+}

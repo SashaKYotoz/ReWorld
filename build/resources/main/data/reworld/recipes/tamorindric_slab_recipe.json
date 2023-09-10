@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "reworld:tamorindric_planks"
+    },
+    "1": {
+      "item": "reworld:tamorindric_planks"
+    },
+    "2": {
+      "item": "reworld:tamorindric_planks"
+    }
+  },
+  "result": {
+    "item": "reworld:tamorindric_slab",
+    "count": 6
+  }
+}

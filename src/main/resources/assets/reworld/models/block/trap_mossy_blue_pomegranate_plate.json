@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "texture": "reworld:block/blue_pomegranate_stone_mossy_bricks"
+  },
+  "render_type": "solid"
+}

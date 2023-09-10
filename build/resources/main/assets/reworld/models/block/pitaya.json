@@ -1,0 +1,11 @@
+{
+  "parent": "reworld:custom/pitaya",
+  "textures": {
+    "all": "reworld:block/rokakaka_bottom",
+    "particle": "reworld:block/rokakaka_bottom",
+    "0": "reworld:block/rokakaka_bottom",
+    "1": "reworld:block/tamorindric_leaves",
+    "missing": "reworld:block/rokakaka_bottom"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "reworld:blue_pomegranate"
+  },
+  "result": "reworld:blue_pomegranate_stone_bricks"
+}

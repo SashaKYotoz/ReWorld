@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:small_flowers",
+    "#minecraft:tall_flowers",
+    "minecraft:flowering_azalea_leaves",
+    "minecraft:flowering_azalea",
+    "reworld:orange_aster",
+    "reworld:green_aster",
+    "reworld:crocus",
+    "reworld:choco"
+  ]
+}

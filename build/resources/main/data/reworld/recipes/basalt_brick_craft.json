@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_basalt"
+    },
+    "1": {
+      "item": "minecraft:polished_basalt"
+    },
+    "2": {
+      "item": "minecraft:polished_basalt"
+    },
+    "3": {
+      "item": "minecraft:polished_basalt"
+    }
+  },
+  "result": {
+    "item": "reworld:basalt_brick",
+    "count": 4
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "reworld:frosty_slippery_valley",
+  "features": "reworld:snowy_spruce_sapling",
+  "step": "vegetal_decoration"
+}

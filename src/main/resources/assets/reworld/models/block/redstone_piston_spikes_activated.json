@@ -1,0 +1,12 @@
+{
+  "parent": "reworld:custom/redstone_spikes_piston_activated",
+  "textures": {
+    "all": "reworld:block/redstone_miner_bottom",
+    "particle": "reworld:block/redstone_miner_bottom",
+    "0": "reworld:block/redstone_spike_piston",
+    "1": "reworld:block/redstone_spike_piston_top",
+    "2": "reworld:block/redstone_miner_bottom",
+    "3": "reworld:block/redstone_piston_spikes"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "reworld:block/tamorindric_slab"
+    },
+    "type=top": {
+      "model": "reworld:block/tamorindric_slab_top"
+    },
+    "type=double": {
+      "model": "reworld:block/tamorindric_slab_full"
+    }
+  }
+}

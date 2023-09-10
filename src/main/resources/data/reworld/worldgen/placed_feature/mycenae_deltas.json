@@ -1,0 +1,12 @@
+{
+  "feature": "reworld:mycenae_deltas",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 32
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

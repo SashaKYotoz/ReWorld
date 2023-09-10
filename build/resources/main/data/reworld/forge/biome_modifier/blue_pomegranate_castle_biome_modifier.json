@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "sunflower_plains",
+    "snowy_plains",
+    "reworld:tamorindric_forest",
+    "dark_forest",
+    "plains",
+    "birch_forest"
+  ],
+  "features": "reworld:blue_pomegranate_castle",
+  "step": "surface_structures"
+}

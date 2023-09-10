@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "reworld:purifiedfiber"
+    },
+    {
+      "item": "reworld:purifiedfiber"
+    },
+    {
+      "item": "reworld:purifiedfiber"
+    }
+  ],
+  "result": {
+    "item": "minecraft:string",
+    "count": 2
+  }
+}

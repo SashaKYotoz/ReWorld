@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reworld:block/redstone_miner"
+    },
+    "facing=east": {
+      "model": "reworld:block/redstone_miner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reworld:block/redstone_miner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reworld:block/redstone_miner",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "reworld:block/redstone_miner",
+      "x": 90
+    },
+    "facing=down": {
+      "model": "reworld:block/redstone_miner",
+      "x": 270
+    }
+  }
+}

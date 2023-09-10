@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "blue_mycenae",
+    "customModelName": "Normal",
+    "name": "Blue Mycenae",
+    "rarity": "UNCOMMON",
+    "creativeTab": {
+      "value": "CUSTOM:Reworld"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 36,
+    "toolType": 0.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedOnBlock": {
+      "name": "BlueMycenaeBlockAdd"
+    },
+    "onFinishUsingItem": {
+      "name": "BlueMycenaeEaten"
+    },
+    "isFood": true,
+    "nutritionalValue": 2,
+    "saturation": 1.0,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "eat"
+  }
+}

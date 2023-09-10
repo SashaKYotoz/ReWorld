@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "reworld:item/tamorindic_blooming_vine"
+  },
+  "render_type": "translucent"
+}

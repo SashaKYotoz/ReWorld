@@ -1,0 +1,37 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "freezing_skewer",
+    "customModelName": "Normal",
+    "name": "Freezing Skewer",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Reworld"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 3,
+    "efficiency": 5.0,
+    "attackSpeed": 1.6,
+    "enchantability": 12,
+    "damageVsEntity": 8.0,
+    "usageCount": 652,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SnowyBlueIce"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "FreezingSkewerRightclicked"
+    },
+    "onEntityHitWith": {
+      "name": "FreezingSkewerLivingEntityIsHitWithTool"
+    }
+  }
+}

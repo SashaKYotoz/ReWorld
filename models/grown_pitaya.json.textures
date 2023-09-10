@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "rokakaka_bottom",
+        "1": "rokakaka_top",
+        "2": "eritieric_leaves1"
+      },
+      "name": "default"
+    }
+  }
+}

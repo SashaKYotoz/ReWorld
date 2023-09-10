@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "reworld:block/blue_pomegranate_stone_bricks",
+    "top": "reworld:block/blue_pomegranate_stone_bricks",
+    "side": "reworld:block/blue_pomegranate_stone_bricks"
+  },
+  "render_type": "solid"
+}

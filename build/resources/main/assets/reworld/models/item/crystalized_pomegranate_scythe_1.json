@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "reworld:item/crystalized_pomegranate_scythe_1"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "reworld:blocks/eritieric_door_bottom",
+    "top": "reworld:blocks/eritieric_door_top"
+  }
+}

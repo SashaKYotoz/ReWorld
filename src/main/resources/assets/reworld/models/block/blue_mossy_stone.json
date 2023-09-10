@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reworld:block/stone",
+    "up": "reworld:block/blue_moss",
+    "north": "reworld:block/mossy_stone",
+    "east": "reworld:block/mossy_stone",
+    "south": "reworld:block/mossy_stone",
+    "west": "reworld:block/mossy_stone",
+    "particle": "reworld:block/stone"
+  },
+  "render_type": "solid"
+}

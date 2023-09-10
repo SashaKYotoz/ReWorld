@@ -1,0 +1,46 @@
+{
+  "_fv": 43,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "forestbow",
+    "customModelName": "Normal",
+    "name": "§2Forest Bow",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Reworld"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Items.ARROW"
+    },
+    "shootConstantly": false,
+    "usageCount": 764,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.5,
+    "onRangedItemUsed": {
+      "name": "ForestbowRangedItemUsed"
+    },
+    "bulletPower": 1.5,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 2,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:TamorindricLeaves"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsPlayer": {
+      "name": "ForestbowProjectileHitsLivingEntity"
+    },
+    "onBulletHitsEntity": {
+      "name": "ForestbowProjectileHitsLivingEntity"
+    }
+  }
+}

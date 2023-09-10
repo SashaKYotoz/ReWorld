@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BasaltBrick"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BasaltBrick"
+      },
+      {
+        "value": "CUSTOM:BasaltBrick"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BasaltBrick"
+      },
+      {
+        "value": "CUSTOM:BasaltBrick"
+      },
+      {
+        "value": "CUSTOM:BasaltBrick"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BasaltBrickStairs"
+    },
+    "name": "basalt_brick_stairs_craft",
+    "namespace": "mod"
+  }
+}

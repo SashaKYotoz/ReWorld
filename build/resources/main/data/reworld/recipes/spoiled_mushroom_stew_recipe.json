@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "reworld:branch_of_black_peppers"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "reworld:peelededibleroot"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "reworld:peelededibleroot"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "reworld:spoiled_mushroom_stew",
+    "count": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_fv": 43,
+  "_type": "structure",
+  "definition": {
+    "structure": "pomegranate_golem_dungeon",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First block",
+    "spawnProbability": 3500,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Underground",
+    "spawnHeightOffset": -12,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:BlueMossyStone"
+      },
+      {
+        "value": "CUSTOM:BluePomegranate"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:MycenaeCavern"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

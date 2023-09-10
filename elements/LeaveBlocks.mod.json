@@ -1,0 +1,23 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:TamorindricLeaves"
+      },
+      {
+        "value": "CUSTOM:EritiericLeaves"
+      },
+      {
+        "value": "CUSTOM:SnowySpruceLeaves"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "leaves",
+    "namespace": "minecraft"
+  }
+}

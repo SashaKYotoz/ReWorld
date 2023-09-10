@@ -1,0 +1,17 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Functions",
+    "items": [],
+    "blocks": [],
+    "functions": [
+      "Tick",
+      "TickReworld"
+    ],
+    "entities": [],
+    "biomes": [],
+    "name": "tick",
+    "namespace": "minecraft"
+  }
+}

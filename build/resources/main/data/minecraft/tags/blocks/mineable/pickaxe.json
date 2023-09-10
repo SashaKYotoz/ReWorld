@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "reworld:basalt_brick",
+    "reworld:basalt_brick_slab",
+    "reworld:basalt_brick_stairs",
+    "reworld:basalt_brick_wall",
+    "reworld:scary_basalt_brick",
+    "reworld:scary_basalt_brick_slab",
+    "reworld:scary_basalt_brick_stairs",
+    "reworld:scary_basalt_brick_wall",
+    "reworld:blue_pomegranate",
+    "reworld:blue_pomegranate_cobblestone",
+    "reworld:blue_pomegranate_cobblestone_slab",
+    "reworld:blue_pomegranate_cobblestone_stairs",
+    "reworld:blue_pomegranate_stone_bricks",
+    "reworld:blue_pomegranate_stone_mossy_bricks",
+    "reworld:blue_pomegranate_stone_bricks_slab",
+    "reworld:blue_pomegranate_stone_bricks_stairs",
+    "reworld:blue_pomegranate_stone_mossy_bricks_slab",
+    "reworld:blue_pomegranate_stone_mossy_bricks_stairs",
+    "reworld:blue_mossy_stone",
+    "reworld:block_spawn_pomegranate_golem",
+    "reworld:block_icy_creature_spawn",
+    "reworld:redstone_piston_spikes",
+    "reworld:redstone_miner",
+    "reworld:trap_blue_pomegrante_plate",
+    "reworld:trap_mossy_blue_pomegranate_plate",
+    "reworld:redstone_piston_spikes_activated"
+  ]
+}

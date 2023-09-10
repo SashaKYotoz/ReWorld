@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "reworld:block/snowy_blue_ice",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "reworld:block/snowy_blue_ice"
+    },
+    "axis=z": {
+      "model": "reworld:block/snowy_blue_ice",
+      "x": 90
+    }
+  }
+}

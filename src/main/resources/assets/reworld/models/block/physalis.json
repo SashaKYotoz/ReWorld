@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "reworld:block/physalis_stage0",
+    "particle": "reworld:block/physalis_stage0"
+  },
+  "render_type": "cutout"
+}

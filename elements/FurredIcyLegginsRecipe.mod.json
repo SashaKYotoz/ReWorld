@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SnowyBlueIce"
+      },
+      {
+        "value": "CUSTOM:HeartOfIce"
+      },
+      {
+        "value": "CUSTOM:SnowyBlueIce"
+      },
+      {
+        "value": "CUSTOM:IcyFur"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IcyFur"
+      },
+      {
+        "value": "Blocks.WOOL#12"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WOOL#12"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FurredIcy.legs"
+    },
+    "name": "furred_icy_leggins_recipe",
+    "namespace": "mod"
+  }
+}

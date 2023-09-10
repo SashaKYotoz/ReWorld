@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "reworld:block/physalis"
+    },
+    "age=1": {
+      "model": "reworld:block/physalis1"
+    },
+    "age=2": {
+      "model": "reworld:block/physalis1"
+    },
+    "age=3": {
+      "model": "reworld:block/physalis1"
+    },
+    "age=4": {
+      "model": "reworld:block/physalis2"
+    },
+    "age=5": {
+      "model": "reworld:block/physalis2"
+    },
+    "age=6": {
+      "model": "reworld:block/physalis2"
+    },
+    "age=7": {
+      "model": "reworld:block/physalis3"
+    }
+  }
+}

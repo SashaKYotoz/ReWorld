@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:armor_stand,tag=!noarms] run data merge entity @s {ShowArms:1b}

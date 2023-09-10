@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BluePomegranateCobblestone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BluePomegranateCobblestone"
+      },
+      {
+        "value": "CUSTOM:BluePomegranateCobblestone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BluePomegranateCobblestone"
+      },
+      {
+        "value": "CUSTOM:BluePomegranateCobblestone"
+      },
+      {
+        "value": "CUSTOM:BluePomegranateCobblestone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BluePomegranateCobblestoneStairs"
+    },
+    "name": "blue_pomegranate_cobblestone_stairs_craft",
+    "namespace": "mod"
+  }
+}

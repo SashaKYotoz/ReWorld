@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "reworld:frosty_slippery_valley",
+  "spawners": {
+    "type": "reworld:alive_snowy_ice",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

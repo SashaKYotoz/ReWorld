@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Reworld",
+    "icon": {
+      "value": "CUSTOM:Reworldikon"
+    },
+    "showSearch": true
+  }
+}

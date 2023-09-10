@@ -1,0 +1,35 @@
+{
+  "type": "reworld:mycenae_mushrooms",
+  "config": {
+    "valid_base_block": {
+      "Name": "reworld:blue_mossy_stone",
+      "Properties": {
+        "facing": "north"
+      }
+    },
+    "stem_state": {
+      "Name": "minecraft:mushroom_stem",
+      "Properties": {
+        "down": "true",
+        "east": "true",
+        "north": "true",
+        "south": "true",
+        "up": "true",
+        "west": "true"
+      }
+    },
+    "hat_state": {
+      "Name": "reworld:blue_mycenae_block",
+      "Properties": {
+        "facing": "north"
+      }
+    },
+    "decor_state": {
+      "Name": "reworld:blue_mycenae_hanging",
+      "Properties": {
+        "facing": "north"
+      }
+    },
+    "planted": "true"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "reworld:tamorindric_planks"
+    },
+    "1": {
+      "item": "reworld:tamorindric_planks"
+    },
+    "2": {
+      "item": "reworld:tamorindric_planks"
+    },
+    "3": {
+      "item": "reworld:tamorindric_planks"
+    },
+    "4": {
+      "item": "reworld:tamorindric_planks"
+    },
+    "5": {
+      "item": "reworld:tamorindric_planks"
+    }
+  },
+  "result": {
+    "item": "reworld:tamorindric_door",
+    "count": 3
+  }
+}

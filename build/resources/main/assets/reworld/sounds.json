@@ -1,0 +1,18 @@
+{
+  "tamorindric_forest_sound": {
+    "sounds": [
+      {
+        "name": "reworld:ping_pond_sound",
+        "stream": false
+      }
+    ]
+  },
+  "tamorindic_void": {
+    "sounds": [
+      {
+        "name": "reworld:tamorindic_void",
+        "stream": false
+      }
+    ]
+  }
+}

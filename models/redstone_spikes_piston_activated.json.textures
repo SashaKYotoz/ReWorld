@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "redstone_spike_piston",
+        "1": "redstone_spike_piston_top",
+        "2": "redstone_miner_bottom",
+        "3": "redstone_piston_spikes"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "reworld:blue_pomegranate_cobblestone"
+    },
+    "1": {
+      "item": "reworld:blue_pomegranate_cobblestone"
+    },
+    "2": {
+      "item": "reworld:blue_pomegranate_cobblestone"
+    }
+  },
+  "result": {
+    "item": "reworld:blue_pomegranate_cobblestone_slab",
+    "count": 6
+  }
+}

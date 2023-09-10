@@ -1,0 +1,26 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:TamorindricFence"
+      },
+      {
+        "value": "CUSTOM:TamorindricFenceGate"
+      },
+      {
+        "value": "CUSTOM:EritiericFence"
+      },
+      {
+        "value": "CUSTOM:EritiericFenceGate"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "fences",
+    "namespace": "minecraft"
+  }
+}

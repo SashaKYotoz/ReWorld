@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "reworld:block/edible_root_sprout_grew",
+    "particle": "reworld:block/edible_root_sprout_grew"
+  },
+  "render_type": "cutout"
+}

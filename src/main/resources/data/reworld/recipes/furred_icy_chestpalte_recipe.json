@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "reworld:icy_fur"
+    },
+    "2": {
+      "item": "reworld:icy_fur"
+    },
+    "3": {
+      "item": "minecraft:brown_wool"
+    },
+    "4": {
+      "item": "reworld:heart_of_ice"
+    },
+    "5": {
+      "item": "minecraft:brown_wool"
+    },
+    "6": {
+      "item": "reworld:snowy_blue_ice"
+    },
+    "7": {
+      "item": "minecraft:black_wool"
+    },
+    "8": {
+      "item": "reworld:snowy_blue_ice"
+    }
+  },
+  "result": {
+    "item": "reworld:furred_icy_chestplate",
+    "count": 1
+  }
+}

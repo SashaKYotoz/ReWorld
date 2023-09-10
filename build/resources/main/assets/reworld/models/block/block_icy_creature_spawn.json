@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reworld:block/snowy_blue_ice",
+    "up": "reworld:block/snowy_blue_ice",
+    "north": "reworld:block/block_icy_creature_spawn",
+    "east": "reworld:block/block_icy_creature_spawn",
+    "south": "reworld:block/block_icy_creature_spawn",
+    "west": "reworld:block/block_icy_creature_spawn",
+    "particle": "reworld:block/snowy_blue_ice"
+  },
+  "render_type": "translucent"
+}

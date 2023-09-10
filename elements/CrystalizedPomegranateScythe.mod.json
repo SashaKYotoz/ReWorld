@@ -1,0 +1,40 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "crystalized_pomegranate_scythe_1",
+    "customModelName": "Normal",
+    "name": "Crystalized Pomegranate Scythe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Reworld"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 3,
+    "efficiency": 7.5,
+    "attackSpeed": 1.4,
+    "enchantability": 12,
+    "damageVsEntity": 8.0,
+    "usageCount": 761,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:HeartOfMushrooms"
+      },
+      {
+        "value": "Items.DIAMOND"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "CrystalizedPomegranateScytheRightclicked"
+    },
+    "onEntityHitWith": {
+      "name": "CrystalizedPomegranateScytheLivingEntityIsHitWithTool"
+    }
+  }
+}

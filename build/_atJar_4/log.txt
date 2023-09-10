@@ -1,0 +1,7 @@
+Java Launcher: C:\Users\Dell\Desktop\MCreator20232\jdk\bin\java.exe
+Arguments: '--inJar, D:\ReWorld\build\fg_cache\net\minecraftforge\forge\1.19.4-45.1.0\forge-1.19.4-45.1.0-injected.jar, --outJar, D:\ReWorld\build\fg_cache\net\minecraftforge\forge\1.19.4-45.1.0_mapped_official_1.19.4\forge-1.19.4-45.1.0_mapped_official_1.19.4.jar, --logFile, accesstransform.log, --atFile, D:\ReWorld\src\main\resources\META-INF\accesstransformer.cfg, --atFile, D:\ReWorld\build\_atJar_4\parent_at.cfg'
+Classpath:
+ - C:\Users\Dell\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working directory: D:\ReWorld\build\_atJar_4
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

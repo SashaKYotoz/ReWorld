@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BluePomegranateStoneBricks"
+      },
+      {
+        "value": "CUSTOM:BluePomegranateStoneBricks"
+      },
+      {
+        "value": "CUSTOM:BluePomegranateStoneBricks"
+      },
+      {
+        "value": "CUSTOM:BluePomegranateStoneBricks"
+      },
+      {
+        "value": "Blocks.VINE"
+      },
+      {
+        "value": "CUSTOM:BluePomegranateStoneBricks"
+      },
+      {
+        "value": "CUSTOM:BluePomegranateStoneBricks"
+      },
+      {
+        "value": "CUSTOM:BluePomegranateStoneBricks"
+      },
+      {
+        "value": "CUSTOM:BluePomegranateStoneBricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BluePomegranateStoneMossyBricks"
+    },
+    "name": "blue_pomegranate_stone_mossy_bricks_craft",
+    "namespace": "mod"
+  }
+}

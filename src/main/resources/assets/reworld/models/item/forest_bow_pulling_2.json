@@ -1,0 +1,6 @@
+{
+  "parent": "reworld:item/forestbow",
+  "textures": {
+    "layer0": "reworld:item/forest_bow_pulling_2"
+  }
+}

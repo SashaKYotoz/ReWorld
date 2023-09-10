@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "reworld:block/sandrouse",
+    "particle": "reworld:block/sandrouse"
+  },
+  "render_type": "cutout"
+}

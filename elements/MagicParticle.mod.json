@@ -1,0 +1,21 @@
+{
+  "_fv": 43,
+  "_type": "particle",
+  "definition": {
+    "texture": "magic_particle.png",
+    "animate": true,
+    "frameDuration": 5,
+    "width": 0.30000000000000004,
+    "height": 0.30000000000000004,
+    "scale": 1.5,
+    "speedFactor": 1.0,
+    "gravity": 0.2,
+    "maxAge": 7,
+    "maxAgeDiff": 1,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.09999999999999999,
+    "canCollide": true,
+    "alwaysShow": false,
+    "renderType": "TRANSLUCENT"
+  }
+}

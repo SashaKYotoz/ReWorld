@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "reworld:block/voloknyanka",
+    "particle": "reworld:block/voloknyanka"
+  },
+  "render_type": "cutout"
+}

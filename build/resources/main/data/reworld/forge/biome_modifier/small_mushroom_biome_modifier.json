@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "mushroom_fields",
+  "features": "reworld:small_mushroom",
+  "step": "surface_structures"
+}

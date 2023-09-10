@@ -1,0 +1,31 @@
+{
+  "type": "reworld:wild_blooming_jungle_trees",
+  "config": {
+    "valid_base_block": {
+      "Name": "minecraft:grass_block",
+      "Properties": {
+        "snowy": "false"
+      }
+    },
+    "stem_state": {
+      "Name": "minecraft:jungle_log",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "hat_state": {
+      "Name": "minecraft:jungle_leaves",
+      "Properties": {
+        "distance": "7",
+        "persistent": "false",
+        "waterlogged": "false"
+      }
+    },
+    "decor_state": {
+      "Name": "reworld:hanging_cocoa",
+      "Properties": {
+        "facing": "north"
+      }
+    }
+  }
+}

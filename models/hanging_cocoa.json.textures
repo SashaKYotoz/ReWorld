@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "hanging_cocoa"
+      },
+      "name": "default"
+    }
+  }
+}

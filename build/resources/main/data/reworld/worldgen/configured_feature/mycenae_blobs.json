@@ -1,0 +1,24 @@
+{
+  "type": "reworld:mycenae_blobs",
+  "config": {
+    "target": {
+      "Name": "reworld:blue_pomegranate",
+      "Properties": {
+        "facing": "north"
+      }
+    },
+    "state": {
+      "Name": "reworld:blue_mycenae_block",
+      "Properties": {
+        "facing": "north"
+      }
+    },
+    "radius": {
+      "type": "uniform",
+      "value": {
+        "min_inclusive": 3,
+        "max_inclusive": 7
+      }
+    }
+  }
+}

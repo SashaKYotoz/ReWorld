@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "reworld:wild_blooming_jungle",
+  "features": "reworld:wild_blooming_jungle_flowers",
+  "step": "surface_structures"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "reworld:custom/black_pepper_bush",
+  "textures": {
+    "all": "reworld:block/pepper_plant",
+    "particle": "reworld:block/pepper_plant",
+    "0": "reworld:block/black_pepper_bush",
+    "1": "reworld:block/pepper_plant"
+  },
+  "render_type": "cutout"
+}

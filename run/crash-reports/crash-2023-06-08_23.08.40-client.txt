@@ -1,0 +1,243 @@
+---- Minecraft Crash Report ----
+// This doesn't make any sense!
+
+Time: 2023-06-08 23:08:40
+Description: Rendering entity in world
+
+java.lang.NullPointerException: Cannot invoke "net.minecraft.client.model.geom.ModelPart.getAllParts()" because the return value of "net.minecraft.client.model.HierarchicalModel.root()" is null
+	at net.minecraft.client.model.HierarchicalModel.getAnyDescendantWithName(HierarchicalModel.java:37) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.animation.KeyframeAnimations.animate(KeyframeAnimations.java:19) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.model.HierarchicalModel.lambda$animate$2(HierarchicalModel.java:57) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.world.entity.AnimationState.ifStarted(AnimationState.java:38) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.client.model.HierarchicalModel.animate(HierarchicalModel.java:56) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.model.HierarchicalModel.animate(HierarchicalModel.java:45) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.mcreator.reworld.client.model.Modelpomegranate_stone_golem.setupAnim(Modelpomegranate_stone_golem.java:122) ~[main/:?] {re:classloading}
+	at net.mcreator.reworld.client.model.Modelpomegranate_stone_golem.setupAnim(Modelpomegranate_stone_golem.java:20) ~[main/:?] {re:classloading}
+	at net.minecraft.client.renderer.entity.LivingEntityRenderer.render(LivingEntityRenderer.java:117) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.MobRenderer.render(MobRenderer.java:42) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.MobRenderer.render(MobRenderer.java:20) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.EntityRenderDispatcher.render(EntityRenderDispatcher.java:136) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.LevelRenderer.renderEntity(LevelRenderer.java:1439) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.LevelRenderer.renderLevel(LevelRenderer.java:1222) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.renderLevel(GameRenderer.java:1111) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:895) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1148) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:719) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:205) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.4-45.0.66.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.minecraft.client.model.HierarchicalModel.getAnyDescendantWithName(HierarchicalModel.java:37) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar%23189!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.animation.KeyframeAnimations.animate(KeyframeAnimations.java:19) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar%23189!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.model.HierarchicalModel.lambda$animate$2(HierarchicalModel.java:57) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar%23189!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.world.entity.AnimationState.ifStarted(AnimationState.java:38) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar%23189!/:?] {re:classloading}
+	at net.minecraft.client.model.HierarchicalModel.animate(HierarchicalModel.java:56) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar%23189!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.model.HierarchicalModel.animate(HierarchicalModel.java:45) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar%23189!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.mcreator.reworld.client.model.Modelpomegranate_stone_golem.setupAnim(Modelpomegranate_stone_golem.java:122) ~[%23194!/:?] {re:classloading}
+	at net.mcreator.reworld.client.model.Modelpomegranate_stone_golem.setupAnim(Modelpomegranate_stone_golem.java:20) ~[%23194!/:?] {re:classloading}
+	at net.minecraft.client.renderer.entity.LivingEntityRenderer.render(LivingEntityRenderer.java:117) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar%23189!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.MobRenderer.render(MobRenderer.java:42) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar%23189!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.MobRenderer.render(MobRenderer.java:20) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar%23189!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.EntityRenderDispatcher.render(EntityRenderDispatcher.java:136) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar%23189!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.LevelRenderer.renderEntity(LevelRenderer.java:1439) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar%23189!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.LevelRenderer.renderLevel(LevelRenderer.java:1222) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar%23189!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.renderLevel(GameRenderer.java:1111) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar%23189!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+-- Entity being rendered --
+Details:
+	Entity Type: reworld:pomegranate_stone_golem (net.mcreator.reworld.entity.PomegranateStoneGolemEntity)
+	Entity ID: 208
+	Entity Name: §3Pomegranate Stone Golem
+	Entity's Exact location: -3025.66, 64.00, -6330.75
+	Entity's Block location: World: (-3026,64,-6331), Section: (at 14,0,5 in -190,4,-396; chunk contains blocks -3040,-64,-6336 to -3025,319,-6321), Region: (-6,-13; contains chunks -192,-416 to -161,-385, blocks -3072,-64,-6656 to -2561,319,-6145)
+	Entity's Momentum: -0.00, -0.08, -0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at net.minecraft.client.renderer.entity.EntityRenderDispatcher.render(EntityRenderDispatcher.java:136) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.LevelRenderer.renderEntity(LevelRenderer.java:1439) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.LevelRenderer.renderLevel(LevelRenderer.java:1222) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.renderLevel(GameRenderer.java:1111) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:895) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1148) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:719) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:205) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.4-45.0.66.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+-- Renderer details --
+Details:
+	Assigned renderer: net.mcreator.reworld.client.renderer.PomegranateStoneGolemRenderer@4afd8f16
+	Location: -10.60,-4.49,1.26 - World: (-11,-5,1), Section: (at 5,11,1 in -1,-1,0; chunk contains blocks -16,-64,0 to -1,319,15), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,-64,0 to -1,319,511)
+	Rotation: 99.46874
+	Delta: 0.25999916
+Stacktrace:
+	at net.minecraft.client.renderer.entity.EntityRenderDispatcher.render(EntityRenderDispatcher.java:136) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.LevelRenderer.renderEntity(LevelRenderer.java:1439) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.LevelRenderer.renderLevel(LevelRenderer.java:1222) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.renderLevel(GameRenderer.java:1111) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:895) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1148) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:719) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:205) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.4-45.0.66.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 1 total; [LocalPlayer['Dev'/175, l='ClientLevel', x=-3015.06, y=66.87, z=-6332.01]]
+	Chunk stats: 529, 295
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (0,75,0), Section: (at 0,11,0 in 0,4,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 18482 game time, 1521 day time
+	Server brand: forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.ClientLevel.fillReportDetails(ClientLevel.java:451) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.fillReport(Minecraft.java:2322) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:736) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:205) ~[forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.4-45.0.66.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.8.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: vanilla, mod_resources
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.4
+	Minecraft Version ID: 1.19.4
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.5, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 799199816 bytes (762 MiB) / 2441084928 bytes (2328 MiB) up to 4200595456 bytes (4006 MiB)
+	CPUs: 16
+	Processor Vendor: GenuineIntel
+	Processor Name: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+	Identifier: Intel64 Family 6 Model 141 Stepping 1
+	Microarchitecture: unknown
+	Frequency (GHz): 2.30
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: Intel(R) UHD Graphics
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 1024.00
+	Graphics card #0 deviceId: 0x9a60
+	Graphics card #0 versionInfo: DriverVersion=31.0.101.3616
+	Graphics card #1 name: NVIDIA GeForce RTX 3070 Laptop GPU
+	Graphics card #1 vendor: NVIDIA (0x10de)
+	Graphics card #1 VRAM (MB): 4095.00
+	Graphics card #1 deviceId: 0x24dd
+	Graphics card #1 versionInfo: DriverVersion=31.0.15.3598
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 24481.54
+	Virtual memory used (MB): 21666.47
+	Swap memory total (MB): 8463.20
+	Swap memory used (MB): 892.02
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Launched Version: MOD_DEV
+	Backend library: LWJGL version 3.3.1 build 7
+	Backend API: NVIDIA GeForce RTX 3070 Laptop GPU/PCIe/SSE2 GL version 3.2.0 NVIDIA 535.98, NVIDIA Corporation
+	Window size: 1920x1080
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Type: Integrated Server (map_client.txt)
+	Graphics mode: fancy
+	Resource Packs: vanilla, mod_resources
+	Current Language: en_us
+	CPU: 16x 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/175, l='ServerLevel[ReWorld 1.1]', x=-3015.06, y=66.87, z=-6332.01]]
+	Data Packs: vanilla, mod:forge, mod:reworld (incompatible)
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Experimental
+	ModLauncher: 10.0.8+10.0.8+main.0ef7e830
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19.4-45.0.66.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19.4-45.0.66.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19.4-45.0.66.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19.4-45.0.66.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19.4-45.0.66.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		forge-1.19.4-45.0.66_mapped_official_1.19.4-recomp|Minecraft                     |minecraft                     |1.19.4              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		                                                  |Forge                         |forge                         |45.0.66             |DONE      |Manifest: NOSIGNATURE
+		main                                              |Reworld                       |reworld                       |1.1                 |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 3c4bb1fa-0a02-4bf9-9a48-400c57a84c09
+	FML: 45.0
+	Forge: net.minecraftforge:45.0.66

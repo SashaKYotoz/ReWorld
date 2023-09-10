@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "taiga",
+    "plains",
+    "savanna"
+  ],
+  "features": "reworld:clovers_grass",
+  "step": "vegetal_decoration"
+}

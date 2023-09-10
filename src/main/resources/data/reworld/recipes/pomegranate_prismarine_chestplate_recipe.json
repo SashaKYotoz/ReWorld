@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "2": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "3": {
+      "item": "reworld:blue_pomegranate"
+    },
+    "4": {
+      "item": "reworld:heart_of_mushrooms"
+    },
+    "5": {
+      "item": "reworld:blue_pomegranate"
+    },
+    "6": {
+      "item": "minecraft:prismarine"
+    },
+    "7": {
+      "item": "minecraft:prismarine"
+    },
+    "8": {
+      "item": "minecraft:prismarine"
+    }
+  },
+  "result": {
+    "item": "reworld:pomegranate_prismarine_chestplate",
+    "count": 1
+  }
+}

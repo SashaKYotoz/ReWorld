@@ -1,0 +1,78 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ChufaFood"
+      },
+      {
+        "value": "CUSTOM:PitayaFruit"
+      },
+      {
+        "value": "CUSTOM:MelothriaFood"
+      },
+      {
+        "value": "CUSTOM:Melothria"
+      },
+      {
+        "value": "CUSTOM:Edibleroots"
+      },
+      {
+        "value": "CUSTOM:Edibleroot"
+      },
+      {
+        "value": "Items.CARROT"
+      },
+      {
+        "value": "Items.POTATO"
+      },
+      {
+        "value": "Items.APPLE"
+      },
+      {
+        "value": "Blocks.WHEAT"
+      },
+      {
+        "value": "Items.WHEAT_SEEDS"
+      },
+      {
+        "value": "Blocks.REEDS"
+      },
+      {
+        "value": "Blocks.BROWN_MUSHROOM"
+      },
+      {
+        "value": "Blocks.RED_MUSHROOM"
+      },
+      {
+        "value": "Items.SWEET_BERRIES"
+      },
+      {
+        "value": "Items.GLOW_BERRIES"
+      },
+      {
+        "value": "Items.MELON"
+      },
+      {
+        "value": "Items.MELON_SEEDS"
+      },
+      {
+        "value": "CUSTOM:BlueMycenaeFood"
+      },
+      {
+        "value": "Items.BEETROOT"
+      },
+      {
+        "value": "Items.BEETROOT_SEEDS"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "agricultures",
+    "namespace": "mod"
+  }
+}

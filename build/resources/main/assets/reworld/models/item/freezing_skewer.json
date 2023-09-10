@@ -1,0 +1,26 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "reworld:item/freezing_skewer"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "reworld:item/freezing_skewer_0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "reworld:item/freezing_skewer_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "reworld:item/freezing_skewer_2"
+    }
+  ]
+}

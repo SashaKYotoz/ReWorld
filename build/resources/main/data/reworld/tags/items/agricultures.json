@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "reworld:blue_mycenae_food",
+    "reworld:melothria_food",
+    "reworld:melothria",
+    "minecraft:red_mushroom",
+    "minecraft:carrot",
+    "reworld:edibleroot",
+    "minecraft:apple",
+    "minecraft:melon_seeds",
+    "reworld:chufa_food",
+    "minecraft:glow_berries",
+    "reworld:edibleroots",
+    "minecraft:wheat",
+    "minecraft:melon_slice",
+    "minecraft:beetroot_seeds",
+    "minecraft:wheat_seeds",
+    "reworld:pitaya_fruit",
+    "minecraft:sugar_cane",
+    "minecraft:potato",
+    "minecraft:sweet_berries",
+    "minecraft:brown_mushroom",
+    "minecraft:beetroot"
+  ]
+}

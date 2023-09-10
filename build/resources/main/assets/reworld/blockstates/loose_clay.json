@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reworld:block/loose_clay"
+    },
+    "facing=east": {
+      "model": "reworld:block/loose_clay",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reworld:block/loose_clay",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reworld:block/loose_clay",
+      "y": 270
+    }
+  }
+}

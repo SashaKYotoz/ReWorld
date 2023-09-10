@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "reworld:tamorindric_door",
+    "reworld:tamorindric_trapdoor",
+    "reworld:eritieric_door",
+    "reworld:eritieric_trapdoor",
+    "reworld:blue_mycenae_block",
+    "reworld:block_spawn_ent"
+  ]
+}

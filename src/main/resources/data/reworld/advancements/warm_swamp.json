@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "reworld:tamorindric_sapling"
+    },
+    "title": {
+      "translate": "advancements.warm_swamp.title"
+    },
+    "description": {
+      "translate": "advancements.warm_swamp.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "warm_swamp": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "reworld:tamorindric_forest"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "reworld:rebirthofyourworld"
+}

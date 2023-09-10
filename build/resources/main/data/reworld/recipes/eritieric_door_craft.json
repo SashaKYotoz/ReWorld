@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "reworld:eritieric_planks"
+    },
+    "1": {
+      "item": "reworld:eritieric_planks"
+    },
+    "2": {
+      "item": "reworld:eritieric_planks"
+    },
+    "3": {
+      "item": "reworld:eritieric_planks"
+    },
+    "4": {
+      "item": "reworld:eritieric_planks"
+    },
+    "5": {
+      "item": "reworld:eritieric_planks"
+    }
+  },
+  "result": {
+    "item": "reworld:eritieric_door",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "clovers_grass"
+      },
+      "name": "default"
+    }
+  }
+}

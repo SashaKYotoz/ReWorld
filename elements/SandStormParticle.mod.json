@@ -1,0 +1,21 @@
+{
+  "_fv": 43,
+  "_type": "particle",
+  "definition": {
+    "texture": "sand_particle.png",
+    "animate": true,
+    "frameDuration": 3,
+    "width": 0.30000000000000004,
+    "height": 0.30000000000000004,
+    "scale": 1.5,
+    "speedFactor": 1.25,
+    "gravity": 0.1,
+    "maxAge": 60,
+    "maxAgeDiff": 10,
+    "angularVelocity": 1.0,
+    "angularAcceleration": 0.5,
+    "canCollide": true,
+    "alwaysShow": false,
+    "renderType": "TRANSLUCENT"
+  }
+}

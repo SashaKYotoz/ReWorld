@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "swamp",
+  "features": "reworld:willow_tree",
+  "step": "surface_structures"
+}

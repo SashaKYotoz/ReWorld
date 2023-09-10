@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reworld:block/block_spawn_pomegranate_golem"
+    },
+    "facing=east": {
+      "model": "reworld:block/block_spawn_pomegranate_golem",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reworld:block/block_spawn_pomegranate_golem",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reworld:block/block_spawn_pomegranate_golem",
+      "y": 270
+    }
+  }
+}

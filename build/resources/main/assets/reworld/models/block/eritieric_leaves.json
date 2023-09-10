@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "reworld:block/eritieric_leaves",
+    "particle": "reworld:block/eritieric_leaves"
+  }
+}

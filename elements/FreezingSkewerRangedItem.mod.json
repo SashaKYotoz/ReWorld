@@ -1,0 +1,46 @@
+{
+  "_fv": 43,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "freezing_skewer",
+    "customModelName": "Normal",
+    "name": "Freezing Skewer Ranged Item",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 262,
+    "actionSound": {
+      "value": "block.powder_snow.step"
+    },
+    "hasGlow": false,
+    "animation": "block",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.5,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 2,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.AIR"
+    },
+    "bulletModel": "ModelIcy_Sphere",
+    "customBulletModelTexture": "icy_sphere.png",
+    "onBulletHitsBlock": {
+      "name": "FreezingSkewerRangedItemProjectileHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "FreezingSkewerRangedItemProjectileHitsLivingEntity"
+    },
+    "onBulletHitsEntity": {
+      "name": "FreezingSkewerRangedItemProjectileHitsLivingEntity"
+    }
+  }
+}

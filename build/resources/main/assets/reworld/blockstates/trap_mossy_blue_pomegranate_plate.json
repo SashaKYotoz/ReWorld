@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "reworld:block/trap_mossy_blue_pomegranate_plate"
+    },
+    "powered=true": {
+      "model": "reworld:block/trap_mossy_blue_pomegranate_plate_down"
+    }
+  }
+}

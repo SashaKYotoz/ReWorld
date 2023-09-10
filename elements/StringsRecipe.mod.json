@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Purifiedfiber"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Purifiedfiber"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Purifiedfiber"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.STRING"
+    },
+    "name": "strings_recipe",
+    "namespace": "mod"
+  }
+}

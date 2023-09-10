@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "reworld:frosty_slippery_valley",
+  "features": "reworld:snowy_blue_ice",
+  "step": "underground_ores"
+}

@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "":[ 
+    {
+      "model": "reworld:block/eritieric_leaves"
+    },
+    {
+      "model": "reworld:block/eritieric_leaves1"
+    }  
+	]
+  }
+}

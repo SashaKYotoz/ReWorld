@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "reworld:eritieric_planks"
+    },
+    {
+      "item": "reworld:eritieric_planks"
+    },
+    {
+      "item": "reworld:eritieric_planks"
+    },
+    {
+      "item": "reworld:eritieric_planks"
+    }
+  ],
+  "result": {
+    "item": "minecraft:crafting_table",
+    "count": 1
+  }
+}

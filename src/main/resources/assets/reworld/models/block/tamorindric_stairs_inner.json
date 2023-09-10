@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "reworld:block/tamorindric_planks",
+    "top": "reworld:block/tamorindric_planks",
+    "side": "reworld:block/tamorindric_planks"
+  },
+  "render_type": "solid"
+}

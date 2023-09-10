@@ -1,0 +1,111 @@
+{
+  "_fv": 43,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "blue_mycenae",
+    "textureBottom": "",
+    "customModelName": "Cross model",
+    "itemTexture": "blue_mycenae",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": true,
+    "plantType": "normal",
+    "staticPlantGenerationType": "Flower",
+    "suspiciousStewEffect": "GLOWING",
+    "suspiciousStewDuration": 6000,
+    "growapableSpawnType": "Cave",
+    "growapableMaxHeight": 3,
+    "doublePlantGenerationType": "Flower",
+    "customBoundingBox": false,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Blue Mycenae",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 3,
+    "unbreakable": false,
+    "isSolid": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": "CUSTOM:BlueMycenaeFood"
+    },
+    "dropAmount": 1,
+    "forceTicking": true,
+    "emissiveRendering": true,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "LIGHT_BLUE",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 100,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [
+      {
+        "value": "CUSTOM:BluePomegranate"
+      },
+      {
+        "value": "CUSTOM:BlueMossyStone"
+      },
+      {
+        "value": "CUSTOM:BlueMycenaeBlock"
+      }
+    ],
+    "isBonemealable": false,
+    "frequencyOnChunks": 4,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:MycenaeCavern"
+      }
+    ],
+    "patchSize": 64,
+    "generateAtAnyHeight": true,
+    "onTickUpdate": {
+      "name": "BlueMycenaeUpdateTick"
+    },
+    "onRightClicked": {
+      "name": "BlueMycenaePlantRightClicked"
+    }
+  }
+}

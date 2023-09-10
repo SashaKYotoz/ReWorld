@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "reworld:eritieric_planks"
+    },
+    "1": {
+      "item": "reworld:eritieric_planks"
+    },
+    "2": {
+      "item": "reworld:eritieric_planks"
+    }
+  },
+  "result": {
+    "item": "reworld:eritieric_slab",
+    "count": 6
+  }
+}

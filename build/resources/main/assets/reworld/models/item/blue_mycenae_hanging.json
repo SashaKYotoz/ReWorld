@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "reworld:item/blue_mycenae_hanging"
+  },
+  "render_type": "translucent"
+}

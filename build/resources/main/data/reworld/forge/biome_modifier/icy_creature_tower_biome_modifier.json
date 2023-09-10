@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "snowy_plains",
+    "reworld:frosty_slippery_valley",
+    "snowy_taiga"
+  ],
+  "features": "reworld:icy_creature_tower",
+  "step": "surface_structures"
+}

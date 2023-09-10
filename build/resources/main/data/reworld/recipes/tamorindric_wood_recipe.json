@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "reworld:tamorindric_log"
+    },
+    "1": {
+      "item": "reworld:tamorindric_log"
+    },
+    "2": {
+      "item": "reworld:tamorindric_log"
+    },
+    "3": {
+      "item": "reworld:tamorindric_log"
+    }
+  },
+  "result": {
+    "item": "reworld:tamorindric_wood",
+    "count": 3
+  }
+}

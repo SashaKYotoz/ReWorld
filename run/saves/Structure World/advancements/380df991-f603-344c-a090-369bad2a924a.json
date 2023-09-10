@@ -1,0 +1,39 @@
+{
+  "reworld:rebirthofyourworld": {
+    "criteria": {
+      "rebirthofyourworld": "2023-06-05 10:42:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-06-05 10:42:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:jungle": "2023-06-05 10:42:48 +0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2023-06-05 11:10:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2023-06-05 11:04:09 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2023-06-05 11:10:22 +0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3337
+}

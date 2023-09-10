@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reworld:block/eritieric_log_top",
+    "up": "reworld:block/eritieric_log_top",
+    "north": "reworld:block/eritiera_log",
+    "east": "reworld:block/eritiera_log",
+    "south": "reworld:block/eritiera_log",
+    "west": "reworld:block/eritiera_log",
+    "particle": "reworld:block/eritieric_log_top"
+  },
+  "render_type": "solid"
+}

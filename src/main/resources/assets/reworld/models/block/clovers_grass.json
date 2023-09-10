@@ -1,0 +1,9 @@
+{
+  "parent": "reworld:custom/clovers_grass",
+  "textures": {
+    "all": "reworld:block/clovers_grass",
+    "particle": "reworld:block/clovers_grass",
+    "0": "reworld:block/clovers_grass"
+  },
+  "render_type": "cutout"
+}

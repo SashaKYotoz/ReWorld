@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "badlands",
+    "desert"
+  ],
+  "features": "reworld:palm_tree",
+  "step": "surface_structures"
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "reworld:custom/grown_pitaya",
+  "textures": {
+    "all": "reworld:block/rokakaka_top",
+    "particle": "reworld:block/rokakaka_top",
+    "0": "reworld:block/rokakaka_bottom",
+    "1": "reworld:block/rokakaka_top",
+    "2": "reworld:block/eritieric_leaves1"
+  },
+  "render_type": "cutout"
+}

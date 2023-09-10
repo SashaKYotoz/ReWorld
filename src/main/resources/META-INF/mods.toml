@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="reworld"
+version="1.1"
+displayName="Reworld"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/reworld"
+logoFile="logo.png"
+authors="Mr_Kapitoshka, SashaKYotoz, Shaman, Terragast,"
+description="Reworld - rebirth your world"
+
+[[dependencies.reworld]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

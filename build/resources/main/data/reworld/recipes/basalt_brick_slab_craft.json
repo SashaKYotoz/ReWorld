@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "reworld:basalt_brick"
+    },
+    "1": {
+      "item": "reworld:basalt_brick"
+    },
+    "2": {
+      "item": "reworld:basalt_brick"
+    }
+  },
+  "result": {
+    "item": "reworld:basalt_brick_slab",
+    "count": 6
+  }
+}

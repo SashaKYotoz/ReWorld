@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "rokakaka_bottom",
+        "1": "tamorindric_leaves",
+        "missing": "rokakaka_bottom"
+      },
+      "name": "default"
+    }
+  }
+}

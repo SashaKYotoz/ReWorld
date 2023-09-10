@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "reworld:blue_pomegranate_stone_bricks"
+    },
+    "1": {
+      "item": "reworld:blue_pomegranate_stone_bricks"
+    },
+    "2": {
+      "item": "reworld:blue_pomegranate_stone_bricks"
+    },
+    "3": {
+      "item": "reworld:blue_pomegranate_stone_bricks"
+    },
+    "4": {
+      "item": "minecraft:vine"
+    },
+    "5": {
+      "item": "reworld:blue_pomegranate_stone_bricks"
+    },
+    "6": {
+      "item": "reworld:blue_pomegranate_stone_bricks"
+    },
+    "7": {
+      "item": "reworld:blue_pomegranate_stone_bricks"
+    },
+    "8": {
+      "item": "reworld:blue_pomegranate_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "reworld:blue_pomegranate_stone_mossy_bricks",
+    "count": 8
+  }
+}

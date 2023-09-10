@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reworld:block/blue_mycenae_hanging"
+    },
+    "facing=east": {
+      "model": "reworld:block/blue_mycenae_hanging",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reworld:block/blue_mycenae_hanging",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reworld:block/blue_mycenae_hanging",
+      "y": 270
+    }
+  }
+}

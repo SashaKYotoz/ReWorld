@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "reworld:block/scary_basalt_bricks",
+    "top": "reworld:block/scary_basalt_bricks",
+    "side": "reworld:block/scary_basalt_bricks"
+  },
+  "render_type": "solid"
+}

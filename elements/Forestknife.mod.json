@@ -1,0 +1,27 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "forestknife",
+    "customModelName": "Normal",
+    "name": "Forest Knife",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Reworld"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 1.0,
+    "attackSpeed": 1.8,
+    "enchantability": 2,
+    "damageVsEntity": 2.5,
+    "usageCount": 155,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true
+  }
+}

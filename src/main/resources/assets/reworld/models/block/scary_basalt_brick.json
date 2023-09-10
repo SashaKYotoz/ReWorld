@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "reworld:block/scary_basalt_bricks",
+    "particle": "reworld:block/scary_basalt_bricks"
+  },
+  "render_type": "solid"
+}

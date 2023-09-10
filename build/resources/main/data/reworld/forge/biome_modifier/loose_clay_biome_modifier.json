@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "reworld:tamorindric_forest",
+    "swamp"
+  ],
+  "features": "reworld:loose_clay",
+  "step": "underground_ores"
+}

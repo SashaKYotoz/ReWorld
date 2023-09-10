@@ -1,0 +1,9 @@
+{
+  "parent": "reworld:custom/hanging_cocoa",
+  "textures": {
+    "all": "reworld:block/hanging_cocoa",
+    "particle": "reworld:block/hanging_cocoa",
+    "0": "reworld:block/hanging_cocoa"
+  },
+  "render_type": "translucent"
+}

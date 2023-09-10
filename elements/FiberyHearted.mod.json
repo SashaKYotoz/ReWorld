@@ -1,0 +1,70 @@
+{
+  "_fv": 43,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "fibery_hearted_helmet",
+    "enableBody": true,
+    "textureBody": "fibery_hearted_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "fibery_hearted_leggins",
+    "enableBoots": true,
+    "textureBoots": "fibery_hearted_boots",
+    "creativeTab": {
+      "value": "CUSTOM:Reworld"
+    },
+    "armorTextureFile": "null",
+    "helmetName": "Fibery Hearted Helmet",
+    "bodyName": "Fibery Hearted Chestplate",
+    "leggingsName": "Fibery Hearted Leggings",
+    "bootsName": "Fibery Hearted Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modelent_armor",
+    "helmetModelPart": "head",
+    "helmetModelTexture": "ent_armor.png",
+    "bodyModelName": "Modelent_armor",
+    "bodyModelPart": "body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "ent_armor.png",
+    "leggingsModelName": "Modelent_armor",
+    "leggingsModelPartL": "leftLeg",
+    "leggingsModelPartR": "rightLeg",
+    "leggingsModelTexture": "ent_armor.png",
+    "bootsModelName": "Modelent_armor",
+    "bootsModelPartL": "leftLegboots",
+    "bootsModelPartR": "rightLegboots",
+    "bootsModelTexture": "ent_armor.png",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 18,
+    "damageValueHelmet": 3,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 10,
+    "toughness": 1.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "block.cave_vines.break"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Purifiedfiber"
+      }
+    ]
+  }
+}

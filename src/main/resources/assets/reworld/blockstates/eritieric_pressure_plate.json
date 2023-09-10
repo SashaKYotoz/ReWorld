@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "reworld:block/eritieric_pressure_plate"
+    },
+    "powered=true": {
+      "model": "reworld:block/eritieric_pressure_plate_down"
+    }
+  }
+}

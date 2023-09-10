@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "reworld:mycenae_cavern",
+    "dripstone_caves"
+  ],
+  "features": "reworld:blue_pomegranate",
+  "step": "underground_ores"
+}

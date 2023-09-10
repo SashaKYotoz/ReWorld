@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "reworld:wild_blooming_jungle",
+  "features": "reworld:grown_pitaya",
+  "step": "vegetal_decoration"
+}

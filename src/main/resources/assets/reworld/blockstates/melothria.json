@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "reworld:block/melothria"
+    },
+    "age=1": {
+      "model": "reworld:block/melothria0"
+    },
+    "age=2": {
+      "model": "reworld:block/melothria1"
+    },
+    "age=3": {
+      "model": "reworld:block/melothria2"
+    },
+    "age=4": {
+      "model": "reworld:block/melothria3"
+    },
+    "age=5": {
+      "model": "reworld:block/melothria4"
+    },
+    "age=6": {
+      "model": "reworld:block/melothria5"
+    },
+    "age=7": {
+      "model": "reworld:block/melothria6"
+    }
+  }
+}

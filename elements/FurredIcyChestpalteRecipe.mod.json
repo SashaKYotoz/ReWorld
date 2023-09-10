@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:IcyFur"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IcyFur"
+      },
+      {
+        "value": "Blocks.WOOL#12"
+      },
+      {
+        "value": "CUSTOM:HeartOfIce"
+      },
+      {
+        "value": "Blocks.WOOL#12"
+      },
+      {
+        "value": "CUSTOM:SnowyBlueIce"
+      },
+      {
+        "value": "Blocks.WOOL#15"
+      },
+      {
+        "value": "CUSTOM:SnowyBlueIce"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FurredIcy.body"
+    },
+    "name": "furred_icy_chestpalte_recipe",
+    "namespace": "mod"
+  }
+}

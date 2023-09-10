@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "reworld:rawfiber"
+    },
+    {
+      "item": "reworld:forestknife"
+    }
+  ],
+  "result": {
+    "item": "reworld:purifiedfiber",
+    "count": 2
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reworld:block/tamorindricbloomingvine"
+    },
+    "facing=east": {
+      "model": "reworld:block/tamorindricbloomingvine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reworld:block/tamorindricbloomingvine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reworld:block/tamorindricbloomingvine",
+      "y": 270
+    }
+  }
+}

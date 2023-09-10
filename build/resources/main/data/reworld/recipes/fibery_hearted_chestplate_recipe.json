@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "reworld:tamorindric_log"
+    },
+    "2": {
+      "item": "reworld:tamorindric_log"
+    },
+    "3": {
+      "item": "reworld:tamorindric_leaves"
+    },
+    "4": {
+      "item": "reworld:heart_of_forest"
+    },
+    "5": {
+      "item": "reworld:eritieric_leaves"
+    },
+    "6": {
+      "item": "reworld:purifiedfiber"
+    },
+    "7": {
+      "item": "reworld:tamorindric_log"
+    },
+    "8": {
+      "item": "reworld:purifiedfiber"
+    }
+  },
+  "result": {
+    "item": "reworld:fibery_hearted_chestplate",
+    "count": 1
+  }
+}

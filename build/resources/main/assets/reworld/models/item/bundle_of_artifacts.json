@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "reworld:item/open_bundle_of_artifacts"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "reworld:item/bundle_of_artifacts1"
+    }
+  ]
+}

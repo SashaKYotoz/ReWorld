@@ -1,0 +1,70 @@
+{
+  "_fv": 43,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "furred_icy_helmet",
+    "enableBody": true,
+    "textureBody": "furred_icy_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "furred_icy_leggins",
+    "enableBoots": true,
+    "textureBoots": "furred_icy_boots",
+    "creativeTab": {
+      "value": "CUSTOM:Reworld"
+    },
+    "armorTextureFile": "null",
+    "helmetName": "Furred Icy Helmet",
+    "bodyName": "Furred Icy Chestplate",
+    "leggingsName": "Furred Icy Leggings",
+    "bootsName": "Furred Icy Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modelfurred_icy_armor",
+    "helmetModelPart": "head",
+    "helmetModelTexture": "furred_icy_armor.png",
+    "bodyModelName": "Modelfurred_icy_armor",
+    "bodyModelPart": "body",
+    "armsModelPartL": "leftArm",
+    "armsModelPartR": "rightArm",
+    "bodyModelTexture": "furred_icy_armor.png",
+    "leggingsModelName": "Modelfurred_icy_armor",
+    "leggingsModelPartL": "leftLeg",
+    "leggingsModelPartR": "rightLeg",
+    "leggingsModelTexture": "furred_icy_armor.png",
+    "bootsModelName": "Modelfurred_icy_armor",
+    "bootsModelPartL": "left_boots",
+    "bootsModelPartR": "right_boots",
+    "bootsModelTexture": "furred_icy_armor.png",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 20,
+    "damageValueHelmet": 4,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 3,
+    "enchantability": 10,
+    "toughness": 1.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "block.powder_snow.step"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:SnowyBlueIce"
+      }
+    ]
+  }
+}

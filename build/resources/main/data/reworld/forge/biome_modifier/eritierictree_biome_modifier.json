@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "reworld:tamorindric_forest",
+  "features": "reworld:eritierictree",
+  "step": "surface_structures"
+}

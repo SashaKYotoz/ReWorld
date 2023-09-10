@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "reworld:blue_pomegranate_stone_bricks"
+    },
+    "3": {
+      "item": "reworld:blue_pomegranate_stone_bricks"
+    },
+    "4": {
+      "item": "reworld:blue_pomegranate_stone_bricks"
+    },
+    "6": {
+      "item": "reworld:blue_pomegranate_stone_bricks"
+    },
+    "7": {
+      "item": "reworld:blue_pomegranate_stone_bricks"
+    },
+    "8": {
+      "item": "reworld:blue_pomegranate_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "reworld:blue_pomegranate_stone_bricks_stairs",
+    "count": 6
+  }
+}

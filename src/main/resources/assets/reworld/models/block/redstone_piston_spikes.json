@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reworld:block/redstone_miner_bottom",
+    "up": "reworld:block/redstone_spike_piston_top",
+    "north": "reworld:block/redstone_spike_piston",
+    "east": "reworld:block/redstone_spike_piston",
+    "south": "reworld:block/redstone_spike_piston",
+    "west": "reworld:block/redstone_spike_piston",
+    "particle": "reworld:block/redstone_miner_bottom"
+  },
+  "render_type": "solid"
+}

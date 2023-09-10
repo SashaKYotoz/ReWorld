@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "reworld:snowy_spruce_sapling"
+    },
+    "title": {
+      "translate": "advancements.icy_mountains.title"
+    },
+    "description": {
+      "translate": "advancements.icy_mountains.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "icy_mountains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "reworld:frosty_slippery_valley"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "reworld:rebirthofyourworld"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "reworld:block/redstone_piston_spikes"
+    },
+    "facing=east": {
+      "model": "reworld:block/redstone_piston_spikes",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "reworld:block/redstone_piston_spikes",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "reworld:block/redstone_piston_spikes",
+      "y": 270
+    }
+  }
+}
