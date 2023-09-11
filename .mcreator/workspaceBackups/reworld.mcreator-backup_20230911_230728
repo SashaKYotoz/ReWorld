@@ -37,8 +37,8 @@
       "registry_name": "rawfiber",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/item/rawfiber.json",
-          "src/main/java/net/mcreator/reworld/item/RawfiberItem.java"
+          "src/main/java/net/mcreator/reworld/item/RawfiberItem.java",
+          "src/main/resources/assets/reworld/models/item/rawfiber.json"
         ]
       },
       "path": "~/Items"
@@ -52,8 +52,8 @@
       "registry_name": "reworldikon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/item/reworldikon.json",
-          "src/main/java/net/mcreator/reworld/item/ReworldikonItem.java"
+          "src/main/java/net/mcreator/reworld/item/ReworldikonItem.java",
+          "src/main/resources/assets/reworld/models/item/reworldikon.json"
         ]
       },
       "path": "~/Items"
@@ -176,10 +176,10 @@
       "registry_name": "big_birch_tree",
       "metadata": {
         "files": [
-          "src/main/resources/data/reworld/worldgen/configured_feature/big_birch_tree.json",
-          "src/main/java/net/mcreator/reworld/world/features/BigBirchTreeFeature.java",
           "src/main/resources/data/reworld/forge/biome_modifier/big_birch_tree_biome_modifier.json",
-          "src/main/resources/data/reworld/worldgen/placed_feature/big_birch_tree.json"
+          "src/main/java/net/mcreator/reworld/world/features/BigBirchTreeFeature.java",
+          "src/main/resources/data/reworld/worldgen/placed_feature/big_birch_tree.json",
+          "src/main/resources/data/reworld/worldgen/configured_feature/big_birch_tree.json"
         ]
       },
       "path": "~/Structure"
@@ -193,10 +193,10 @@
       "registry_name": "willow_tree",
       "metadata": {
         "files": [
-          "src/main/resources/data/reworld/worldgen/configured_feature/willow_tree.json",
-          "src/main/resources/data/reworld/worldgen/placed_feature/willow_tree.json",
           "src/main/java/net/mcreator/reworld/world/features/WillowTreeFeature.java",
-          "src/main/resources/data/reworld/forge/biome_modifier/willow_tree_biome_modifier.json"
+          "src/main/resources/data/reworld/worldgen/placed_feature/willow_tree.json",
+          "src/main/resources/data/reworld/forge/biome_modifier/willow_tree_biome_modifier.json",
+          "src/main/resources/data/reworld/worldgen/configured_feature/willow_tree.json"
         ]
       },
       "path": "~/Structure"
@@ -284,9 +284,9 @@
       "registry_name": "basalt_brick",
       "metadata": {
         "files": [
+          "src/main/resources/assets/reworld/models/item/basalt_brick.json",
           "src/main/resources/assets/reworld/models/block/basalt_brick.json",
           "src/main/resources/assets/reworld/blockstates/basalt_brick.json",
-          "src/main/resources/assets/reworld/models/item/basalt_brick.json",
           "src/main/java/net/mcreator/reworld/block/BasaltBrickBlock.java"
         ]
       },
@@ -301,10 +301,10 @@
       "registry_name": "scary_basalt_brick",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/item/scary_basalt_brick.json",
-          "src/main/java/net/mcreator/reworld/block/ScaryBasaltBrickBlock.java",
           "src/main/resources/assets/reworld/blockstates/scary_basalt_brick.json",
-          "src/main/resources/assets/reworld/models/block/scary_basalt_brick.json"
+          "src/main/java/net/mcreator/reworld/block/ScaryBasaltBrickBlock.java",
+          "src/main/resources/assets/reworld/models/block/scary_basalt_brick.json",
+          "src/main/resources/assets/reworld/models/item/scary_basalt_brick.json"
         ]
       },
       "path": "~/Block"
@@ -318,10 +318,10 @@
       "registry_name": "fiber_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/block/fiber_block.json",
           "src/main/resources/assets/reworld/blockstates/fiber_block.json",
-          "src/main/resources/assets/reworld/models/item/fiber_block.json",
-          "src/main/java/net/mcreator/reworld/block/FiberBlockBlock.java"
+          "src/main/resources/assets/reworld/models/block/fiber_block.json",
+          "src/main/java/net/mcreator/reworld/block/FiberBlockBlock.java",
+          "src/main/resources/assets/reworld/models/item/fiber_block.json"
         ]
       },
       "path": "~/Block"
@@ -335,12 +335,12 @@
       "registry_name": "basalt_brick_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/block/basalt_brick_slab_top.json",
-          "src/main/resources/assets/reworld/models/block/basalt_brick_slab.json",
           "src/main/resources/assets/reworld/models/block/basalt_brick_slab_full.json",
-          "src/main/resources/assets/reworld/models/item/basalt_brick_slab.json",
           "src/main/resources/assets/reworld/blockstates/basalt_brick_slab.json",
-          "src/main/java/net/mcreator/reworld/block/BasaltBrickSlabBlock.java"
+          "src/main/java/net/mcreator/reworld/block/BasaltBrickSlabBlock.java",
+          "src/main/resources/assets/reworld/models/block/basalt_brick_slab_top.json",
+          "src/main/resources/assets/reworld/models/item/basalt_brick_slab.json",
+          "src/main/resources/assets/reworld/models/block/basalt_brick_slab.json"
         ]
       },
       "path": "~/Block"
@@ -355,10 +355,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/reworld/blockstates/basalt_brick_stairs.json",
-          "src/main/resources/assets/reworld/models/block/basalt_brick_stairs.json",
+          "src/main/resources/assets/reworld/models/item/basalt_brick_stairs.json",
           "src/main/resources/assets/reworld/models/block/basalt_brick_stairs_inner.json",
           "src/main/java/net/mcreator/reworld/block/BasaltBrickStairsBlock.java",
-          "src/main/resources/assets/reworld/models/item/basalt_brick_stairs.json",
+          "src/main/resources/assets/reworld/models/block/basalt_brick_stairs.json",
           "src/main/resources/assets/reworld/models/block/basalt_brick_stairs_outer.json"
         ]
       },
@@ -373,13 +373,13 @@
       "registry_name": "basalt_brick_wall",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/block/BasaltBrickWallBlock.java",
-          "src/main/resources/assets/reworld/models/block/basalt_brick_wall_side_tall.json",
-          "src/main/resources/assets/reworld/models/block/basalt_brick_wall_inventory.json",
-          "src/main/resources/assets/reworld/blockstates/basalt_brick_wall.json",
-          "src/main/resources/assets/reworld/models/block/basalt_brick_wall_post.json",
           "src/main/resources/assets/reworld/models/block/basalt_brick_wall.json",
-          "src/main/resources/assets/reworld/models/item/basalt_brick_wall.json"
+          "src/main/resources/assets/reworld/models/block/basalt_brick_wall_post.json",
+          "src/main/java/net/mcreator/reworld/block/BasaltBrickWallBlock.java",
+          "src/main/resources/assets/reworld/blockstates/basalt_brick_wall.json",
+          "src/main/resources/assets/reworld/models/item/basalt_brick_wall.json",
+          "src/main/resources/assets/reworld/models/block/basalt_brick_wall_inventory.json",
+          "src/main/resources/assets/reworld/models/block/basalt_brick_wall_side_tall.json"
         ]
       },
       "path": "~/Block"
@@ -393,12 +393,12 @@
       "registry_name": "scary_basalt_brick_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/block/scary_basalt_brick_slab_full.json",
-          "src/main/resources/assets/reworld/models/block/scary_basalt_brick_slab_top.json",
           "src/main/resources/assets/reworld/models/block/scary_basalt_brick_slab.json",
-          "src/main/java/net/mcreator/reworld/block/ScaryBasaltBrickSlabBlock.java",
+          "src/main/resources/assets/reworld/models/block/scary_basalt_brick_slab_top.json",
+          "src/main/resources/assets/reworld/blockstates/scary_basalt_brick_slab.json",
           "src/main/resources/assets/reworld/models/item/scary_basalt_brick_slab.json",
-          "src/main/resources/assets/reworld/blockstates/scary_basalt_brick_slab.json"
+          "src/main/java/net/mcreator/reworld/block/ScaryBasaltBrickSlabBlock.java",
+          "src/main/resources/assets/reworld/models/block/scary_basalt_brick_slab_full.json"
         ]
       },
       "path": "~/Block"
@@ -413,11 +413,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/reworld/block/ScaryBasaltBrickStairsBlock.java",
+          "src/main/resources/assets/reworld/models/block/scary_basalt_brick_stairs_outer.json",
           "src/main/resources/assets/reworld/models/item/scary_basalt_brick_stairs.json",
-          "src/main/resources/assets/reworld/blockstates/scary_basalt_brick_stairs.json",
           "src/main/resources/assets/reworld/models/block/scary_basalt_brick_stairs.json",
-          "src/main/resources/assets/reworld/models/block/scary_basalt_brick_stairs_inner.json",
-          "src/main/resources/assets/reworld/models/block/scary_basalt_brick_stairs_outer.json"
+          "src/main/resources/assets/reworld/blockstates/scary_basalt_brick_stairs.json",
+          "src/main/resources/assets/reworld/models/block/scary_basalt_brick_stairs_inner.json"
         ]
       },
       "path": "~/Block"
@@ -431,8 +431,8 @@
       "registry_name": "fireflies",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/particles/fireflies.json",
-          "src/main/java/net/mcreator/reworld/client/particle/FirefliesParticle.java"
+          "src/main/java/net/mcreator/reworld/client/particle/FirefliesParticle.java",
+          "src/main/resources/assets/reworld/particles/fireflies.json"
         ]
       },
       "path": "~/Particle"
@@ -446,8 +446,8 @@
       "registry_name": "magic_particle",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/particles/magic_particle.json",
-          "src/main/java/net/mcreator/reworld/client/particle/MagicParticleParticle.java"
+          "src/main/java/net/mcreator/reworld/client/particle/MagicParticleParticle.java",
+          "src/main/resources/assets/reworld/particles/magic_particle.json"
         ]
       },
       "path": "~/Particle"
@@ -462,9 +462,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/reworld/models/item/tamorindric_wood.json",
-          "src/main/resources/assets/reworld/models/block/tamorindric_wood.json",
           "src/main/resources/assets/reworld/blockstates/tamorindric_wood.json",
-          "src/main/java/net/mcreator/reworld/block/TamorindricWoodBlock.java"
+          "src/main/java/net/mcreator/reworld/block/TamorindricWoodBlock.java",
+          "src/main/resources/assets/reworld/models/block/tamorindric_wood.json"
         ]
       },
       "path": "~/Block"
@@ -478,10 +478,10 @@
       "registry_name": "tamorindric_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/block/tamorindric_log.json",
           "src/main/resources/assets/reworld/models/item/tamorindric_log.json",
           "src/main/java/net/mcreator/reworld/block/TamorindricLogBlock.java",
-          "src/main/resources/assets/reworld/blockstates/tamorindric_log.json"
+          "src/main/resources/assets/reworld/blockstates/tamorindric_log.json",
+          "src/main/resources/assets/reworld/models/block/tamorindric_log.json"
         ]
       },
       "path": "~/Block"
@@ -495,10 +495,10 @@
       "registry_name": "tamorindric_planks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/block/tamorindric_planks.json",
-          "src/main/resources/assets/reworld/blockstates/tamorindric_planks.json",
+          "src/main/java/net/mcreator/reworld/block/TamorindricPlanksBlock.java",
           "src/main/resources/assets/reworld/models/item/tamorindric_planks.json",
-          "src/main/java/net/mcreator/reworld/block/TamorindricPlanksBlock.java"
+          "src/main/resources/assets/reworld/blockstates/tamorindric_planks.json",
+          "src/main/resources/assets/reworld/models/block/tamorindric_planks.json"
         ]
       },
       "path": "~/Block"
@@ -521,12 +521,12 @@
       "registry_name": "tamorindric_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/block/tamorindric_stairs_inner.json",
-          "src/main/java/net/mcreator/reworld/block/TamorindricStairsBlock.java",
-          "src/main/resources/assets/reworld/models/block/tamorindric_stairs.json",
-          "src/main/resources/assets/reworld/models/item/tamorindric_stairs.json",
           "src/main/resources/assets/reworld/blockstates/tamorindric_stairs.json",
-          "src/main/resources/assets/reworld/models/block/tamorindric_stairs_outer.json"
+          "src/main/resources/assets/reworld/models/block/tamorindric_stairs_outer.json",
+          "src/main/resources/assets/reworld/models/block/tamorindric_stairs.json",
+          "src/main/java/net/mcreator/reworld/block/TamorindricStairsBlock.java",
+          "src/main/resources/assets/reworld/models/item/tamorindric_stairs.json",
+          "src/main/resources/assets/reworld/models/block/tamorindric_stairs_inner.json"
         ]
       },
       "path": "~/Block"
@@ -541,11 +541,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/reworld/block/TamorindricSlabBlock.java",
-          "src/main/resources/assets/reworld/models/item/tamorindric_slab.json",
-          "src/main/resources/assets/reworld/blockstates/tamorindric_slab.json",
           "src/main/resources/assets/reworld/models/block/tamorindric_slab_top.json",
           "src/main/resources/assets/reworld/models/block/tamorindric_slab_full.json",
-          "src/main/resources/assets/reworld/models/block/tamorindric_slab.json"
+          "src/main/resources/assets/reworld/models/block/tamorindric_slab.json",
+          "src/main/resources/assets/reworld/models/item/tamorindric_slab.json",
+          "src/main/resources/assets/reworld/blockstates/tamorindric_slab.json"
         ]
       },
       "path": "~/Block"
@@ -560,11 +560,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/reworld/block/TamorindricFenceBlock.java",
-          "src/main/resources/assets/reworld/models/block/tamorindric_fence_inventory.json",
           "src/main/resources/assets/reworld/models/block/tamorindric_fence.json",
-          "src/main/resources/assets/reworld/models/item/tamorindric_fence.json",
+          "src/main/resources/assets/reworld/models/block/tamorindric_fence_inventory.json",
           "src/main/resources/assets/reworld/blockstates/tamorindric_fence.json",
-          "src/main/resources/assets/reworld/models/block/tamorindric_fence_post.json"
+          "src/main/resources/assets/reworld/models/block/tamorindric_fence_post.json",
+          "src/main/resources/assets/reworld/models/item/tamorindric_fence.json"
         ]
       },
       "path": "~/Block"
@@ -578,13 +578,13 @@
       "registry_name": "tamorindric_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/block/tamorindric_fence_gate_wall.json",
           "src/main/resources/assets/reworld/models/block/tamorindric_fence_gate_open.json",
-          "src/main/resources/assets/reworld/models/block/tamorindric_fence_gate_wall_open.json",
-          "src/main/resources/assets/reworld/blockstates/tamorindric_fence_gate.json",
+          "src/main/resources/assets/reworld/models/block/tamorindric_fence_gate_wall.json",
+          "src/main/resources/assets/reworld/models/block/tamorindric_fence_gate.json",
           "src/main/java/net/mcreator/reworld/block/TamorindricFenceGateBlock.java",
           "src/main/resources/assets/reworld/models/item/tamorindric_fence_gate.json",
-          "src/main/resources/assets/reworld/models/block/tamorindric_fence_gate.json"
+          "src/main/resources/assets/reworld/models/block/tamorindric_fence_gate_wall_open.json",
+          "src/main/resources/assets/reworld/blockstates/tamorindric_fence_gate.json"
         ]
       },
       "path": "~/Block"
@@ -598,11 +598,11 @@
       "registry_name": "tamorindric_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/block/tamorindric_pressure_plate.json",
-          "src/main/resources/assets/reworld/models/block/tamorindric_pressure_plate_down.json",
           "src/main/java/net/mcreator/reworld/block/TamorindricPressurePlateBlock.java",
+          "src/main/resources/assets/reworld/models/block/tamorindric_pressure_plate_down.json",
+          "src/main/resources/assets/reworld/blockstates/tamorindric_pressure_plate.json",
           "src/main/resources/assets/reworld/models/item/tamorindric_pressure_plate.json",
-          "src/main/resources/assets/reworld/blockstates/tamorindric_pressure_plate.json"
+          "src/main/resources/assets/reworld/models/block/tamorindric_pressure_plate.json"
         ]
       },
       "path": "~/Block"
@@ -616,12 +616,12 @@
       "registry_name": "tamorindric_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/block/tamorindric_button_pressed.json",
-          "src/main/resources/assets/reworld/models/block/tamorindric_button.json",
           "src/main/resources/assets/reworld/models/item/tamorindric_button.json",
-          "src/main/resources/assets/reworld/blockstates/tamorindric_button.json",
           "src/main/java/net/mcreator/reworld/block/TamorindricButtonBlock.java",
-          "src/main/resources/assets/reworld/models/block/tamorindric_button_inventory.json"
+          "src/main/resources/assets/reworld/blockstates/tamorindric_button.json",
+          "src/main/resources/assets/reworld/models/block/tamorindric_button_inventory.json",
+          "src/main/resources/assets/reworld/models/block/tamorindric_button.json",
+          "src/main/resources/assets/reworld/models/block/tamorindric_button_pressed.json"
         ]
       },
       "path": "~/Block"
@@ -762,11 +762,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/reworld/models/block/tamorindric_trapdoor.json",
-          "src/main/resources/assets/reworld/models/block/tamorindric_trapdoor_top.json",
           "src/main/java/net/mcreator/reworld/block/TamorindricTrapdoorBlock.java",
           "src/main/resources/assets/reworld/blockstates/tamorindric_trapdoor.json",
-          "src/main/resources/assets/reworld/models/block/tamorindric_trapdoor_open.json",
-          "src/main/resources/assets/reworld/models/item/tamorindric_trapdoor.json"
+          "src/main/resources/assets/reworld/models/item/tamorindric_trapdoor.json",
+          "src/main/resources/assets/reworld/models/block/tamorindric_trapdoor_top.json",
+          "src/main/resources/assets/reworld/models/block/tamorindric_trapdoor_open.json"
         ]
       },
       "path": "~/Block"
@@ -810,10 +810,10 @@
       "registry_name": "palm_tree",
       "metadata": {
         "files": [
+          "src/main/resources/data/reworld/worldgen/placed_feature/palm_tree.json",
           "src/main/resources/data/reworld/worldgen/configured_feature/palm_tree.json",
-          "src/main/java/net/mcreator/reworld/world/features/PalmTreeFeature.java",
           "src/main/resources/data/reworld/forge/biome_modifier/palm_tree_biome_modifier.json",
-          "src/main/resources/data/reworld/worldgen/placed_feature/palm_tree.json"
+          "src/main/java/net/mcreator/reworld/world/features/PalmTreeFeature.java"
         ]
       },
       "path": "~/Structure"
@@ -827,14 +827,14 @@
       "registry_name": "sandrouse",
       "metadata": {
         "files": [
-          "src/main/resources/data/reworld/forge/biome_modifier/sandrouse_biome_modifier.json",
           "src/main/resources/assets/reworld/blockstates/sandrouse.json",
           "src/main/java/net/mcreator/reworld/world/features/plants/SandrouseFeature.java",
-          "src/main/resources/data/reworld/worldgen/configured_feature/sandrouse.json",
+          "src/main/resources/data/reworld/forge/biome_modifier/sandrouse_biome_modifier.json",
           "src/main/java/net/mcreator/reworld/block/SandrouseBlock.java",
-          "src/main/resources/data/reworld/worldgen/placed_feature/sandrouse.json",
+          "src/main/resources/data/reworld/worldgen/configured_feature/sandrouse.json",
+          "src/main/resources/assets/reworld/models/item/sandrouse.json",
           "src/main/resources/assets/reworld/models/block/sandrouse.json",
-          "src/main/resources/assets/reworld/models/item/sandrouse.json"
+          "src/main/resources/data/reworld/worldgen/placed_feature/sandrouse.json"
         ]
       },
       "path": "~/Block/Crops and Flowers"
@@ -876,9 +876,9 @@
       "registry_name": "jungle_pyramid",
       "metadata": {
         "files": [
+          "src/main/resources/data/reworld/worldgen/placed_feature/jungle_pyramid.json",
           "src/main/java/net/mcreator/reworld/world/features/JunglePyramidFeature.java",
           "src/main/resources/data/reworld/forge/biome_modifier/jungle_pyramid_biome_modifier.json",
-          "src/main/resources/data/reworld/worldgen/placed_feature/jungle_pyramid.json",
           "src/main/resources/data/reworld/worldgen/configured_feature/jungle_pyramid.json"
         ]
       },
@@ -894,9 +894,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/reworld/forge/biome_modifier/jungle_ruins_biome_modifier.json",
-          "src/main/resources/data/reworld/worldgen/configured_feature/jungle_ruins.json",
           "src/main/resources/data/reworld/worldgen/placed_feature/jungle_ruins.json",
-          "src/main/java/net/mcreator/reworld/world/features/JungleRuinsFeature.java"
+          "src/main/java/net/mcreator/reworld/world/features/JungleRuinsFeature.java",
+          "src/main/resources/data/reworld/worldgen/configured_feature/jungle_ruins.json"
         ]
       },
       "path": "~/Structure"
@@ -911,9 +911,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/reworld/worldgen/configured_feature/jungle_ruins_variant_2.json",
+          "src/main/resources/data/reworld/forge/biome_modifier/jungle_ruins_variant_2_biome_modifier.json",
           "src/main/resources/data/reworld/worldgen/placed_feature/jungle_ruins_variant_2.json",
-          "src/main/java/net/mcreator/reworld/world/features/JungleRuinsVariant2Feature.java",
-          "src/main/resources/data/reworld/forge/biome_modifier/jungle_ruins_variant_2_biome_modifier.json"
+          "src/main/java/net/mcreator/reworld/world/features/JungleRuinsVariant2Feature.java"
         ]
       },
       "path": "~/Structure"
@@ -927,9 +927,9 @@
       "registry_name": "viking_villager_house",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/world/features/VikingVillagerHouseFeature.java",
-          "src/main/resources/data/reworld/worldgen/configured_feature/viking_villager_house.json",
           "src/main/resources/data/reworld/worldgen/placed_feature/viking_villager_house.json",
+          "src/main/resources/data/reworld/worldgen/configured_feature/viking_villager_house.json",
+          "src/main/java/net/mcreator/reworld/world/features/VikingVillagerHouseFeature.java",
           "src/main/resources/data/reworld/forge/biome_modifier/viking_villager_house_biome_modifier.json"
         ]
       },
@@ -996,8 +996,8 @@
       "registry_name": "block_spawn_ent",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/blockstates/block_spawn_ent.json",
           "src/main/resources/assets/reworld/models/block/block_spawn_ent.json",
+          "src/main/resources/assets/reworld/blockstates/block_spawn_ent.json",
           "src/main/resources/assets/reworld/models/item/block_spawn_ent.json",
           "src/main/java/net/mcreator/reworld/block/BlockSpawnEntBlock.java"
         ]
@@ -1045,10 +1045,10 @@
       "registry_name": "small_mushroom",
       "metadata": {
         "files": [
-          "src/main/resources/data/reworld/worldgen/configured_feature/small_mushroom.json",
           "src/main/java/net/mcreator/reworld/world/features/SmallMushroomFeature.java",
+          "src/main/resources/data/reworld/forge/biome_modifier/small_mushroom_biome_modifier.json",
           "src/main/resources/data/reworld/worldgen/placed_feature/small_mushroom.json",
-          "src/main/resources/data/reworld/forge/biome_modifier/small_mushroom_biome_modifier.json"
+          "src/main/resources/data/reworld/worldgen/configured_feature/small_mushroom.json"
         ]
       },
       "path": "~/Structure"
@@ -1063,9 +1063,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/reworld/worldgen/placed_feature/smallred_mushroom.json",
-          "src/main/resources/data/reworld/forge/biome_modifier/smallred_mushroom_biome_modifier.json",
+          "src/main/resources/data/reworld/worldgen/configured_feature/smallred_mushroom.json",
           "src/main/java/net/mcreator/reworld/world/features/SmallredMushroomFeature.java",
-          "src/main/resources/data/reworld/worldgen/configured_feature/smallred_mushroom.json"
+          "src/main/resources/data/reworld/forge/biome_modifier/smallred_mushroom_biome_modifier.json"
         ]
       },
       "path": "~/Structure"
@@ -1097,9 +1097,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/reworld/world/features/BigRedMushroomFeature.java",
-          "src/main/resources/data/reworld/worldgen/placed_feature/big_red_mushroom.json",
+          "src/main/resources/data/reworld/worldgen/configured_feature/big_red_mushroom.json",
           "src/main/resources/data/reworld/forge/biome_modifier/big_red_mushroom_biome_modifier.json",
-          "src/main/resources/data/reworld/worldgen/configured_feature/big_red_mushroom.json"
+          "src/main/resources/data/reworld/worldgen/placed_feature/big_red_mushroom.json"
         ]
       },
       "path": "~/Structure"
@@ -1113,14 +1113,14 @@
       "registry_name": "loose_clay",
       "metadata": {
         "files": [
-          "src/main/resources/data/reworld/worldgen/configured_feature/loose_clay.json",
-          "src/main/resources/assets/reworld/blockstates/loose_clay.json",
-          "src/main/java/net/mcreator/reworld/block/LooseClayBlock.java",
-          "src/main/java/net/mcreator/reworld/world/features/ores/LooseClayFeature.java",
           "src/main/resources/assets/reworld/models/item/loose_clay.json",
-          "src/main/resources/data/reworld/forge/biome_modifier/loose_clay_biome_modifier.json",
+          "src/main/resources/assets/reworld/models/block/loose_clay.json",
           "src/main/resources/data/reworld/worldgen/placed_feature/loose_clay.json",
-          "src/main/resources/assets/reworld/models/block/loose_clay.json"
+          "src/main/resources/assets/reworld/blockstates/loose_clay.json",
+          "src/main/resources/data/reworld/forge/biome_modifier/loose_clay_biome_modifier.json",
+          "src/main/resources/data/reworld/worldgen/configured_feature/loose_clay.json",
+          "src/main/java/net/mcreator/reworld/block/LooseClayBlock.java",
+          "src/main/java/net/mcreator/reworld/world/features/ores/LooseClayFeature.java"
         ]
       },
       "path": "~/Block"
@@ -1148,14 +1148,14 @@
       "registry_name": "blue_pomegranate",
       "metadata": {
         "files": [
-          "src/main/resources/data/reworld/worldgen/configured_feature/blue_pomegranate.json",
-          "src/main/resources/assets/reworld/models/block/blue_pomegranate.json",
-          "src/main/resources/assets/reworld/blockstates/blue_pomegranate.json",
           "src/main/resources/data/reworld/worldgen/placed_feature/blue_pomegranate.json",
-          "src/main/resources/data/reworld/forge/biome_modifier/blue_pomegranate_biome_modifier.json",
-          "src/main/java/net/mcreator/reworld/block/BluePomegranateBlock.java",
           "src/main/java/net/mcreator/reworld/world/features/ores/BluePomegranateFeature.java",
-          "src/main/resources/assets/reworld/models/item/blue_pomegranate.json"
+          "src/main/java/net/mcreator/reworld/block/BluePomegranateBlock.java",
+          "src/main/resources/data/reworld/forge/biome_modifier/blue_pomegranate_biome_modifier.json",
+          "src/main/resources/assets/reworld/models/block/blue_pomegranate.json",
+          "src/main/resources/assets/reworld/models/item/blue_pomegranate.json",
+          "src/main/resources/assets/reworld/blockstates/blue_pomegranate.json",
+          "src/main/resources/data/reworld/worldgen/configured_feature/blue_pomegranate.json"
         ]
       },
       "path": "~/Block"
@@ -1169,10 +1169,10 @@
       "registry_name": "blue_pomegranate_cobblestone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/block/BluePomegranateCobblestoneBlock.java",
-          "src/main/resources/assets/reworld/blockstates/blue_pomegranate_cobblestone.json",
           "src/main/resources/assets/reworld/models/item/blue_pomegranate_cobblestone.json",
-          "src/main/resources/assets/reworld/models/block/blue_pomegranate_cobblestone.json"
+          "src/main/resources/assets/reworld/models/block/blue_pomegranate_cobblestone.json",
+          "src/main/java/net/mcreator/reworld/block/BluePomegranateCobblestoneBlock.java",
+          "src/main/resources/assets/reworld/blockstates/blue_pomegranate_cobblestone.json"
         ]
       },
       "path": "~/Block"
@@ -1200,10 +1200,10 @@
       "registry_name": "blue_pomegranate_stone_bricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/blockstates/blue_pomegranate_stone_bricks.json",
+          "src/main/java/net/mcreator/reworld/block/BluePomegranateStoneBricksBlock.java",
           "src/main/resources/assets/reworld/models/item/blue_pomegranate_stone_bricks.json",
-          "src/main/resources/assets/reworld/models/block/blue_pomegranate_stone_bricks.json",
-          "src/main/java/net/mcreator/reworld/block/BluePomegranateStoneBricksBlock.java"
+          "src/main/resources/assets/reworld/blockstates/blue_pomegranate_stone_bricks.json",
+          "src/main/resources/assets/reworld/models/block/blue_pomegranate_stone_bricks.json"
         ]
       },
       "path": "~/Block"
@@ -1217,9 +1217,9 @@
       "registry_name": "blue_pomegranate_stone_mossy_bricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/blockstates/blue_pomegranate_stone_mossy_bricks.json",
           "src/main/resources/assets/reworld/models/block/blue_pomegranate_stone_mossy_bricks.json",
           "src/main/java/net/mcreator/reworld/block/BluePomegranateStoneMossyBricksBlock.java",
+          "src/main/resources/assets/reworld/blockstates/blue_pomegranate_stone_mossy_bricks.json",
           "src/main/resources/assets/reworld/models/item/blue_pomegranate_stone_mossy_bricks.json"
         ]
       },
@@ -1236,8 +1236,8 @@
         "files": [
           "src/main/resources/assets/reworld/models/block/blue_pomegranate_stone_bricks_slab_full.json",
           "src/main/resources/assets/reworld/models/block/blue_pomegranate_stone_bricks_slab_top.json",
-          "src/main/resources/assets/reworld/models/item/blue_pomegranate_stone_bricks_slab.json",
           "src/main/java/net/mcreator/reworld/block/BluePomegranateStoneBricksSlabBlock.java",
+          "src/main/resources/assets/reworld/models/item/blue_pomegranate_stone_bricks_slab.json",
           "src/main/resources/assets/reworld/blockstates/blue_pomegranate_stone_bricks_slab.json",
           "src/main/resources/assets/reworld/models/block/blue_pomegranate_stone_bricks_slab.json"
         ]
@@ -1253,12 +1253,12 @@
       "registry_name": "blue_pomegranate_stone_bricks_stairs",
       "metadata": {
         "files": [
+          "src/main/resources/assets/reworld/models/block/blue_pomegranate_stone_bricks_stairs_outer.json",
           "src/main/resources/assets/reworld/models/block/blue_pomegranate_stone_bricks_stairs_inner.json",
-          "src/main/resources/assets/reworld/models/block/blue_pomegranate_stone_bricks_stairs.json",
-          "src/main/resources/assets/reworld/blockstates/blue_pomegranate_stone_bricks_stairs.json",
           "src/main/java/net/mcreator/reworld/block/BluePomegranateStoneBricksStairsBlock.java",
+          "src/main/resources/assets/reworld/models/block/blue_pomegranate_stone_bricks_stairs.json",
           "src/main/resources/assets/reworld/models/item/blue_pomegranate_stone_bricks_stairs.json",
-          "src/main/resources/assets/reworld/models/block/blue_pomegranate_stone_bricks_stairs_outer.json"
+          "src/main/resources/assets/reworld/blockstates/blue_pomegranate_stone_bricks_stairs.json"
         ]
       },
       "path": "~/Block"
@@ -1273,11 +1273,11 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/reworld/block/BluePomegranateStoneMossyBricksSlabBlock.java",
-          "src/main/resources/assets/reworld/models/item/blue_pomegranate_stone_mossy_bricks_slab.json",
           "src/main/resources/assets/reworld/blockstates/blue_pomegranate_stone_mossy_bricks_slab.json",
-          "src/main/resources/assets/reworld/models/block/blue_pomegranate_stone_mossy_bricks_slab_top.json",
           "src/main/resources/assets/reworld/models/block/blue_pomegranate_stone_mossy_bricks_slab_full.json",
-          "src/main/resources/assets/reworld/models/block/blue_pomegranate_stone_mossy_bricks_slab.json"
+          "src/main/resources/assets/reworld/models/block/blue_pomegranate_stone_mossy_bricks_slab.json",
+          "src/main/resources/assets/reworld/models/item/blue_pomegranate_stone_mossy_bricks_slab.json",
+          "src/main/resources/assets/reworld/models/block/blue_pomegranate_stone_mossy_bricks_slab_top.json"
         ]
       },
       "path": "~/Block"
@@ -1291,12 +1291,12 @@
       "registry_name": "blue_pomegranate_stone_mossy_bricks_stairs",
       "metadata": {
         "files": [
+          "src/main/resources/assets/reworld/models/block/blue_pomegranate_stone_mossy_bricks_stairs_inner.json",
           "src/main/java/net/mcreator/reworld/block/BluePomegranateStoneMossyBricksStairsBlock.java",
-          "src/main/resources/assets/reworld/models/block/blue_pomegranate_stone_mossy_bricks_stairs_outer.json",
           "src/main/resources/assets/reworld/models/item/blue_pomegranate_stone_mossy_bricks_stairs.json",
+          "src/main/resources/assets/reworld/models/block/blue_pomegranate_stone_mossy_bricks_stairs_outer.json",
           "src/main/resources/assets/reworld/blockstates/blue_pomegranate_stone_mossy_bricks_stairs.json",
-          "src/main/resources/assets/reworld/models/block/blue_pomegranate_stone_mossy_bricks_stairs.json",
-          "src/main/resources/assets/reworld/models/block/blue_pomegranate_stone_mossy_bricks_stairs_inner.json"
+          "src/main/resources/assets/reworld/models/block/blue_pomegranate_stone_mossy_bricks_stairs.json"
         ]
       },
       "path": "~/Block"
@@ -1514,11 +1514,11 @@
       "registry_name": "trap_blue_pomegrante_plate",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/reworld/block/TrapBluePomegrantePlateBlock.java",
+          "src/main/resources/assets/reworld/models/item/trap_blue_pomegrante_plate.json",
           "src/main/resources/assets/reworld/models/block/trap_blue_pomegrante_plate.json",
           "src/main/resources/assets/reworld/models/block/trap_blue_pomegrante_plate_down.json",
-          "src/main/resources/assets/reworld/blockstates/trap_blue_pomegrante_plate.json",
-          "src/main/resources/assets/reworld/models/item/trap_blue_pomegrante_plate.json",
-          "src/main/java/net/mcreator/reworld/block/TrapBluePomegrantePlateBlock.java"
+          "src/main/resources/assets/reworld/blockstates/trap_blue_pomegrante_plate.json"
         ]
       },
       "path": "~/Block"
@@ -1533,9 +1533,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/reworld/models/item/trap_mossy_blue_pomegranate_plate.json",
-          "src/main/resources/assets/reworld/blockstates/trap_mossy_blue_pomegranate_plate.json",
           "src/main/java/net/mcreator/reworld/block/TrapMossyBluePomegranatePlateBlock.java",
           "src/main/resources/assets/reworld/models/block/trap_mossy_blue_pomegranate_plate_down.json",
+          "src/main/resources/assets/reworld/blockstates/trap_mossy_blue_pomegranate_plate.json",
           "src/main/resources/assets/reworld/models/block/trap_mossy_blue_pomegranate_plate.json"
         ]
       },
@@ -1586,13 +1586,13 @@
       "registry_name": "scary_basalt_brick_wall",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/block/scary_basalt_brick_wall_inventory.json",
-          "src/main/resources/assets/reworld/models/block/scary_basalt_brick_wall_post.json",
           "src/main/resources/assets/reworld/models/block/scary_basalt_brick_wall_side_tall.json",
-          "src/main/resources/assets/reworld/models/block/scary_basalt_brick_wall.json",
+          "src/main/resources/assets/reworld/models/block/scary_basalt_brick_wall_post.json",
           "src/main/resources/assets/reworld/models/item/scary_basalt_brick_wall.json",
+          "src/main/java/net/mcreator/reworld/block/ScaryBasaltBrickWallBlock.java",
+          "src/main/resources/assets/reworld/models/block/scary_basalt_brick_wall.json",
           "src/main/resources/assets/reworld/blockstates/scary_basalt_brick_wall.json",
-          "src/main/java/net/mcreator/reworld/block/ScaryBasaltBrickWallBlock.java"
+          "src/main/resources/assets/reworld/models/block/scary_basalt_brick_wall_inventory.json"
         ]
       },
       "path": "~/Block"
@@ -1683,14 +1683,14 @@
       "registry_name": "blue_mossy_stone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/world/features/ores/BlueMossyStoneFeature.java",
-          "src/main/resources/assets/reworld/models/block/blue_mossy_stone.json",
           "src/main/resources/assets/reworld/models/item/blue_mossy_stone.json",
           "src/main/resources/assets/reworld/blockstates/blue_mossy_stone.json",
+          "src/main/java/net/mcreator/reworld/world/features/ores/BlueMossyStoneFeature.java",
+          "src/main/java/net/mcreator/reworld/block/BlueMossyStoneBlock.java",
           "src/main/resources/data/reworld/worldgen/placed_feature/blue_mossy_stone.json",
           "src/main/resources/data/reworld/worldgen/configured_feature/blue_mossy_stone.json",
-          "src/main/java/net/mcreator/reworld/block/BlueMossyStoneBlock.java",
-          "src/main/resources/data/reworld/forge/biome_modifier/blue_mossy_stone_biome_modifier.json"
+          "src/main/resources/data/reworld/forge/biome_modifier/blue_mossy_stone_biome_modifier.json",
+          "src/main/resources/assets/reworld/models/block/blue_mossy_stone.json"
         ]
       },
       "path": "~/Block"
@@ -1750,8 +1750,8 @@
       "registry_name": "sand_storm_particle",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/client/particle/SandStormParticleParticle.java",
-          "src/main/resources/assets/reworld/particles/sand_storm_particle.json"
+          "src/main/resources/assets/reworld/particles/sand_storm_particle.json",
+          "src/main/java/net/mcreator/reworld/client/particle/SandStormParticleParticle.java"
         ]
       },
       "path": "~/Particle"
@@ -1766,9 +1766,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/reworld/models/block/blue_mycenae_block.json",
+          "src/main/resources/assets/reworld/blockstates/blue_mycenae_block.json",
           "src/main/java/net/mcreator/reworld/block/BlueMycenaeBlockBlock.java",
-          "src/main/resources/assets/reworld/models/item/blue_mycenae_block.json",
-          "src/main/resources/assets/reworld/blockstates/blue_mycenae_block.json"
+          "src/main/resources/assets/reworld/models/item/blue_mycenae_block.json"
         ]
       },
       "path": "~/Block"
@@ -1828,13 +1828,13 @@
       "registry_name": "blue_mycenae_hanging",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/world/features/ores/BlueMycenaeHangingFeature.java",
           "src/main/resources/assets/reworld/models/block/blue_mycenae_hanging.json",
-          "src/main/resources/data/reworld/forge/biome_modifier/blue_mycenae_hanging_biome_modifier.json",
           "src/main/resources/data/reworld/worldgen/configured_feature/blue_mycenae_hanging.json",
-          "src/main/resources/assets/reworld/models/item/blue_mycenae_hanging.json",
           "src/main/java/net/mcreator/reworld/block/BlueMycenaeHangingBlock.java",
+          "src/main/java/net/mcreator/reworld/world/features/ores/BlueMycenaeHangingFeature.java",
           "src/main/resources/assets/reworld/blockstates/blue_mycenae_hanging.json",
+          "src/main/resources/assets/reworld/models/item/blue_mycenae_hanging.json",
+          "src/main/resources/data/reworld/forge/biome_modifier/blue_mycenae_hanging_biome_modifier.json",
           "src/main/resources/data/reworld/worldgen/placed_feature/blue_mycenae_hanging.json"
         ]
       },
@@ -1863,10 +1863,10 @@
       "registry_name": "blue_mycenae_cave",
       "metadata": {
         "files": [
-          "src/main/resources/data/reworld/forge/biome_modifier/blue_mycenae_cave_biome_modifier.json",
+          "src/main/resources/data/reworld/worldgen/configured_feature/blue_mycenae_cave.json",
           "src/main/resources/data/reworld/worldgen/placed_feature/blue_mycenae_cave.json",
           "src/main/java/net/mcreator/reworld/world/features/BlueMycenaeCaveFeature.java",
-          "src/main/resources/data/reworld/worldgen/configured_feature/blue_mycenae_cave.json"
+          "src/main/resources/data/reworld/forge/biome_modifier/blue_mycenae_cave_biome_modifier.json"
         ]
       },
       "path": "~/Structure"
@@ -1882,8 +1882,8 @@
         "files": [
           "src/main/resources/data/reworld/forge/biome_modifier/small_blue_mycenae_cave_biome_modifier.json",
           "src/main/resources/data/reworld/worldgen/configured_feature/small_blue_mycenae_cave.json",
-          "src/main/java/net/mcreator/reworld/world/features/SmallBlueMycenaeCaveFeature.java",
-          "src/main/resources/data/reworld/worldgen/placed_feature/small_blue_mycenae_cave.json"
+          "src/main/resources/data/reworld/worldgen/placed_feature/small_blue_mycenae_cave.json",
+          "src/main/java/net/mcreator/reworld/world/features/SmallBlueMycenaeCaveFeature.java"
         ]
       },
       "path": "~/Structure"
@@ -1897,8 +1897,8 @@
       "registry_name": "small_tamorindic_tree",
       "metadata": {
         "files": [
-          "src/main/resources/data/reworld/forge/biome_modifier/small_tamorindic_tree_biome_modifier.json",
           "src/main/resources/data/reworld/worldgen/configured_feature/small_tamorindic_tree.json",
+          "src/main/resources/data/reworld/forge/biome_modifier/small_tamorindic_tree_biome_modifier.json",
           "src/main/resources/data/reworld/worldgen/placed_feature/small_tamorindic_tree.json",
           "src/main/java/net/mcreator/reworld/world/features/SmallTamorindicTreeFeature.java"
         ]
@@ -1963,10 +1963,10 @@
       "registry_name": "eritieric_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/item/eritieric_log.json",
-          "src/main/resources/assets/reworld/models/block/eritieric_log.json",
           "src/main/java/net/mcreator/reworld/block/EritiericLogBlock.java",
-          "src/main/resources/assets/reworld/blockstates/eritieric_log.json"
+          "src/main/resources/assets/reworld/models/item/eritieric_log.json",
+          "src/main/resources/assets/reworld/blockstates/eritieric_log.json",
+          "src/main/resources/assets/reworld/models/block/eritieric_log.json"
         ]
       },
       "path": "~/Block"
@@ -1980,10 +1980,10 @@
       "registry_name": "eritieric_planks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/block/eritieric_planks.json",
           "src/main/resources/assets/reworld/models/item/eritieric_planks.json",
+          "src/main/java/net/mcreator/reworld/block/EritiericPlanksBlock.java",
           "src/main/resources/assets/reworld/blockstates/eritieric_planks.json",
-          "src/main/java/net/mcreator/reworld/block/EritiericPlanksBlock.java"
+          "src/main/resources/assets/reworld/models/block/eritieric_planks.json"
         ]
       },
       "path": "~/Block"
@@ -2006,12 +2006,12 @@
       "registry_name": "eritieric_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/item/eritieric_stairs.json",
           "src/main/resources/assets/reworld/models/block/eritieric_stairs_inner.json",
+          "src/main/resources/assets/reworld/models/item/eritieric_stairs.json",
+          "src/main/resources/assets/reworld/models/block/eritieric_stairs.json",
           "src/main/java/net/mcreator/reworld/block/EritiericStairsBlock.java",
           "src/main/resources/assets/reworld/blockstates/eritieric_stairs.json",
-          "src/main/resources/assets/reworld/models/block/eritieric_stairs_outer.json",
-          "src/main/resources/assets/reworld/models/block/eritieric_stairs.json"
+          "src/main/resources/assets/reworld/models/block/eritieric_stairs_outer.json"
         ]
       },
       "path": "~/Block"
@@ -2025,12 +2025,12 @@
       "registry_name": "eritieric_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/item/eritieric_slab.json",
           "src/main/java/net/mcreator/reworld/block/EritiericSlabBlock.java",
-          "src/main/resources/assets/reworld/blockstates/eritieric_slab.json",
-          "src/main/resources/assets/reworld/models/block/eritieric_slab.json",
           "src/main/resources/assets/reworld/models/block/eritieric_slab_top.json",
-          "src/main/resources/assets/reworld/models/block/eritieric_slab_full.json"
+          "src/main/resources/assets/reworld/models/block/eritieric_slab_full.json",
+          "src/main/resources/assets/reworld/models/item/eritieric_slab.json",
+          "src/main/resources/assets/reworld/models/block/eritieric_slab.json",
+          "src/main/resources/assets/reworld/blockstates/eritieric_slab.json"
         ]
       },
       "path": "~/Block"
@@ -2044,12 +2044,12 @@
       "registry_name": "eritieric_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/block/eritieric_fence_post.json",
-          "src/main/resources/assets/reworld/models/block/eritieric_fence_inventory.json",
-          "src/main/resources/assets/reworld/models/item/eritieric_fence.json",
+          "src/main/resources/assets/reworld/models/block/eritieric_fence.json",
           "src/main/resources/assets/reworld/blockstates/eritieric_fence.json",
+          "src/main/resources/assets/reworld/models/item/eritieric_fence.json",
+          "src/main/resources/assets/reworld/models/block/eritieric_fence_inventory.json",
           "src/main/java/net/mcreator/reworld/block/EritiericFenceBlock.java",
-          "src/main/resources/assets/reworld/models/block/eritieric_fence.json"
+          "src/main/resources/assets/reworld/models/block/eritieric_fence_post.json"
         ]
       },
       "path": "~/Block"
@@ -2063,13 +2063,13 @@
       "registry_name": "eritieric_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/block/eritieric_fence_gate.json",
-          "src/main/resources/assets/reworld/models/block/eritieric_fence_gate_wall.json",
-          "src/main/resources/assets/reworld/models/item/eritieric_fence_gate.json",
-          "src/main/resources/assets/reworld/blockstates/eritieric_fence_gate.json",
-          "src/main/resources/assets/reworld/models/block/eritieric_fence_gate_open.json",
           "src/main/java/net/mcreator/reworld/block/EritiericFenceGateBlock.java",
-          "src/main/resources/assets/reworld/models/block/eritieric_fence_gate_wall_open.json"
+          "src/main/resources/assets/reworld/models/block/eritieric_fence_gate_open.json",
+          "src/main/resources/assets/reworld/models/block/eritieric_fence_gate_wall.json",
+          "src/main/resources/assets/reworld/models/block/eritieric_fence_gate.json",
+          "src/main/resources/assets/reworld/blockstates/eritieric_fence_gate.json",
+          "src/main/resources/assets/reworld/models/block/eritieric_fence_gate_wall_open.json",
+          "src/main/resources/assets/reworld/models/item/eritieric_fence_gate.json"
         ]
       },
       "path": "~/Block"
@@ -2083,10 +2083,10 @@
       "registry_name": "eritieric_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/blockstates/eritieric_pressure_plate.json",
-          "src/main/resources/assets/reworld/models/block/eritieric_pressure_plate.json",
           "src/main/resources/assets/reworld/models/item/eritieric_pressure_plate.json",
+          "src/main/resources/assets/reworld/blockstates/eritieric_pressure_plate.json",
           "src/main/java/net/mcreator/reworld/block/EritiericPressurePlateBlock.java",
+          "src/main/resources/assets/reworld/models/block/eritieric_pressure_plate.json",
           "src/main/resources/assets/reworld/models/block/eritieric_pressure_plate_down.json"
         ]
       },
@@ -2101,12 +2101,12 @@
       "registry_name": "eritieric_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/blockstates/eritieric_button.json",
           "src/main/resources/assets/reworld/models/block/eritieric_button_inventory.json",
-          "src/main/resources/assets/reworld/models/block/eritieric_button_pressed.json",
-          "src/main/resources/assets/reworld/models/block/eritieric_button.json",
+          "src/main/resources/assets/reworld/blockstates/eritieric_button.json",
           "src/main/java/net/mcreator/reworld/block/EritiericButtonBlock.java",
-          "src/main/resources/assets/reworld/models/item/eritieric_button.json"
+          "src/main/resources/assets/reworld/models/item/eritieric_button.json",
+          "src/main/resources/assets/reworld/models/block/eritieric_button.json",
+          "src/main/resources/assets/reworld/models/block/eritieric_button_pressed.json"
         ]
       },
       "path": "~/Block"
@@ -2246,10 +2246,10 @@
       "registry_name": "tamorindricvine",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/block/TamorindicvineBlock.java",
-          "src/main/resources/assets/reworld/models/item/tamorindricvine.json",
           "src/main/resources/assets/reworld/blockstates/tamorindricvine.json",
-          "src/main/resources/assets/reworld/models/block/tamorindricvine.json"
+          "src/main/resources/assets/reworld/models/block/tamorindricvine.json",
+          "src/main/java/net/mcreator/reworld/block/TamorindicvineBlock.java",
+          "src/main/resources/assets/reworld/models/item/tamorindricvine.json"
         ]
       },
       "path": "~/Block"
@@ -2263,8 +2263,8 @@
       "registry_name": "tamorindricbloomingvine",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/block/TamorindicbloomingvineBlock.java",
           "src/main/resources/assets/reworld/models/item/tamorindricbloomingvine.json",
+          "src/main/java/net/mcreator/reworld/block/TamorindicbloomingvineBlock.java",
           "src/main/resources/assets/reworld/blockstates/tamorindricbloomingvine.json",
           "src/main/resources/assets/reworld/models/block/tamorindricbloomingvine.json"
         ]
@@ -2344,10 +2344,10 @@
       "registry_name": "eritierictree",
       "metadata": {
         "files": [
-          "src/main/resources/data/reworld/forge/biome_modifier/eritierictree_biome_modifier.json",
-          "src/main/java/net/mcreator/reworld/world/features/EritierictreeFeature.java",
+          "src/main/resources/data/reworld/worldgen/configured_feature/eritierictree.json",
           "src/main/resources/data/reworld/worldgen/placed_feature/eritierictree.json",
-          "src/main/resources/data/reworld/worldgen/configured_feature/eritierictree.json"
+          "src/main/resources/data/reworld/forge/biome_modifier/eritierictree_biome_modifier.json",
+          "src/main/java/net/mcreator/reworld/world/features/EritierictreeFeature.java"
         ]
       },
       "path": "~/Structure"
@@ -2361,17 +2361,17 @@
       "registry_name": "tamorindric_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/block/tamorindric_door_top_right_open.json",
-          "src/main/resources/assets/reworld/models/block/tamorindric_door_bottom_left_open.json",
-          "src/main/resources/assets/reworld/models/block/tamorindric_door_top_left.json",
-          "src/main/resources/assets/reworld/models/item/tamorindric_door.json",
-          "src/main/resources/assets/reworld/models/block/tamorindric_door_top_left_open.json",
-          "src/main/java/net/mcreator/reworld/block/TamorindicDoorBlock.java",
-          "src/main/resources/assets/reworld/models/block/tamorindric_door_bottom_left.json",
           "src/main/resources/assets/reworld/models/block/tamorindric_door_bottom_right.json",
-          "src/main/resources/assets/reworld/models/block/tamorindric_door_bottom_right_open.json",
+          "src/main/resources/assets/reworld/models/item/tamorindric_door.json",
+          "src/main/resources/assets/reworld/blockstates/tamorindric_door.json",
+          "src/main/resources/assets/reworld/models/block/tamorindric_door_top_right_open.json",
+          "src/main/resources/assets/reworld/models/block/tamorindric_door_bottom_left.json",
           "src/main/resources/assets/reworld/models/block/tamorindric_door_top_right.json",
-          "src/main/resources/assets/reworld/blockstates/tamorindric_door.json"
+          "src/main/resources/assets/reworld/models/block/tamorindric_door_top_left_open.json",
+          "src/main/resources/assets/reworld/models/block/tamorindric_door_top_left.json",
+          "src/main/resources/assets/reworld/models/block/tamorindric_door_bottom_left_open.json",
+          "src/main/java/net/mcreator/reworld/block/TamorindicDoorBlock.java",
+          "src/main/resources/assets/reworld/models/block/tamorindric_door_bottom_right_open.json"
         ]
       },
       "path": "~/Block"
@@ -2399,17 +2399,17 @@
       "registry_name": "eritieric_door",
       "metadata": {
         "files": [
+          "src/main/resources/assets/reworld/models/block/eritieric_door_bottom_right.json",
+          "src/main/resources/assets/reworld/models/block/eritieric_door_bottom_right_open.json",
           "src/main/java/net/mcreator/reworld/block/EritiericDoorBlock.java",
           "src/main/resources/assets/reworld/models/block/eritieric_door_bottom_left_open.json",
-          "src/main/resources/assets/reworld/models/block/eritieric_door_bottom_right.json",
+          "src/main/resources/assets/reworld/models/block/eritieric_door_top_left.json",
           "src/main/resources/assets/reworld/models/block/eritieric_door_top_right.json",
           "src/main/resources/assets/reworld/models/item/eritieric_door.json",
+          "src/main/resources/assets/reworld/models/block/eritieric_door_bottom_left.json",
           "src/main/resources/assets/reworld/models/block/eritieric_door_top_left_open.json",
           "src/main/resources/assets/reworld/blockstates/eritieric_door.json",
-          "src/main/resources/assets/reworld/models/block/eritieric_door_bottom_left.json",
-          "src/main/resources/assets/reworld/models/block/eritieric_door_top_left.json",
-          "src/main/resources/assets/reworld/models/block/eritieric_door_top_right_open.json",
-          "src/main/resources/assets/reworld/models/block/eritieric_door_bottom_right_open.json"
+          "src/main/resources/assets/reworld/models/block/eritieric_door_top_right_open.json"
         ]
       },
       "path": "~/Block"
@@ -2437,12 +2437,12 @@
       "registry_name": "eritieric_trapdoor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/block/EritiericTrapdoorBlock.java",
-          "src/main/resources/assets/reworld/models/block/eritieric_trapdoor_open.json",
           "src/main/resources/assets/reworld/models/block/eritieric_trapdoor_top.json",
-          "src/main/resources/assets/reworld/models/item/eritieric_trapdoor.json",
           "src/main/resources/assets/reworld/blockstates/eritieric_trapdoor.json",
-          "src/main/resources/assets/reworld/models/block/eritieric_trapdoor.json"
+          "src/main/resources/assets/reworld/models/block/eritieric_trapdoor.json",
+          "src/main/resources/assets/reworld/models/item/eritieric_trapdoor.json",
+          "src/main/resources/assets/reworld/models/block/eritieric_trapdoor_open.json",
+          "src/main/java/net/mcreator/reworld/block/EritiericTrapdoorBlock.java"
         ]
       },
       "path": "~/Block"
@@ -2476,6 +2476,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -2613,8 +2617,8 @@
       "registry_name": "spoiled_mushroom_stew",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/item/SpoiledMushroomStewItem.java",
-          "src/main/resources/assets/reworld/models/item/spoiled_mushroom_stew.json"
+          "src/main/resources/assets/reworld/models/item/spoiled_mushroom_stew.json",
+          "src/main/java/net/mcreator/reworld/item/SpoiledMushroomStewItem.java"
         ]
       },
       "path": "~/Items"
@@ -2628,8 +2632,8 @@
       "registry_name": "mushroom_rotten_flesh",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/item/mushroom_rotten_flesh.json",
-          "src/main/java/net/mcreator/reworld/item/MushroomRottenFleshItem.java"
+          "src/main/java/net/mcreator/reworld/item/MushroomRottenFleshItem.java",
+          "src/main/resources/assets/reworld/models/item/mushroom_rotten_flesh.json"
         ]
       },
       "path": "~/Items"
@@ -2643,8 +2647,8 @@
       "registry_name": "applecider",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/item/AppleciderItem.java",
-          "src/main/resources/assets/reworld/models/item/applecider.json"
+          "src/main/resources/assets/reworld/models/item/applecider.json",
+          "src/main/java/net/mcreator/reworld/item/AppleciderItem.java"
         ]
       },
       "path": "~/Block"
@@ -2658,8 +2662,8 @@
       "registry_name": "choruscider",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/item/choruscider.json",
-          "src/main/java/net/mcreator/reworld/item/ChorusciderItem.java"
+          "src/main/java/net/mcreator/reworld/item/ChorusciderItem.java",
+          "src/main/resources/assets/reworld/models/item/choruscider.json"
         ]
       },
       "path": "~/Block"
@@ -2673,8 +2677,8 @@
       "registry_name": "blue_mycenae_food",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/item/BlueMycenaeFoodItem.java",
-          "src/main/resources/assets/reworld/models/item/blue_mycenae_food.json"
+          "src/main/resources/assets/reworld/models/item/blue_mycenae_food.json",
+          "src/main/java/net/mcreator/reworld/item/BlueMycenaeFoodItem.java"
         ]
       },
       "path": "~/Items"
@@ -2772,8 +2776,8 @@
       "registry_name": "frosty_slippery_valley",
       "metadata": {
         "files": [
-          "src/main/resources/data/reworld/worldgen/placed_feature/frosty_slippery_valley_tree.json",
           "src/main/resources/data/reworld/worldgen/configured_feature/frosty_slippery_valley_tree.json",
+          "src/main/resources/data/reworld/worldgen/placed_feature/frosty_slippery_valley_tree.json",
           "src/main/resources/data/reworld/worldgen/biome/frosty_slippery_valley.json"
         ]
       },
@@ -2788,14 +2792,14 @@
       "registry_name": "snowy_blue_ice",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/block/SnowyBlueIceBlock.java",
-          "src/main/resources/data/reworld/forge/biome_modifier/snowy_blue_ice_biome_modifier.json",
-          "src/main/resources/assets/reworld/blockstates/snowy_blue_ice.json",
-          "src/main/resources/assets/reworld/models/block/snowy_blue_ice.json",
           "src/main/java/net/mcreator/reworld/world/features/ores/SnowyBlueIceFeature.java",
-          "src/main/resources/data/reworld/worldgen/configured_feature/snowy_blue_ice.json",
+          "src/main/java/net/mcreator/reworld/block/SnowyBlueIceBlock.java",
           "src/main/resources/data/reworld/worldgen/placed_feature/snowy_blue_ice.json",
-          "src/main/resources/assets/reworld/models/item/snowy_blue_ice.json"
+          "src/main/resources/assets/reworld/models/block/snowy_blue_ice.json",
+          "src/main/resources/assets/reworld/models/item/snowy_blue_ice.json",
+          "src/main/resources/assets/reworld/blockstates/snowy_blue_ice.json",
+          "src/main/resources/data/reworld/forge/biome_modifier/snowy_blue_ice_biome_modifier.json",
+          "src/main/resources/data/reworld/worldgen/configured_feature/snowy_blue_ice.json"
         ]
       },
       "path": "~/Block"
@@ -2878,9 +2882,9 @@
       "registry_name": "snowy_spruce_leaves",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/blockstates/snowy_spruce_leaves.json",
           "src/main/java/net/mcreator/reworld/block/SnowySpruceLeavesBlock.java",
           "src/main/resources/assets/reworld/models/block/snowy_spruce_leaves.json",
+          "src/main/resources/assets/reworld/blockstates/snowy_spruce_leaves.json",
           "src/main/resources/assets/reworld/models/item/snowy_spruce_leaves.json"
         ]
       },
@@ -2895,14 +2899,14 @@
       "registry_name": "snowy_spruce_sapling",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/block/SnowySpruceSaplingBlock.java",
-          "src/main/resources/assets/reworld/models/block/snowy_spruce_sapling.json",
           "src/main/java/net/mcreator/reworld/world/features/plants/SnowySpruceSaplingFeature.java",
-          "src/main/resources/assets/reworld/blockstates/snowy_spruce_sapling.json",
-          "src/main/resources/assets/reworld/models/item/snowy_spruce_sapling.json",
           "src/main/resources/data/reworld/forge/biome_modifier/snowy_spruce_sapling_biome_modifier.json",
+          "src/main/resources/assets/reworld/models/item/snowy_spruce_sapling.json",
+          "src/main/resources/assets/reworld/blockstates/snowy_spruce_sapling.json",
+          "src/main/resources/data/reworld/worldgen/placed_feature/snowy_spruce_sapling.json",
+          "src/main/resources/assets/reworld/models/block/snowy_spruce_sapling.json",
           "src/main/resources/data/reworld/worldgen/configured_feature/snowy_spruce_sapling.json",
-          "src/main/resources/data/reworld/worldgen/placed_feature/snowy_spruce_sapling.json"
+          "src/main/java/net/mcreator/reworld/block/SnowySpruceSaplingBlock.java"
         ]
       },
       "path": "~/Block/Crops and Flowers"
@@ -2984,14 +2988,14 @@
       "registry_name": "eritieric_sapling",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/blockstates/eritieric_sapling.json",
-          "src/main/resources/assets/reworld/models/item/eritieric_sapling.json",
-          "src/main/resources/data/reworld/worldgen/placed_feature/eritieric_sapling.json",
-          "src/main/resources/assets/reworld/models/block/eritieric_sapling.json",
           "src/main/java/net/mcreator/reworld/block/EritiericSaplingBlock.java",
+          "src/main/resources/data/reworld/worldgen/placed_feature/eritieric_sapling.json",
+          "src/main/resources/assets/reworld/models/item/eritieric_sapling.json",
+          "src/main/resources/assets/reworld/models/block/eritieric_sapling.json",
+          "src/main/resources/assets/reworld/blockstates/eritieric_sapling.json",
+          "src/main/resources/data/reworld/worldgen/configured_feature/eritieric_sapling.json",
           "src/main/resources/data/reworld/forge/biome_modifier/eritieric_sapling_biome_modifier.json",
-          "src/main/java/net/mcreator/reworld/world/features/plants/EritiericSaplingFeature.java",
-          "src/main/resources/data/reworld/worldgen/configured_feature/eritieric_sapling.json"
+          "src/main/java/net/mcreator/reworld/world/features/plants/EritiericSaplingFeature.java"
         ]
       },
       "path": "~/Block/Crops and Flowers"
@@ -3073,14 +3077,14 @@
       "registry_name": "tamorindric_sapling",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/blockstates/tamorindric_sapling.json",
-          "src/main/resources/data/reworld/forge/biome_modifier/tamorindric_sapling_biome_modifier.json",
           "src/main/java/net/mcreator/reworld/world/features/plants/TamorindicSaplingFeature.java",
           "src/main/resources/data/reworld/worldgen/placed_feature/tamorindric_sapling.json",
+          "src/main/resources/assets/reworld/models/item/tamorindric_sapling.json",
           "src/main/resources/assets/reworld/models/block/tamorindric_sapling.json",
           "src/main/resources/data/reworld/worldgen/configured_feature/tamorindric_sapling.json",
-          "src/main/resources/assets/reworld/models/item/tamorindric_sapling.json",
-          "src/main/java/net/mcreator/reworld/block/TamorindicSaplingBlock.java"
+          "src/main/resources/assets/reworld/blockstates/tamorindric_sapling.json",
+          "src/main/java/net/mcreator/reworld/block/TamorindicSaplingBlock.java",
+          "src/main/resources/data/reworld/forge/biome_modifier/tamorindric_sapling_biome_modifier.json"
         ]
       },
       "path": "~/Block/Crops and Flowers"
@@ -3162,8 +3166,8 @@
       "registry_name": "broken_totemof_undying",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/item/broken_totemof_undying.json",
-          "src/main/java/net/mcreator/reworld/item/BrokenTotemofUndyingItem.java"
+          "src/main/java/net/mcreator/reworld/item/BrokenTotemofUndyingItem.java",
+          "src/main/resources/assets/reworld/models/item/broken_totemof_undying.json"
         ]
       },
       "path": "~/Items"
@@ -3218,8 +3222,8 @@
       "registry_name": "branch_of_black_peppers",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/item/branch_of_black_peppers.json",
-          "src/main/java/net/mcreator/reworld/item/BranchOfBlackPeppersItem.java"
+          "src/main/java/net/mcreator/reworld/item/BranchOfBlackPeppersItem.java",
+          "src/main/resources/assets/reworld/models/item/branch_of_black_peppers.json"
         ]
       },
       "path": "~/Items"
@@ -3462,6 +3466,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -3516,8 +3524,8 @@
       "registry_name": "greenish_grass_particle",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/particles/greenish_grass_particle.json",
-          "src/main/java/net/mcreator/reworld/client/particle/GreenishGrassParticleParticle.java"
+          "src/main/java/net/mcreator/reworld/client/particle/GreenishGrassParticleParticle.java",
+          "src/main/resources/assets/reworld/particles/greenish_grass_particle.json"
         ]
       },
       "path": "~/Particle"
@@ -3570,6 +3578,9 @@
       "locked_code": false,
       "registry_name": "redstone_miner_redstone_on",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reworld/procedures/RedstoneMinerRedstoneOnProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -3656,10 +3667,10 @@
       "registry_name": "blue_mycenae_mushroom",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/world/features/BlueMycenaeMushroomFeature.java",
           "src/main/resources/data/reworld/worldgen/configured_feature/blue_mycenae_mushroom.json",
-          "src/main/resources/data/reworld/forge/biome_modifier/blue_mycenae_mushroom_biome_modifier.json",
-          "src/main/resources/data/reworld/worldgen/placed_feature/blue_mycenae_mushroom.json"
+          "src/main/java/net/mcreator/reworld/world/features/BlueMycenaeMushroomFeature.java",
+          "src/main/resources/data/reworld/worldgen/placed_feature/blue_mycenae_mushroom.json",
+          "src/main/resources/data/reworld/forge/biome_modifier/blue_mycenae_mushroom_biome_modifier.json"
         ]
       },
       "path": "~/Structure"
@@ -3673,10 +3684,10 @@
       "registry_name": "blue_mycenae_mushroom_1",
       "metadata": {
         "files": [
-          "src/main/resources/data/reworld/worldgen/configured_feature/blue_mycenae_mushroom_1.json",
+          "src/main/resources/data/reworld/worldgen/placed_feature/blue_mycenae_mushroom_1.json",
           "src/main/resources/data/reworld/forge/biome_modifier/blue_mycenae_mushroom_1_biome_modifier.json",
           "src/main/java/net/mcreator/reworld/world/features/BlueMycenaeMushroom1Feature.java",
-          "src/main/resources/data/reworld/worldgen/placed_feature/blue_mycenae_mushroom_1.json"
+          "src/main/resources/data/reworld/worldgen/configured_feature/blue_mycenae_mushroom_1.json"
         ]
       },
       "path": "~/Structure"
@@ -3740,14 +3751,14 @@
       "registry_name": "fibrous_bush",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/block/fibrous_bush.json",
+          "src/main/resources/assets/reworld/blockstates/fibrous_bush.json",
+          "src/main/resources/assets/reworld/models/item/fibrous_bush.json",
+          "src/main/java/net/mcreator/reworld/block/FibrousBushBlock.java",
           "src/main/resources/data/reworld/forge/biome_modifier/fibrous_bush_biome_modifier.json",
           "src/main/resources/data/reworld/worldgen/configured_feature/fibrous_bush.json",
-          "src/main/resources/assets/reworld/blockstates/fibrous_bush.json",
-          "src/main/java/net/mcreator/reworld/world/features/plants/FibrousBushFeature.java",
           "src/main/resources/data/reworld/worldgen/placed_feature/fibrous_bush.json",
-          "src/main/java/net/mcreator/reworld/block/FibrousBushBlock.java",
-          "src/main/resources/assets/reworld/models/item/fibrous_bush.json"
+          "src/main/java/net/mcreator/reworld/world/features/plants/FibrousBushFeature.java",
+          "src/main/resources/assets/reworld/models/block/fibrous_bush.json"
         ]
       },
       "path": "~/Block/Crops and Flowers"
@@ -3774,9 +3785,6 @@
       "locked_code": true,
       "registry_name": "edibleroot_plant_destroyed_by_player",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/reworld/procedures/EdiblerootPlantDestroyedByPlayerProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "blockstate",
@@ -3811,10 +3819,10 @@
       "registry_name": "freezing_skewer_ranged_item",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/entity/FreezingSkewerRangedItemEntity.java",
-          "src/main/resources/assets/reworld/models/item/freezing_skewer_ranged_item.json",
           "src/main/java/net/mcreator/reworld/item/FreezingSkewerRangedItemItem.java",
-          "src/main/java/net/mcreator/reworld/client/renderer/FreezingSkewerRangedItemRenderer.java"
+          "src/main/resources/assets/reworld/models/item/freezing_skewer_ranged_item.json",
+          "src/main/java/net/mcreator/reworld/client/renderer/FreezingSkewerRangedItemRenderer.java",
+          "src/main/java/net/mcreator/reworld/entity/FreezingSkewerRangedItemEntity.java"
         ]
       },
       "path": "~/Items"
@@ -3867,8 +3875,8 @@
       "registry_name": "heart_of_ice",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/item/HeartOfIceItem.java",
-          "src/main/resources/assets/reworld/models/item/heart_of_ice.json"
+          "src/main/resources/assets/reworld/models/item/heart_of_ice.json",
+          "src/main/java/net/mcreator/reworld/item/HeartOfIceItem.java"
         ]
       },
       "path": "~/Items"
@@ -3882,8 +3890,8 @@
       "registry_name": "heart_of_mushrooms",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/item/HeartOfMushroomsItem.java",
-          "src/main/resources/assets/reworld/models/item/heart_of_mushrooms.json"
+          "src/main/resources/assets/reworld/models/item/heart_of_mushrooms.json",
+          "src/main/java/net/mcreator/reworld/item/HeartOfMushroomsItem.java"
         ]
       },
       "path": "~/Items"
@@ -4249,11 +4257,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/reworld/models/item/blue_pomegranate_cobblestone_slab.json",
-          "src/main/resources/assets/reworld/models/block/blue_pomegranate_cobblestone_slab_top.json",
           "src/main/resources/assets/reworld/models/block/blue_pomegranate_cobblestone_slab.json",
-          "src/main/java/net/mcreator/reworld/block/BluePomegranateCobblestoneSlabBlock.java",
+          "src/main/resources/assets/reworld/blockstates/blue_pomegranate_cobblestone_slab.json",
           "src/main/resources/assets/reworld/models/block/blue_pomegranate_cobblestone_slab_full.json",
-          "src/main/resources/assets/reworld/blockstates/blue_pomegranate_cobblestone_slab.json"
+          "src/main/resources/assets/reworld/models/block/blue_pomegranate_cobblestone_slab_top.json",
+          "src/main/java/net/mcreator/reworld/block/BluePomegranateCobblestoneSlabBlock.java"
         ]
       },
       "path": "~/Block"
@@ -4267,11 +4275,11 @@
       "registry_name": "blue_pomegranate_cobblestone_stairs",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/reworld/block/BluePomegranateCobblestoneStairsBlock.java",
           "src/main/resources/assets/reworld/models/block/blue_pomegranate_cobblestone_stairs_outer.json",
           "src/main/resources/assets/reworld/blockstates/blue_pomegranate_cobblestone_stairs.json",
           "src/main/resources/assets/reworld/models/block/blue_pomegranate_cobblestone_stairs_inner.json",
           "src/main/resources/assets/reworld/models/block/blue_pomegranate_cobblestone_stairs.json",
-          "src/main/java/net/mcreator/reworld/block/BluePomegranateCobblestoneStairsBlock.java",
           "src/main/resources/assets/reworld/models/item/blue_pomegranate_cobblestone_stairs.json"
         ]
       },
@@ -4328,10 +4336,10 @@
       "registry_name": "blue_pomegranate_castle",
       "metadata": {
         "files": [
-          "src/main/resources/data/reworld/forge/biome_modifier/blue_pomegranate_castle_biome_modifier.json",
-          "src/main/resources/data/reworld/worldgen/configured_feature/blue_pomegranate_castle.json",
+          "src/main/resources/data/reworld/worldgen/placed_feature/blue_pomegranate_castle.json",
           "src/main/java/net/mcreator/reworld/world/features/BluePomegranateCastleFeature.java",
-          "src/main/resources/data/reworld/worldgen/placed_feature/blue_pomegranate_castle.json"
+          "src/main/resources/data/reworld/forge/biome_modifier/blue_pomegranate_castle_biome_modifier.json",
+          "src/main/resources/data/reworld/worldgen/configured_feature/blue_pomegranate_castle.json"
         ]
       },
       "path": "~/Structure"
@@ -4345,10 +4353,10 @@
       "registry_name": "redstone_piston_spikes",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/block/redstone_piston_spikes.json",
-          "src/main/resources/assets/reworld/blockstates/redstone_piston_spikes.json",
           "src/main/resources/assets/reworld/models/item/redstone_piston_spikes.json",
-          "src/main/java/net/mcreator/reworld/block/RedstonePistonSpikesBlock.java"
+          "src/main/java/net/mcreator/reworld/block/RedstonePistonSpikesBlock.java",
+          "src/main/resources/assets/reworld/blockstates/redstone_piston_spikes.json",
+          "src/main/resources/assets/reworld/models/block/redstone_piston_spikes.json"
         ]
       },
       "path": "~/Block"
@@ -4765,11 +4773,11 @@
         "eb": true,
         "ec": true,
         "files": [
-          "src/main/resources/assets/reworld/models/item/fibery_hearted_chestplate.json",
           "src/main/resources/assets/reworld/models/item/fibery_hearted_leggings.json",
           "src/main/resources/assets/reworld/models/item/fibery_hearted_boots.json",
+          "src/main/java/net/mcreator/reworld/item/FiberyHeartedItem.java",
           "src/main/resources/assets/reworld/models/item/fibery_hearted_helmet.json",
-          "src/main/java/net/mcreator/reworld/item/FiberyHeartedItem.java"
+          "src/main/resources/assets/reworld/models/item/fibery_hearted_chestplate.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -4843,11 +4851,11 @@
         "eb": true,
         "ec": true,
         "files": [
+          "src/main/resources/assets/reworld/models/item/furred_icy_helmet.json",
           "src/main/resources/assets/reworld/models/item/furred_icy_boots.json",
-          "src/main/resources/assets/reworld/models/item/furred_icy_leggings.json",
           "src/main/java/net/mcreator/reworld/item/FurredIcyItem.java",
-          "src/main/resources/assets/reworld/models/item/furred_icy_chestplate.json",
-          "src/main/resources/assets/reworld/models/item/furred_icy_helmet.json"
+          "src/main/resources/assets/reworld/models/item/furred_icy_leggings.json",
+          "src/main/resources/assets/reworld/models/item/furred_icy_chestplate.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -4971,9 +4979,6 @@
       "locked_code": true,
       "registry_name": "forestbow_ranged_item_used",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/reworld/procedures/ForestbowRangedItemUsedProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "entity",
@@ -5018,11 +5023,11 @@
         "eb": true,
         "ec": true,
         "files": [
-          "src/main/resources/assets/reworld/models/item/pomegranate_prismarine_boots.json",
           "src/main/resources/assets/reworld/models/item/pomegranate_prismarine_leggings.json",
+          "src/main/resources/assets/reworld/models/item/pomegranate_prismarine_chestplate.json",
           "src/main/java/net/mcreator/reworld/item/PomegranatePrismarineItem.java",
           "src/main/resources/assets/reworld/models/item/pomegranate_prismarine_helmet.json",
-          "src/main/resources/assets/reworld/models/item/pomegranate_prismarine_chestplate.json"
+          "src/main/resources/assets/reworld/models/item/pomegranate_prismarine_boots.json"
         ]
       },
       "path": "~/Items/Armors"
@@ -5036,10 +5041,10 @@
       "registry_name": "block_spawn_pomegranate_golem",
       "metadata": {
         "files": [
+          "src/main/resources/assets/reworld/blockstates/block_spawn_pomegranate_golem.json",
           "src/main/resources/assets/reworld/models/block/block_spawn_pomegranate_golem.json",
           "src/main/java/net/mcreator/reworld/block/BlockSpawnPomegranateGolemBlock.java",
-          "src/main/resources/assets/reworld/models/item/block_spawn_pomegranate_golem.json",
-          "src/main/resources/assets/reworld/blockstates/block_spawn_pomegranate_golem.json"
+          "src/main/resources/assets/reworld/models/item/block_spawn_pomegranate_golem.json"
         ]
       },
       "path": "~/Block"
@@ -5141,9 +5146,9 @@
       "registry_name": "block_icy_creature_spawn",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/item/block_icy_creature_spawn.json",
           "src/main/resources/assets/reworld/blockstates/block_icy_creature_spawn.json",
           "src/main/java/net/mcreator/reworld/block/BlockIcyCreatureSpawnBlock.java",
+          "src/main/resources/assets/reworld/models/item/block_icy_creature_spawn.json",
           "src/main/resources/assets/reworld/models/block/block_icy_creature_spawn.json"
         ]
       },
@@ -5334,10 +5339,10 @@
       "registry_name": "ent_tree",
       "metadata": {
         "files": [
+          "src/main/resources/data/reworld/forge/biome_modifier/ent_tree_biome_modifier.json",
           "src/main/resources/data/reworld/worldgen/configured_feature/ent_tree.json",
           "src/main/resources/data/reworld/worldgen/placed_feature/ent_tree.json",
-          "src/main/java/net/mcreator/reworld/world/features/EntTreeFeature.java",
-          "src/main/resources/data/reworld/forge/biome_modifier/ent_tree_biome_modifier.json"
+          "src/main/java/net/mcreator/reworld/world/features/EntTreeFeature.java"
         ]
       },
       "path": "~/Structure"
@@ -5365,10 +5370,10 @@
       "registry_name": "icy_creature_tower",
       "metadata": {
         "files": [
-          "src/main/resources/data/reworld/worldgen/configured_feature/icy_creature_tower.json",
+          "src/main/java/net/mcreator/reworld/world/features/IcyCreatureTowerFeature.java",
           "src/main/resources/data/reworld/forge/biome_modifier/icy_creature_tower_biome_modifier.json",
           "src/main/resources/data/reworld/worldgen/placed_feature/icy_creature_tower.json",
-          "src/main/java/net/mcreator/reworld/world/features/IcyCreatureTowerFeature.java"
+          "src/main/resources/data/reworld/worldgen/configured_feature/icy_creature_tower.json"
         ]
       },
       "path": "~/Structure"
@@ -5382,10 +5387,10 @@
       "registry_name": "pomegranate_golem_dungeon",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/world/features/PomegranateGolemDungeonFeature.java",
-          "src/main/resources/data/reworld/worldgen/configured_feature/pomegranate_golem_dungeon.json",
+          "src/main/resources/data/reworld/forge/biome_modifier/pomegranate_golem_dungeon_biome_modifier.json",
           "src/main/resources/data/reworld/worldgen/placed_feature/pomegranate_golem_dungeon.json",
-          "src/main/resources/data/reworld/forge/biome_modifier/pomegranate_golem_dungeon_biome_modifier.json"
+          "src/main/java/net/mcreator/reworld/world/features/PomegranateGolemDungeonFeature.java",
+          "src/main/resources/data/reworld/worldgen/configured_feature/pomegranate_golem_dungeon.json"
         ]
       },
       "path": "~/Structure"
@@ -5578,10 +5583,10 @@
       "registry_name": "orange_aster",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/block/orange_aster.json",
           "src/main/resources/assets/reworld/blockstates/orange_aster.json",
-          "src/main/java/net/mcreator/reworld/block/OrangeAsterBlock.java",
-          "src/main/resources/assets/reworld/models/item/orange_aster.json"
+          "src/main/resources/assets/reworld/models/block/orange_aster.json",
+          "src/main/resources/assets/reworld/models/item/orange_aster.json",
+          "src/main/java/net/mcreator/reworld/block/OrangeAsterBlock.java"
         ]
       },
       "path": "~/Block/Crops and Flowers"
@@ -5595,9 +5600,9 @@
       "registry_name": "crocus",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/block/crocus.json",
-          "src/main/resources/assets/reworld/models/item/crocus.json",
           "src/main/java/net/mcreator/reworld/block/CrocusBlock.java",
+          "src/main/resources/assets/reworld/models/item/crocus.json",
+          "src/main/resources/assets/reworld/models/block/crocus.json",
           "src/main/resources/assets/reworld/blockstates/crocus.json"
         ]
       },
@@ -5612,8 +5617,8 @@
       "registry_name": "green_aster",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/item/green_aster.json",
           "src/main/resources/assets/reworld/blockstates/green_aster.json",
+          "src/main/resources/assets/reworld/models/item/green_aster.json",
           "src/main/resources/assets/reworld/models/block/green_aster.json",
           "src/main/java/net/mcreator/reworld/block/GreenAsterBlock.java"
         ]
@@ -5629,10 +5634,10 @@
       "registry_name": "choco",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/block/ChocoBlock.java",
-          "src/main/resources/assets/reworld/blockstates/choco.json",
+          "src/main/resources/assets/reworld/models/block/choco.json",
           "src/main/resources/assets/reworld/models/item/choco.json",
-          "src/main/resources/assets/reworld/models/block/choco.json"
+          "src/main/java/net/mcreator/reworld/block/ChocoBlock.java",
+          "src/main/resources/assets/reworld/blockstates/choco.json"
         ]
       },
       "path": "~/Block/Crops and Flowers"
@@ -5668,9 +5673,6 @@
       "locked_code": true,
       "registry_name": "melothria_plant_destroyed_by_player",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/reworld/procedures/MelothriaPlantDestroyedByPlayerProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "blockstate",
@@ -5704,9 +5706,6 @@
       "locked_code": true,
       "registry_name": "melothria_plant_right_clicked",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/reworld/procedures/MelothriaPlantRightClickedProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "blockstate",
@@ -5741,8 +5740,8 @@
       "registry_name": "melothria_food",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/item/MelothriaFoodItem.java",
-          "src/main/resources/assets/reworld/models/item/melothria_food.json"
+          "src/main/resources/assets/reworld/models/item/melothria_food.json",
+          "src/main/java/net/mcreator/reworld/item/MelothriaFoodItem.java"
         ]
       },
       "path": "~/Items"
@@ -6155,8 +6154,8 @@
       "registry_name": "chufa_food",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/item/ChufaFoodItem.java",
-          "src/main/resources/assets/reworld/models/item/chufa_food.json"
+          "src/main/resources/assets/reworld/models/item/chufa_food.json",
+          "src/main/java/net/mcreator/reworld/item/ChufaFoodItem.java"
         ]
       },
       "path": "~/Items"
@@ -6373,10 +6372,10 @@
       "registry_name": "mycenae_deltas",
       "metadata": {
         "files": [
-          "src/main/resources/data/reworld/forge/biome_modifier/mycenae_deltas_biome_modifier.json",
           "src/main/resources/data/reworld/worldgen/configured_feature/mycenae_deltas.json",
           "src/main/resources/data/reworld/worldgen/placed_feature/mycenae_deltas.json",
-          "src/main/java/net/mcreator/reworld/world/features/MycenaeDeltasFeature.java"
+          "src/main/java/net/mcreator/reworld/world/features/MycenaeDeltasFeature.java",
+          "src/main/resources/data/reworld/forge/biome_modifier/mycenae_deltas_biome_modifier.json"
         ]
       },
       "path": "~/Biomes/Biome Features"
@@ -6390,10 +6389,10 @@
       "registry_name": "mycenae_mushrooms",
       "metadata": {
         "files": [
-          "src/main/resources/data/reworld/worldgen/placed_feature/mycenae_mushrooms.json",
-          "src/main/resources/data/reworld/worldgen/configured_feature/mycenae_mushrooms.json",
           "src/main/resources/data/reworld/forge/biome_modifier/mycenae_mushrooms_biome_modifier.json",
-          "src/main/java/net/mcreator/reworld/world/features/MycenaeMushroomsFeature.java"
+          "src/main/java/net/mcreator/reworld/world/features/MycenaeMushroomsFeature.java",
+          "src/main/resources/data/reworld/worldgen/configured_feature/mycenae_mushrooms.json",
+          "src/main/resources/data/reworld/worldgen/placed_feature/mycenae_mushrooms.json"
         ]
       },
       "path": "~/Biomes/Biome Features"
@@ -6407,10 +6406,10 @@
       "registry_name": "mycenae_blobs",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/world/features/MycenaeBlobsFeature.java",
-          "src/main/resources/data/reworld/worldgen/configured_feature/mycenae_blobs.json",
+          "src/main/resources/data/reworld/worldgen/placed_feature/mycenae_blobs.json",
           "src/main/resources/data/reworld/forge/biome_modifier/mycenae_blobs_biome_modifier.json",
-          "src/main/resources/data/reworld/worldgen/placed_feature/mycenae_blobs.json"
+          "src/main/resources/data/reworld/worldgen/configured_feature/mycenae_blobs.json",
+          "src/main/java/net/mcreator/reworld/world/features/MycenaeBlobsFeature.java"
         ]
       },
       "path": "~/Biomes/Biome Features"
@@ -6456,9 +6455,9 @@
       "registry_name": "alive_snowy_ice",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/client/renderer/AliveSnowyIceRenderer.java",
           "src/main/java/net/mcreator/reworld/entity/AliveSnowyIceEntity.java",
           "src/main/resources/assets/reworld/models/item/alive_snowy_ice_spawn_egg.json",
+          "src/main/java/net/mcreator/reworld/client/renderer/AliveSnowyIceRenderer.java",
           "src/main/resources/data/reworld/forge/biome_modifier/alive_snowy_ice_biome_modifier.json"
         ]
       },
@@ -6473,10 +6472,10 @@
       "registry_name": "white_bellied_minago_bird",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/client/renderer/WhiteBelliedMinagoBirdRenderer.java",
-          "src/main/resources/assets/reworld/models/item/white_bellied_minago_bird_spawn_egg.json",
+          "src/main/resources/data/reworld/forge/biome_modifier/white_bellied_minago_bird_biome_modifier.json",
           "src/main/java/net/mcreator/reworld/entity/WhiteBelliedMinagoBirdEntity.java",
-          "src/main/resources/data/reworld/forge/biome_modifier/white_bellied_minago_bird_biome_modifier.json"
+          "src/main/java/net/mcreator/reworld/client/renderer/WhiteBelliedMinagoBirdRenderer.java",
+          "src/main/resources/assets/reworld/models/item/white_bellied_minago_bird_spawn_egg.json"
         ]
       },
       "path": "~/Enitity/Ambient"
@@ -6490,10 +6489,10 @@
       "registry_name": "tamorindic_luna_butterfly",
       "metadata": {
         "files": [
-          "src/main/resources/data/reworld/forge/biome_modifier/tamorindic_luna_butterfly_biome_modifier.json",
           "src/main/java/net/mcreator/reworld/client/renderer/TamorindicLunaButterflyRenderer.java",
-          "src/main/resources/assets/reworld/models/item/tamorindic_luna_butterfly_spawn_egg.json",
-          "src/main/java/net/mcreator/reworld/entity/TamorindicLunaButterflyEntity.java"
+          "src/main/java/net/mcreator/reworld/entity/TamorindicLunaButterflyEntity.java",
+          "src/main/resources/data/reworld/forge/biome_modifier/tamorindic_luna_butterfly_biome_modifier.json",
+          "src/main/resources/assets/reworld/models/item/tamorindic_luna_butterfly_spawn_egg.json"
         ]
       },
       "path": "~/Enitity/Ambient"
@@ -6507,9 +6506,9 @@
       "registry_name": "alive_blue_pomegranate_stone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/client/renderer/AliveBluePomegranateStoneRenderer.java",
           "src/main/java/net/mcreator/reworld/entity/AliveBluePomegranateStoneEntity.java",
           "src/main/resources/assets/reworld/models/item/alive_blue_pomegranate_stone_spawn_egg.json",
+          "src/main/java/net/mcreator/reworld/client/renderer/AliveBluePomegranateStoneRenderer.java",
           "src/main/resources/data/reworld/forge/biome_modifier/alive_blue_pomegranate_stone_biome_modifier.json"
         ]
       },
@@ -6524,8 +6523,8 @@
       "registry_name": "poisoned_blue_mycenae",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/entity/PoisonedBlueMycenaeEntity.java",
-          "src/main/java/net/mcreator/reworld/client/renderer/PoisonedBlueMycenaeRenderer.java"
+          "src/main/java/net/mcreator/reworld/client/renderer/PoisonedBlueMycenaeRenderer.java",
+          "src/main/java/net/mcreator/reworld/entity/PoisonedBlueMycenaeEntity.java"
         ]
       },
       "path": "~/Enitity/Technical"
@@ -6555,10 +6554,10 @@
       "registry_name": "mycenae_morpho",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/item/mycenae_morpho_spawn_egg.json",
+          "src/main/java/net/mcreator/reworld/entity/MycenaeMorphoEntity.java",
           "src/main/java/net/mcreator/reworld/client/renderer/MycenaeMorphoRenderer.java",
-          "src/main/resources/data/reworld/forge/biome_modifier/mycenae_morpho_biome_modifier.json",
-          "src/main/java/net/mcreator/reworld/entity/MycenaeMorphoEntity.java"
+          "src/main/resources/assets/reworld/models/item/mycenae_morpho_spawn_egg.json",
+          "src/main/resources/data/reworld/forge/biome_modifier/mycenae_morpho_biome_modifier.json"
         ]
       },
       "path": "~/Enitity/Ambient"
@@ -6588,10 +6587,10 @@
       "registry_name": "wild_blooming_jungle_trees",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/world/features/WildBloomingJungleTreesFeature.java",
-          "src/main/resources/data/reworld/worldgen/configured_feature/wild_blooming_jungle_trees.json",
+          "src/main/resources/data/reworld/worldgen/placed_feature/wild_blooming_jungle_trees.json",
           "src/main/resources/data/reworld/forge/biome_modifier/wild_blooming_jungle_trees_biome_modifier.json",
-          "src/main/resources/data/reworld/worldgen/placed_feature/wild_blooming_jungle_trees.json"
+          "src/main/resources/data/reworld/worldgen/configured_feature/wild_blooming_jungle_trees.json",
+          "src/main/java/net/mcreator/reworld/world/features/WildBloomingJungleTreesFeature.java"
         ]
       },
       "path": "~/Biomes/Biome Features"
@@ -6694,8 +6693,8 @@
       "block.reworld.eritieric_log": "Эритиериковое бревно",
       "block.reworld.clovers_grass": "Клевер",
       "block.reworld.choco": "Чоко",
-      "item.reworld.blue_mycenae_food": "Синяя мюцена",
       "block.reworld.black_pepper": "Куст черного перца",
+      "item.reworld.blue_mycenae_food": "Синяя мюцена",
       "block.reworld.fibrous_bush": "§aВолокна",
       "item.reworld.snowy_icy_creature_spawn_egg": "Snowy Icy Creature Spawn Egg",
       "effect.reworld.powerof_forest": "Сила леса",
@@ -6866,8 +6865,8 @@
       "block.reworld.eritieric_log": "Eritieric Log",
       "block.reworld.clovers_grass": "Clovers Grass",
       "block.reworld.choco": "Choco",
-      "block.reworld.black_pepper": "Black Pepper Bush",
       "item.reworld.blue_mycenae_food": "Blue Mycenae",
+      "block.reworld.black_pepper": "Black Pepper Bush",
       "block.reworld.fibrous_bush": "§aFiber",
       "item.reworld.snowy_icy_creature_spawn_egg": "Snowy Icy Creature Spawn Egg",
       "effect.reworld.powerof_forest": "Power of the Forest",
@@ -7038,8 +7037,8 @@
       "block.reworld.eritieric_log": "Ерітерична колода",
       "block.reworld.clovers_grass": "Конюшинова трава",
       "block.reworld.choco": "Чоко",
-      "item.reworld.blue_mycenae_food": "Синя мюцена",
       "block.reworld.black_pepper": "Кущ чорного перцю",
+      "item.reworld.blue_mycenae_food": "Синя мюцена",
       "block.reworld.fibrous_bush": "§aВолокняна трава",
       "item.reworld.snowy_icy_creature_spawn_egg": "Snowy Icy Creature Spawn Egg",
       "effect.reworld.powerof_forest": "Сила лісу",
@@ -7324,5 +7323,5 @@
     "modElementsPackage": "net.mcreator.reworld",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300222518
+  "mcreatorVersion": 202300336712
 }
