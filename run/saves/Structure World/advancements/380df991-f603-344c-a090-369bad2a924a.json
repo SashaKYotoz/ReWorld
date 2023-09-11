@@ -1,37 +1,139 @@
 {
   "reworld:rebirthofyourworld": {
     "criteria": {
-      "rebirthofyourworld": "2023-06-05 10:42:47 +0700"
+      "rebirthofyourworld": "2023-06-05 06:42:47 +0300"
     },
     "done": true
   },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2023-06-05 10:42:47 +0700"
+      "unlock_right_away": "2023-06-05 06:42:47 +0300"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:jungle": "2023-06-05 10:42:48 +0700"
+      "minecraft:jungle": "2023-06-05 06:42:48 +0300"
     },
     "done": false
   },
-  "minecraft:recipes/misc/stick": {
+  "minecraft:adventure/root": {
     "criteria": {
-      "has_planks": "2023-06-05 11:10:22 +0700"
+      "killed_something": "2023-06-05 07:04:09 +0300"
     },
     "done": true
   },
-  "minecraft:adventure/root": {
+  "minecraft:recipes/misc/stick": {
     "criteria": {
-      "killed_something": "2023-06-05 11:04:09 +0700"
+      "has_planks": "2023-06-05 07:10:22 +0300"
     },
     "done": true
   },
   "minecraft:recipes/decorations/barrel": {
     "criteria": {
-      "has_planks": "2023-06-05 11:10:22 +0700"
+      "has_planks": "2023-06-05 07:10:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-09-11 23:19:47 +0300"
+    },
+    "done": true
+  },
+  "reworld:slay_ent": {
+    "criteria": {
+      "slay_ent": "2023-09-11 23:16:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2023-09-11 23:17:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-09-11 23:21:45 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2023-09-11 23:19:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2023-09-11 23:19:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2023-09-11 23:19:33 +0300"
+    },
+    "done": true
+  },
+  "reworld:snowy_icy_creature_slayed": {
+    "criteria": {
+      "snowy_icy_creature_slayed": "2023-09-11 23:16:05 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2023-09-11 23:19:47 +0300"
+    },
+    "done": true
+  },
+  "reworld:mushroom_golem_slayed": {
+    "criteria": {
+      "mushroom_golem_slayed": "2023-09-11 23:16:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-09-11 23:15:27 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2023-09-11 23:19:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2023-09-11 23:19:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2023-09-11 23:19:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-09-11 23:19:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2023-09-11 23:21:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2023-09-11 23:17:33 +0300"
     },
     "done": true
   },
