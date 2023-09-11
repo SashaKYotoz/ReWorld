@@ -3,6 +3,7 @@
   "biomes": [
     "bamboo_jungle",
     "sparse_jungle",
+    "plains",
     "jungle"
   ],
   "features": "reworld:jungle_ruins_variant_2",

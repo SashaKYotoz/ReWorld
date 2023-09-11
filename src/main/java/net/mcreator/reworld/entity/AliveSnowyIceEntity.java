@@ -70,7 +70,7 @@ public class AliveSnowyIceEntity extends Monster {
 		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, PiglinBrute.class, false, true));
 		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, Player.class, false, true));
 		this.goalSelector.addGoal(5, new RandomStrollGoal(this, 0.8));
-		this.goalSelector.addGoal(6, new FollowMobGoal(this, (float) 1, 8, 4));
+		this.goalSelector.addGoal(6, new FollowMobGoal(this, 1, (float) 8, (float) 4));
 		this.targetSelector.addGoal(7, new HurtByTargetGoal(this));
 		this.goalSelector.addGoal(8, new LeapAtTargetGoal(this, (float) 0.75));
 		this.goalSelector.addGoal(9, new RandomLookAroundGoal(this));

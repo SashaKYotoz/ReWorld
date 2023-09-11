@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "function",
   "definition": {
     "code": "execute as @e[type=minecraft:armor_stand,tag=!noarms] run data merge entity @s {ShowArms:1b}",

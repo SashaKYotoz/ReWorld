@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "branch_of_black_pepper",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Branch Of Black Peppers",
     "rarity": "COMMON",
     "creativeTab": {

@@ -72,7 +72,7 @@ public class TamorindicLunaButterflyEntity extends PathfinderMob {
 				return new Vec3(dir_x, dir_y, dir_z);
 			}
 		});
-		this.goalSelector.addGoal(2, new FollowMobGoal(this, (float) 1, 12, 4));
+		this.goalSelector.addGoal(2, new FollowMobGoal(this, 1, (float) 12, (float) 4));
 		this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(4, new FloatGoal(this));
 		this.goalSelector.addGoal(5, new LeapAtTargetGoal(this, (float) 0.5));

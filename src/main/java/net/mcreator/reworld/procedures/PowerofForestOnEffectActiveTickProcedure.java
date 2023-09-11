@@ -16,10 +16,7 @@ public class PowerofForestOnEffectActiveTickProcedure {
 			return;
 		entity.makeStuckInBlock(Blocks.AIR.defaultBlockState(), new Vec3(0.25, 0.05, 0.25));
 		ReworldMod.queueServerWork(50, () -> {
-			{
-				Entity _entToDamage = entity;
-				_entToDamage.hurt(new DamageSource(_entToDamage.level.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.CACTUS)), 1);
-			}
+			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.CACTUS)), 1);
 		});
 	}
 }

@@ -19,6 +19,6 @@ public class ReworldikonItem extends Item {
 
 	@Override
 	public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
-		return 99999F;
+		return 99999f;
 	}
 }

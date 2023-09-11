@@ -1,6 +1,9 @@
 {
   "type": "forge:add_features",
-  "biomes": "mushroom_fields",
+  "biomes": [
+    "mushroom_fields",
+    "plains"
+  ],
   "features": "reworld:big_mushroom",
   "step": "surface_structures"
 }

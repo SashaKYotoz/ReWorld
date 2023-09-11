@@ -12,8 +12,6 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.core.BlockPos;
 
-import java.util.List;
-
 import com.google.common.collect.Multimap;
 import com.google.common.collect.ImmutableMultimap;
 
@@ -24,7 +22,7 @@ public class ForestknifeItem extends Item {
 
 	@Override
 	public float getDestroySpeed(ItemStack itemstack, BlockState blockstate) {
-		return List.of().contains(blockstate.getBlock()) ? 1f : 1;
+		return false ? 1f : 1;
 	}
 
 	@Override

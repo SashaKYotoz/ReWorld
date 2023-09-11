@@ -1,6 +1,9 @@
 {
   "type": "forge:add_features",
-  "biomes": "swamp",
+  "biomes": [
+    "plains",
+    "swamp"
+  ],
   "features": "reworld:willow_tree",
   "step": "surface_structures"
 }

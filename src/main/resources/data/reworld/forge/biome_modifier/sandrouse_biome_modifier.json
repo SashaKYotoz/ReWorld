@@ -1,6 +1,9 @@
 {
   "type": "forge:add_features",
-  "biomes": "desert",
+  "biomes": [
+    "plains",
+    "desert"
+  ],
   "features": "reworld:sandrouse",
   "step": "vegetal_decoration"
 }

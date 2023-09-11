@@ -68,7 +68,7 @@ public class AliveBluePomegranateStoneEntity extends Monster {
 		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, Creeper.class, false, true));
 		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Player.class, false, true));
 		this.goalSelector.addGoal(4, new RandomStrollGoal(this, 0.8));
-		this.goalSelector.addGoal(5, new FollowMobGoal(this, (float) 1, 8, 4));
+		this.goalSelector.addGoal(5, new FollowMobGoal(this, 1, (float) 8, (float) 4));
 		this.targetSelector.addGoal(6, new HurtByTargetGoal(this));
 		this.goalSelector.addGoal(7, new LeapAtTargetGoal(this, (float) 0.75));
 		this.goalSelector.addGoal(8, new RandomLookAroundGoal(this));

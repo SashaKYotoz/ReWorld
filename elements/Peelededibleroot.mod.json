@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "peeled_edible_root",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Peeled edible root",
     "rarity": "COMMON",
     "creativeTab": {

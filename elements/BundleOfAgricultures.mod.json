@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "open_bundle_of_agricultures",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Bundle Of Agricultures",
     "rarity": "COMMON",
     "creativeTab": {

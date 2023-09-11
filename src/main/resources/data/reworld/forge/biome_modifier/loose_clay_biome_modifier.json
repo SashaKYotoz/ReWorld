@@ -2,6 +2,7 @@
   "type": "forge:add_features",
   "biomes": [
     "reworld:tamorindric_forest",
+    "plains",
     "swamp"
   ],
   "features": "reworld:loose_clay",

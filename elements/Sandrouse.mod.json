@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "plant",
   "definition": {
     "renderType": 12,
@@ -11,12 +11,10 @@
     "tintType": "No tint",
     "isItemTinted": false,
     "plantType": "normal",
-    "staticPlantGenerationType": "Flower",
     "suspiciousStewEffect": "SLOWNESS",
     "suspiciousStewDuration": 100,
     "growapableSpawnType": "Desert",
     "growapableMaxHeight": 3,
-    "doublePlantGenerationType": "Flower",
     "customBoundingBox": false,
     "disableOffset": false,
     "boundingBoxes": [
@@ -111,6 +109,7 @@
         "value": "mutated_desert"
       }
     ],
+    "generationType": "Flower",
     "patchSize": 64,
     "generateAtAnyHeight": false,
     "onEntityCollides": {
