@@ -49,6 +49,7 @@ import net.mcreator.reworld.block.MelothriaBlock;
 import net.mcreator.reworld.block.LooseClayBlock;
 import net.mcreator.reworld.block.HangingCocoaBlock;
 import net.mcreator.reworld.block.GrownPitayaBlock;
+import net.mcreator.reworld.block.GreeneastersaplingBlock;
 import net.mcreator.reworld.block.GreenAsterBlock;
 import net.mcreator.reworld.block.FibrousBushBlock;
 import net.mcreator.reworld.block.FiberBlockBlock;
@@ -176,6 +177,7 @@ public class ReworldModBlocks {
 	public static final RegistryObject<Block> BLACK_PEPPER_BUSH = REGISTRY.register("black_pepper_bush", () -> new BlackPepperBushBlock());
 	public static final RegistryObject<Block> REDSTONE_PISTON_SPIKES_ACTIVATED = REGISTRY.register("redstone_piston_spikes_activated", () -> new RedstonePistonSpikesActivatedBlock());
 	public static final RegistryObject<Block> GROWN_PITAYA = REGISTRY.register("grown_pitaya", () -> new GrownPitayaBlock());
+	public static final RegistryObject<Block> GREENEASTERSAPLING = REGISTRY.register("greeneastersapling", () -> new GreeneastersaplingBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

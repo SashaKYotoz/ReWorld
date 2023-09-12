@@ -29,6 +29,7 @@ import net.mcreator.reworld.item.HeartOfMushroomsItem;
 import net.mcreator.reworld.item.HeartOfIceItem;
 import net.mcreator.reworld.item.HeartOfForestItem;
 import net.mcreator.reworld.item.FurredIcyItem;
+import net.mcreator.reworld.item.FriedchufaItem;
 import net.mcreator.reworld.item.FreezingSkewerRangedItemItem;
 import net.mcreator.reworld.item.FreezingSkewerItem;
 import net.mcreator.reworld.item.ForestknifeItem;
@@ -179,6 +180,8 @@ public class ReworldModItems {
 	public static final RegistryObject<Item> FREEZING_SKEWER_RANGED_ITEM = REGISTRY.register("freezing_skewer_ranged_item", () -> new FreezingSkewerRangedItemItem());
 	public static final RegistryObject<Item> REDSTONE_PISTON_SPIKES_ACTIVATED = block(ReworldModBlocks.REDSTONE_PISTON_SPIKES_ACTIVATED);
 	public static final RegistryObject<Item> GROWN_PITAYA = block(ReworldModBlocks.GROWN_PITAYA);
+	public static final RegistryObject<Item> GREENEASTERSAPLING = block(ReworldModBlocks.GREENEASTERSAPLING);
+	public static final RegistryObject<Item> FRIEDCHUFA = REGISTRY.register("friedchufa", () -> new FriedchufaItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

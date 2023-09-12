@@ -137,6 +137,8 @@ public class ReworldModTabs {
 					tabData.accept(ReworldModItems.BIG_INCENSE_BURNER_SPAWN_EGG.get());
 					tabData.accept(ReworldModItems.MYCENAE_MORPHO_SPAWN_EGG.get());
 					tabData.accept(ReworldModItems.POMEGRANATE_STONE_GOLEM_SPAWN_EGG.get());
+					tabData.accept(ReworldModBlocks.GREENEASTERSAPLING.get().asItem());
+					tabData.accept(ReworldModItems.FRIEDCHUFA.get());
 				}).withSearchBar());
 	}
 }

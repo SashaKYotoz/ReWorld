@@ -46,7 +46,7 @@ public class ReworldModEntities {
 	public static final RegistryObject<EntityType<AliveSnowyIceEntity>> ALIVE_SNOWY_ICE = register("alive_snowy_ice",
 			EntityType.Builder.<AliveSnowyIceEntity>of(AliveSnowyIceEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AliveSnowyIceEntity::new)
 
-					.sized(0.9f, 1f));
+					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<WhiteBelliedMinagoBirdEntity>> WHITE_BELLIED_MINAGO_BIRD = register("white_bellied_minago_bird",
 			EntityType.Builder.<WhiteBelliedMinagoBirdEntity>of(WhiteBelliedMinagoBirdEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 					.setCustomClientFactory(WhiteBelliedMinagoBirdEntity::new)
@@ -59,7 +59,7 @@ public class ReworldModEntities {
 					.sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<AliveBluePomegranateStoneEntity>> ALIVE_BLUE_POMEGRANATE_STONE = register("alive_blue_pomegranate_stone",
 			EntityType.Builder.<AliveBluePomegranateStoneEntity>of(AliveBluePomegranateStoneEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-					.setCustomClientFactory(AliveBluePomegranateStoneEntity::new).fireImmune().sized(0.6f, 1f));
+					.setCustomClientFactory(AliveBluePomegranateStoneEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<PoisonedBlueMycenaeEntity>> POISONED_BLUE_MYCENAE = register("poisoned_blue_mycenae",
 			EntityType.Builder.<PoisonedBlueMycenaeEntity>of(PoisonedBlueMycenaeEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PoisonedBlueMycenaeEntity::new)
 
