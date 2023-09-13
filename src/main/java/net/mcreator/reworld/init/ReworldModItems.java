@@ -34,8 +34,10 @@ import net.mcreator.reworld.item.FreezingSkewerRangedItemItem;
 import net.mcreator.reworld.item.FreezingSkewerItem;
 import net.mcreator.reworld.item.ForestknifeItem;
 import net.mcreator.reworld.item.ForestbowItem;
+import net.mcreator.reworld.item.FlourItem;
 import net.mcreator.reworld.item.FiberyHeartedItem;
 import net.mcreator.reworld.item.EdiblerootsItem;
+import net.mcreator.reworld.item.DoughItem;
 import net.mcreator.reworld.item.CrystalizedPomegranateScytheItem;
 import net.mcreator.reworld.item.ChufaFoodItem;
 import net.mcreator.reworld.item.ChorusciderItem;
@@ -44,6 +46,7 @@ import net.mcreator.reworld.item.BundleOfAgriculturesItem;
 import net.mcreator.reworld.item.BrokenTotemofUndyingItem;
 import net.mcreator.reworld.item.BranchOfBlackPeppersItem;
 import net.mcreator.reworld.item.BlueMycenaeFoodItem;
+import net.mcreator.reworld.item.BlandbreadItem;
 import net.mcreator.reworld.item.AppleciderItem;
 import net.mcreator.reworld.ReworldMod;
 
@@ -181,7 +184,10 @@ public class ReworldModItems {
 	public static final RegistryObject<Item> REDSTONE_PISTON_SPIKES_ACTIVATED = block(ReworldModBlocks.REDSTONE_PISTON_SPIKES_ACTIVATED);
 	public static final RegistryObject<Item> GROWN_PITAYA = block(ReworldModBlocks.GROWN_PITAYA);
 	public static final RegistryObject<Item> GREENEASTERSAPLING = block(ReworldModBlocks.GREENEASTERSAPLING);
-	public static final RegistryObject<Item> FRIEDCHUFA = REGISTRY.register("friedchufa", () -> new FriedchufaItem());
+	public static final RegistryObject<Item> FRIED_CHUFA = REGISTRY.register("fried_chufa", () -> new FriedchufaItem());
+	public static final RegistryObject<Item> FLOUR = REGISTRY.register("flour", () -> new FlourItem());
+	public static final RegistryObject<Item> COMMON_DOUGH = REGISTRY.register("common_dough", () -> new DoughItem());
+	public static final RegistryObject<Item> BLAND_BREAD = REGISTRY.register("bland_bread", () -> new BlandbreadItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

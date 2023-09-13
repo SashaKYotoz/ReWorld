@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "group": "bread",
+  "category": "food",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "reworld:common_dough"
+  },
+  "result": "minecraft:bread"
+}

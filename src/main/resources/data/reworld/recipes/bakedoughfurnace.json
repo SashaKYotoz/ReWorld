@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "bread",
+  "category": "food",
+  "experience": 1.5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "reworld:common_dough"
+  },
+  "result": "minecraft:bread"
+}

@@ -1,0 +1,36 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Choco"
+      },
+      {
+        "value": "CUSTOM:Sandrouse"
+      },
+      {
+        "value": "CUSTOM:GreenAster"
+      },
+      {
+        "value": "CUSTOM:OrangeAster"
+      },
+      {
+        "value": "CUSTOM:Greeneastersapling"
+      },
+      {
+        "value": "CUSTOM:Crocus"
+      },
+      {
+        "value": "CUSTOM:BlueMycenae"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "small_flowers",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "group": "bread",
+  "category": "food",
+  "experience": 3,
+  "cookingtime": 700,
+  "ingredient": {
+    "item": "reworld:common_dough"
+  },
+  "result": "minecraft:bread"
+}

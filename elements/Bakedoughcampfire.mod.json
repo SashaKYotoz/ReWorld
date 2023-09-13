@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "recipeRetstackSize": 1,
+    "group": "bread",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 3.0,
+    "cookingTime": 700,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "CUSTOM:Dough"
+    },
+    "campfireCookingReturnStack": {
+      "value": "Items.BREAD"
+    },
+    "name": "bakedoughcampfire",
+    "namespace": "mod"
+  }
+}

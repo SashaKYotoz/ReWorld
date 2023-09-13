@@ -71,7 +71,7 @@
       "value": ""
     },
     "offsetType": "XZ",
-    "aiPathNodeType": "DANGER_CACTUS",
+    "aiPathNodeType": "DEFAULT",
     "flammability": 100,
     "fireSpreadSpeed": 60,
     "jumpFactor": 1.0,
