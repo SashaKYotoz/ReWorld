@@ -3468,6 +3468,18 @@
             "type": "entity"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -6455,10 +6467,10 @@
       "registry_name": "alive_snowy_ice",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/entity/AliveSnowyIceEntity.java",
-          "src/main/resources/assets/reworld/models/item/alive_snowy_ice_spawn_egg.json",
           "src/main/java/net/mcreator/reworld/client/renderer/AliveSnowyIceRenderer.java",
-          "src/main/resources/data/reworld/forge/biome_modifier/alive_snowy_ice_biome_modifier.json"
+          "src/main/java/net/mcreator/reworld/entity/AliveSnowyIceEntity.java",
+          "src/main/resources/data/reworld/forge/biome_modifier/alive_snowy_ice_biome_modifier.json",
+          "src/main/resources/assets/reworld/models/item/alive_snowy_ice_spawn_egg.json"
         ]
       },
       "path": "~/Enitity"
@@ -6489,10 +6501,10 @@
       "registry_name": "tamorindic_luna_butterfly",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/client/renderer/TamorindicLunaButterflyRenderer.java",
           "src/main/java/net/mcreator/reworld/entity/TamorindicLunaButterflyEntity.java",
+          "src/main/resources/assets/reworld/models/item/tamorindic_luna_butterfly_spawn_egg.json",
           "src/main/resources/data/reworld/forge/biome_modifier/tamorindic_luna_butterfly_biome_modifier.json",
-          "src/main/resources/assets/reworld/models/item/tamorindic_luna_butterfly_spawn_egg.json"
+          "src/main/java/net/mcreator/reworld/client/renderer/TamorindicLunaButterflyRenderer.java"
         ]
       },
       "path": "~/Enitity/Ambient"
@@ -6506,10 +6518,10 @@
       "registry_name": "alive_blue_pomegranate_stone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/entity/AliveBluePomegranateStoneEntity.java",
-          "src/main/resources/assets/reworld/models/item/alive_blue_pomegranate_stone_spawn_egg.json",
           "src/main/java/net/mcreator/reworld/client/renderer/AliveBluePomegranateStoneRenderer.java",
-          "src/main/resources/data/reworld/forge/biome_modifier/alive_blue_pomegranate_stone_biome_modifier.json"
+          "src/main/resources/data/reworld/forge/biome_modifier/alive_blue_pomegranate_stone_biome_modifier.json",
+          "src/main/resources/assets/reworld/models/item/alive_blue_pomegranate_stone_spawn_egg.json",
+          "src/main/java/net/mcreator/reworld/entity/AliveBluePomegranateStoneEntity.java"
         ]
       },
       "path": "~/Enitity"
@@ -6556,8 +6568,8 @@
         "files": [
           "src/main/java/net/mcreator/reworld/entity/MycenaeMorphoEntity.java",
           "src/main/java/net/mcreator/reworld/client/renderer/MycenaeMorphoRenderer.java",
-          "src/main/resources/assets/reworld/models/item/mycenae_morpho_spawn_egg.json",
-          "src/main/resources/data/reworld/forge/biome_modifier/mycenae_morpho_biome_modifier.json"
+          "src/main/resources/data/reworld/forge/biome_modifier/mycenae_morpho_biome_modifier.json",
+          "src/main/resources/assets/reworld/models/item/mycenae_morpho_spawn_egg.json"
         ]
       },
       "path": "~/Enitity/Ambient"
@@ -6788,19 +6800,46 @@
       "path": "~/Recipe"
     },
     {
-      "name": "Livejuice",
-      "type": "item",
+      "name": "SmallFlowerBlocks",
+      "type": "tag",
       "sortid": 374,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "live_juice",
+      "registry_name": "small_flower_blocks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/item/live_juice.json",
-          "src/main/java/net/mcreator/reworld/item/LivejuiceItem.java"
+          "src/main/resources/data/minecraft/tags/blocks/small_flowers.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Tags"
+    },
+    {
+      "name": "TallFlowerBlocks",
+      "type": "tag",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_flower_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/tall_flowers.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "SmallFlowerItems",
+      "type": "tag",
+      "sortid": 376,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_flower_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/small_flowers.json"
+        ]
+      },
+      "path": "~/Tags"
     }
   ],
   "variable_elements": [],
@@ -6832,7 +6871,6 @@
       "item.reworld.bland_bread": "Bland Bread",
       "block.reworld.fibrous_bush": "§aВолокна",
       "item.reworld.snowy_icy_creature_spawn_egg": "Snowy Icy Creature Spawn Egg",
-      "item.reworld.live_juice": "Live Juice",
       "effect.reworld.powerof_forest": "Сила леса",
       "advancements.rebirthofyourworld.title": "§aПробуждение §2вашего §eмира",
       "block.reworld.sandrouse": "Песчаная роза",
@@ -7010,7 +7048,6 @@
       "item.reworld.bland_bread": "Bland Bread",
       "block.reworld.fibrous_bush": "§aFiber",
       "item.reworld.snowy_icy_creature_spawn_egg": "Snowy Icy Creature Spawn Egg",
-      "item.reworld.live_juice": "Live Juice",
       "effect.reworld.powerof_forest": "Power of the Forest",
       "advancements.rebirthofyourworld.title": "§aRebirth §2of your §eworld",
       "block.reworld.sandrouse": "Sand Rouse",
@@ -7188,7 +7225,6 @@
       "item.reworld.bland_bread": "Bland Bread",
       "block.reworld.fibrous_bush": "§aВолокняна трава",
       "item.reworld.snowy_icy_creature_spawn_egg": "Snowy Icy Creature Spawn Egg",
-      "item.reworld.live_juice": "Live Juice",
       "effect.reworld.powerof_forest": "Сила лісу",
       "advancements.rebirthofyourworld.title": "§aНове розквітання §2вашого §eсвіту",
       "block.reworld.sandrouse": "Піскова троянда",

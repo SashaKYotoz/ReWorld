@@ -4,9 +4,12 @@
   "definition": {
     "mobName": "Tamorindic Luna Butterfly",
     "mobLabel": "",
-    "mobModelName": "Biped",
+    "mobModelName": "Modelluna_butterfly",
     "mobModelTexture": "luna_butterfly.png",
     "mobModelGlowTexture": "",
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
     "modelWidth": 0.5,
     "modelHeight": 0.5,
     "modelShadowSize": 0.5,

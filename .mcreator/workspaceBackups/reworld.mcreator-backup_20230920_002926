@@ -3468,6 +3468,18 @@
             "type": "entity"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -6451,14 +6463,14 @@
       "type": "livingentity",
       "sortid": 104,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "alive_snowy_ice",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/entity/AliveSnowyIceEntity.java",
-          "src/main/resources/assets/reworld/models/item/alive_snowy_ice_spawn_egg.json",
           "src/main/java/net/mcreator/reworld/client/renderer/AliveSnowyIceRenderer.java",
-          "src/main/resources/data/reworld/forge/biome_modifier/alive_snowy_ice_biome_modifier.json"
+          "src/main/java/net/mcreator/reworld/entity/AliveSnowyIceEntity.java",
+          "src/main/resources/data/reworld/forge/biome_modifier/alive_snowy_ice_biome_modifier.json",
+          "src/main/resources/assets/reworld/models/item/alive_snowy_ice_spawn_egg.json"
         ]
       },
       "path": "~/Enitity"
@@ -6468,13 +6480,13 @@
       "type": "livingentity",
       "sortid": 105,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "white_bellied_minago_bird",
       "metadata": {
         "files": [
-          "src/main/resources/data/reworld/forge/biome_modifier/white_bellied_minago_bird_biome_modifier.json",
           "src/main/java/net/mcreator/reworld/entity/WhiteBelliedMinagoBirdEntity.java",
           "src/main/java/net/mcreator/reworld/client/renderer/WhiteBelliedMinagoBirdRenderer.java",
+          "src/main/resources/data/reworld/forge/biome_modifier/white_bellied_minago_bird_biome_modifier.json",
           "src/main/resources/assets/reworld/models/item/white_bellied_minago_bird_spawn_egg.json"
         ]
       },
@@ -6485,14 +6497,14 @@
       "type": "livingentity",
       "sortid": 106,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "tamorindic_luna_butterfly",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/client/renderer/TamorindicLunaButterflyRenderer.java",
           "src/main/java/net/mcreator/reworld/entity/TamorindicLunaButterflyEntity.java",
+          "src/main/resources/assets/reworld/models/item/tamorindic_luna_butterfly_spawn_egg.json",
           "src/main/resources/data/reworld/forge/biome_modifier/tamorindic_luna_butterfly_biome_modifier.json",
-          "src/main/resources/assets/reworld/models/item/tamorindic_luna_butterfly_spawn_egg.json"
+          "src/main/java/net/mcreator/reworld/client/renderer/TamorindicLunaButterflyRenderer.java"
         ]
       },
       "path": "~/Enitity/Ambient"
@@ -6502,14 +6514,14 @@
       "type": "livingentity",
       "sortid": 107,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "alive_blue_pomegranate_stone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/entity/AliveBluePomegranateStoneEntity.java",
-          "src/main/resources/assets/reworld/models/item/alive_blue_pomegranate_stone_spawn_egg.json",
           "src/main/java/net/mcreator/reworld/client/renderer/AliveBluePomegranateStoneRenderer.java",
-          "src/main/resources/data/reworld/forge/biome_modifier/alive_blue_pomegranate_stone_biome_modifier.json"
+          "src/main/resources/data/reworld/forge/biome_modifier/alive_blue_pomegranate_stone_biome_modifier.json",
+          "src/main/resources/assets/reworld/models/item/alive_blue_pomegranate_stone_spawn_egg.json",
+          "src/main/java/net/mcreator/reworld/entity/AliveBluePomegranateStoneEntity.java"
         ]
       },
       "path": "~/Enitity"
@@ -6519,7 +6531,7 @@
       "type": "livingentity",
       "sortid": 108,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "poisoned_blue_mycenae",
       "metadata": {
         "files": [
@@ -6550,14 +6562,14 @@
       "type": "livingentity",
       "sortid": 110,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "mycenae_morpho",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/reworld/entity/MycenaeMorphoEntity.java",
           "src/main/java/net/mcreator/reworld/client/renderer/MycenaeMorphoRenderer.java",
-          "src/main/resources/assets/reworld/models/item/mycenae_morpho_spawn_egg.json",
-          "src/main/resources/data/reworld/forge/biome_modifier/mycenae_morpho_biome_modifier.json"
+          "src/main/resources/data/reworld/forge/biome_modifier/mycenae_morpho_biome_modifier.json",
+          "src/main/resources/assets/reworld/models/item/mycenae_morpho_spawn_egg.json"
         ]
       },
       "path": "~/Enitity/Ambient"
@@ -6691,10 +6703,10 @@
       "sortid": 367,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "friedchufa",
+      "registry_name": "fried_chufa",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reworld/models/item/friedchufa.json",
+          "src/main/resources/assets/reworld/models/item/fried_chufa.json",
           "src/main/java/net/mcreator/reworld/item/FriedchufaItem.java"
         ]
       },
@@ -6750,11 +6762,11 @@
       "sortid": 371,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blandbread",
+      "registry_name": "bland_bread",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/reworld/item/BlandbreadItem.java",
-          "src/main/resources/assets/reworld/models/item/blandbread.json"
+          "src/main/resources/assets/reworld/models/item/bland_bread.json"
         ]
       },
       "path": "~/Items"
@@ -6788,19 +6800,46 @@
       "path": "~/Recipe"
     },
     {
-      "name": "Livejuice",
-      "type": "item",
+      "name": "SmallFlowerBlocks",
+      "type": "tag",
       "sortid": 374,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "livejuice",
+      "registry_name": "small_flower_blocks",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/item/LivejuiceItem.java",
-          "src/main/resources/assets/reworld/models/item/livejuice.json"
+          "src/main/resources/data/minecraft/tags/blocks/small_flowers.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Tags"
+    },
+    {
+      "name": "TallFlowerBlocks",
+      "type": "tag",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_flower_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/tall_flowers.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "SmallFlowerItems",
+      "type": "tag",
+      "sortid": 376,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_flower_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/small_flowers.json"
+        ]
+      },
+      "path": "~/Tags"
     }
   ],
   "variable_elements": [],
@@ -6829,6 +6868,7 @@
       "block.reworld.choco": "Чоко",
       "block.reworld.black_pepper": "Куст черного перца",
       "item.reworld.blue_mycenae_food": "Синяя мюцена",
+      "item.reworld.bland_bread": "Bland Bread",
       "block.reworld.fibrous_bush": "§aВолокна",
       "item.reworld.snowy_icy_creature_spawn_egg": "Snowy Icy Creature Spawn Egg",
       "effect.reworld.powerof_forest": "Сила леса",
@@ -6848,7 +6888,6 @@
       "block.reworld.eritieric_fence_gate": "Калитка из эритиерикого дерева",
       "item.reworld.furred_icy_boots": "Меховые ледяные сапоги",
       "biome.reworld.frosty_slippery_valley": "Морозная Скользкая Долина",
-      "item.reworld.blandbread": "Bland Bread",
       "block.reworld.snowy_spruce_sapling": "Саженец снежной ели",
       "block.reworld.eritieric_sapling": "Саженец эритиерикового дерева",
       "item_group.reworld.reworld": "Reworld",
@@ -6869,7 +6908,6 @@
       "item.reworld.common_dough": "Dough",
       "block.reworld.tamorindric_stairs": "Ступеньки из тамориндрикого дерева",
       "advancements.mushroom_golem_slayed.title": "§3Гранитовый голем ликвидирован",
-      "item.reworld.friedchufa": "Chufa",
       "block.reworld.edibleroot": "Семена съедобных корней",
       "subtitles.tamorindric_forest_sound": "Звуки Тамориндрикого Леса",
       "block.reworld.tamorindric_fence": "Забор из тамориндрикого дерева",
@@ -6891,7 +6929,6 @@
       "block.reworld.blue_pomegranate": "Синий гранитовый камень",
       "advancements.icy_mountains.descr": "Войдите в Морозную Скользкую Долину",
       "block.reworld.tamorindric_slab": "Плита из тамориндрикого дерева",
-      "item.reworld.livejuice": "Live Juice",
       "advancements.icy_mountains.title": "Ледяная долина",
       "block.reworld.trap_mossy_blue_pomegranate_plate": "Нажимная плита из голубого замшелого гранита",
       "block.reworld.basalt_brick_wall": "Базальтовая кирпичная стена",
@@ -6972,6 +7009,7 @@
       "block.reworld.snowy_spruce_leaves": "Снежные листья хвои",
       "block.reworld.pitaya": "Питайя",
       "entity.reworld.pomegranate_stone_golem": "§3Pomegranate Stone Golem",
+      "item.reworld.fried_chufa": "Fried Chufa",
       "block.reworld.block_spawn_ent": "Блок спавна Энта",
       "block.reworld.chufa": "Семена чуфы",
       "item.reworld.broken_totemof_undying": "Разбитый Тотем бессмертия",
@@ -7005,8 +7043,9 @@
       "block.reworld.eritieric_log": "Eritieric Log",
       "block.reworld.clovers_grass": "Clovers Grass",
       "block.reworld.choco": "Choco",
-      "item.reworld.blue_mycenae_food": "Blue Mycenae",
+      "item.reworld.bland_bread": "Bland Bread",
       "block.reworld.black_pepper": "Black Pepper Bush",
+      "item.reworld.blue_mycenae_food": "Blue Mycenae",
       "block.reworld.fibrous_bush": "§aFiber",
       "item.reworld.snowy_icy_creature_spawn_egg": "Snowy Icy Creature Spawn Egg",
       "effect.reworld.powerof_forest": "Power of the Forest",
@@ -7026,7 +7065,6 @@
       "block.reworld.eritieric_fence_gate": "Eritieric Fence Gate",
       "item.reworld.furred_icy_boots": "Furred Icy Boots",
       "biome.reworld.frosty_slippery_valley": "Frosty Slippery Valley",
-      "item.reworld.blandbread": "Bland Bread",
       "block.reworld.snowy_spruce_sapling": "Snowy Spruce Sapling",
       "block.reworld.eritieric_sapling": "Eritieric Sapling",
       "item_group.reworld.reworld": "Reworld",
@@ -7047,7 +7085,6 @@
       "item.reworld.common_dough": "Dough",
       "block.reworld.tamorindric_stairs": "Tamorindric Stairs",
       "advancements.mushroom_golem_slayed.title": "§3Pomegranate Golem is liquidated",
-      "item.reworld.friedchufa": "Fried Chufa",
       "block.reworld.edibleroot": "Edible root seeds",
       "subtitles.tamorindric_forest_sound": "Tamorindric Foresst Sound",
       "block.reworld.tamorindric_fence": "Tamorindric Fence",
@@ -7069,7 +7106,6 @@
       "block.reworld.blue_pomegranate": "Blue Pomegranate Stone",
       "advancements.icy_mountains.descr": "Enter in Frosty Slippery Valley",
       "block.reworld.tamorindric_slab": "Tamorindric Slab",
-      "item.reworld.livejuice": "Live Juice",
       "advancements.icy_mountains.title": "Icy Valley",
       "block.reworld.trap_mossy_blue_pomegranate_plate": "Trap Blue Pomegrante Plate",
       "block.reworld.basalt_brick_wall": "Basalt Brick Wall",
@@ -7150,6 +7186,7 @@
       "block.reworld.snowy_spruce_leaves": "Snowy Spruce Leaves",
       "block.reworld.pitaya": "Pitaya",
       "entity.reworld.pomegranate_stone_golem": "§3Pomegranate Stone Golem",
+      "item.reworld.fried_chufa": "Fried Chufa",
       "block.reworld.block_spawn_ent": "Block Spawner of Ent",
       "block.reworld.chufa": "Chufa Seeds",
       "item.reworld.broken_totemof_undying": "Broken Totem of Undying",
@@ -7185,6 +7222,7 @@
       "block.reworld.choco": "Чоко",
       "block.reworld.black_pepper": "Кущ чорного перцю",
       "item.reworld.blue_mycenae_food": "Синя мюцена",
+      "item.reworld.bland_bread": "Bland Bread",
       "block.reworld.fibrous_bush": "§aВолокняна трава",
       "item.reworld.snowy_icy_creature_spawn_egg": "Snowy Icy Creature Spawn Egg",
       "effect.reworld.powerof_forest": "Сила лісу",
@@ -7204,7 +7242,6 @@
       "block.reworld.eritieric_fence_gate": "Ерітерична хвіртка",
       "item.reworld.furred_icy_boots": "Furred Icy Boots",
       "biome.reworld.frosty_slippery_valley": "Морозна слизька долина",
-      "item.reworld.blandbread": "Bland Bread",
       "block.reworld.snowy_spruce_sapling": "Паросток сніжної смереки",
       "block.reworld.eritieric_sapling": "Паросток ерітерії",
       "item_group.reworld.reworld": "Reworld",
@@ -7225,7 +7262,6 @@
       "item.reworld.common_dough": "Dough",
       "block.reworld.tamorindric_stairs": "Сходи з тамориндру",
       "advancements.mushroom_golem_slayed.title": "§3Помегранітовий ґолем ліквідован",
-      "item.reworld.friedchufa": "Chufa",
       "block.reworld.edibleroot": "Насіння їстівного коріння",
       "subtitles.tamorindric_forest_sound": "Звуки тамориндричного лісу",
       "block.reworld.tamorindric_fence": "Тамориндричний паркан",
@@ -7247,7 +7283,6 @@
       "block.reworld.blue_pomegranate": "Синій помегранітовий камень",
       "advancements.icy_mountains.descr": "Увійдіть в Морозну слизьку долину",
       "block.reworld.tamorindric_slab": "Тамориндрична плита",
-      "item.reworld.livejuice": "Live Juice",
       "advancements.icy_mountains.title": "Крижана долина",
       "block.reworld.trap_mossy_blue_pomegranate_plate": "Синя помегранітова пасткова натискна плита",
       "block.reworld.basalt_brick_wall": "Basalt Brick Wall",
@@ -7328,6 +7363,7 @@
       "block.reworld.snowy_spruce_leaves": "Сніжне смерекове листя",
       "block.reworld.pitaya": "Пітайа",
       "entity.reworld.pomegranate_stone_golem": "§3Pomegranate Stone Golem",
+      "item.reworld.fried_chufa": "Fried Chufa",
       "block.reworld.block_spawn_ent": "Блок виклику Ента",
       "block.reworld.chufa": "Насіння чуфи",
       "item.reworld.broken_totemof_undying": "Зламаний Тотем безсмертя",

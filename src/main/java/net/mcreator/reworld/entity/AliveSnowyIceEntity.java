@@ -10,7 +10,6 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.projectile.ThrownPotion;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.monster.piglin.PiglinBrute;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.monster.MagmaCube;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
@@ -67,24 +66,18 @@ public class AliveSnowyIceEntity extends Monster {
 			}
 		});
 		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, MagmaCube.class, false, true));
-		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, PiglinBrute.class, false, true));
-		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, Player.class, false, true));
-		this.goalSelector.addGoal(5, new RandomStrollGoal(this, 0.8));
-		this.goalSelector.addGoal(6, new FollowMobGoal(this, 1, (float) 8, (float) 4));
-		this.targetSelector.addGoal(7, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(8, new LeapAtTargetGoal(this, (float) 0.75));
-		this.goalSelector.addGoal(9, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(10, new FloatGoal(this));
+		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Player.class, false, true));
+		this.goalSelector.addGoal(4, new RandomStrollGoal(this, 0.8));
+		this.goalSelector.addGoal(5, new FollowMobGoal(this, 1, (float) 8, (float) 4));
+		this.targetSelector.addGoal(6, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(7, new LeapAtTargetGoal(this, (float) 0.75));
+		this.goalSelector.addGoal(8, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(9, new FloatGoal(this));
 	}
 
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
-	}
-
-	@Override
-	public double getMyRidingOffset() {
-		return -0.35D;
 	}
 
 	@Override

@@ -3468,6 +3468,18 @@
             "type": "entity"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -6451,14 +6463,14 @@
       "type": "livingentity",
       "sortid": 104,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "alive_snowy_ice",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/entity/AliveSnowyIceEntity.java",
-          "src/main/resources/assets/reworld/models/item/alive_snowy_ice_spawn_egg.json",
           "src/main/java/net/mcreator/reworld/client/renderer/AliveSnowyIceRenderer.java",
-          "src/main/resources/data/reworld/forge/biome_modifier/alive_snowy_ice_biome_modifier.json"
+          "src/main/java/net/mcreator/reworld/entity/AliveSnowyIceEntity.java",
+          "src/main/resources/data/reworld/forge/biome_modifier/alive_snowy_ice_biome_modifier.json",
+          "src/main/resources/assets/reworld/models/item/alive_snowy_ice_spawn_egg.json"
         ]
       },
       "path": "~/Enitity"
@@ -6468,13 +6480,13 @@
       "type": "livingentity",
       "sortid": 105,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "white_bellied_minago_bird",
       "metadata": {
         "files": [
-          "src/main/resources/data/reworld/forge/biome_modifier/white_bellied_minago_bird_biome_modifier.json",
           "src/main/java/net/mcreator/reworld/entity/WhiteBelliedMinagoBirdEntity.java",
           "src/main/java/net/mcreator/reworld/client/renderer/WhiteBelliedMinagoBirdRenderer.java",
+          "src/main/resources/data/reworld/forge/biome_modifier/white_bellied_minago_bird_biome_modifier.json",
           "src/main/resources/assets/reworld/models/item/white_bellied_minago_bird_spawn_egg.json"
         ]
       },
@@ -6485,14 +6497,14 @@
       "type": "livingentity",
       "sortid": 106,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "tamorindic_luna_butterfly",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/client/renderer/TamorindicLunaButterflyRenderer.java",
           "src/main/java/net/mcreator/reworld/entity/TamorindicLunaButterflyEntity.java",
+          "src/main/resources/assets/reworld/models/item/tamorindic_luna_butterfly_spawn_egg.json",
           "src/main/resources/data/reworld/forge/biome_modifier/tamorindic_luna_butterfly_biome_modifier.json",
-          "src/main/resources/assets/reworld/models/item/tamorindic_luna_butterfly_spawn_egg.json"
+          "src/main/java/net/mcreator/reworld/client/renderer/TamorindicLunaButterflyRenderer.java"
         ]
       },
       "path": "~/Enitity/Ambient"
@@ -6502,14 +6514,14 @@
       "type": "livingentity",
       "sortid": 107,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "alive_blue_pomegranate_stone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/entity/AliveBluePomegranateStoneEntity.java",
-          "src/main/resources/assets/reworld/models/item/alive_blue_pomegranate_stone_spawn_egg.json",
           "src/main/java/net/mcreator/reworld/client/renderer/AliveBluePomegranateStoneRenderer.java",
-          "src/main/resources/data/reworld/forge/biome_modifier/alive_blue_pomegranate_stone_biome_modifier.json"
+          "src/main/resources/data/reworld/forge/biome_modifier/alive_blue_pomegranate_stone_biome_modifier.json",
+          "src/main/resources/assets/reworld/models/item/alive_blue_pomegranate_stone_spawn_egg.json",
+          "src/main/java/net/mcreator/reworld/entity/AliveBluePomegranateStoneEntity.java"
         ]
       },
       "path": "~/Enitity"
@@ -6519,7 +6531,7 @@
       "type": "livingentity",
       "sortid": 108,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "poisoned_blue_mycenae",
       "metadata": {
         "files": [
@@ -6550,14 +6562,14 @@
       "type": "livingentity",
       "sortid": 110,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "mycenae_morpho",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/reworld/entity/MycenaeMorphoEntity.java",
           "src/main/java/net/mcreator/reworld/client/renderer/MycenaeMorphoRenderer.java",
-          "src/main/resources/assets/reworld/models/item/mycenae_morpho_spawn_egg.json",
-          "src/main/resources/data/reworld/forge/biome_modifier/mycenae_morpho_biome_modifier.json"
+          "src/main/resources/data/reworld/forge/biome_modifier/mycenae_morpho_biome_modifier.json",
+          "src/main/resources/assets/reworld/models/item/mycenae_morpho_spawn_egg.json"
         ]
       },
       "path": "~/Enitity/Ambient"
@@ -6786,6 +6798,132 @@
         ]
       },
       "path": "~/Recipe"
+    },
+    {
+      "name": "SmallFlowerBlocks",
+      "type": "tag",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_flower_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/small_flowers.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "TallFlowerBlocks",
+      "type": "tag",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_flower_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/tall_flowers.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "SmallFlowerItems",
+      "type": "tag",
+      "sortid": 376,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_flower_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/small_flowers.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "WhiteBelliedMinagoBirdAnimations",
+      "type": "code",
+      "sortid": 377,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "white_bellied_minago_bird_animations",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reworld/WhiteBelliedMinagoBirdAnimations.java"
+        ]
+      },
+      "path": "~/Scripts"
+    },
+    {
+      "name": "PoisonedBlueMycenaeAnimations",
+      "type": "code",
+      "sortid": 378,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "poisoned_blue_mycenae_animations",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reworld/PoisonedBlueMycenaeAnimations.java"
+        ]
+      },
+      "path": "~/Scripts"
+    },
+    {
+      "name": "TamorindicLunaButterflyAnimations",
+      "type": "code",
+      "sortid": 379,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tamorindic_luna_butterfly_animations",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reworld/TamorindicLunaButterflyAnimations.java"
+        ]
+      },
+      "path": "~/Scripts"
+    },
+    {
+      "name": "MycenaeMorphoAnimations",
+      "type": "code",
+      "sortid": 380,
+      "compiles": false,
+      "locked_code": true,
+      "registry_name": "mycenae_morpho_animations",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reworld/MycenaeMorphoAnimations.java"
+        ]
+      },
+      "path": "~/Scripts"
+    },
+    {
+      "name": "AliveSnowyIceAnimations",
+      "type": "code",
+      "sortid": 381,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alive_snowy_ice_animations",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reworld/AliveSnowyIceAnimations.java"
+        ]
+      },
+      "path": "~/Scripts"
+    },
+    {
+      "name": "AliveBluePomegranateStoneAnimations",
+      "type": "code",
+      "sortid": 382,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alive_blue_pomegranate_stone_animations",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/reworld/AliveBluePomegranateStoneAnimations.java"
+        ]
+      },
+      "path": "~/Scripts"
     }
   ],
   "variable_elements": [],
@@ -6812,9 +6950,9 @@
       "block.reworld.eritieric_log": "Эритиериковое бревно",
       "block.reworld.clovers_grass": "Клевер",
       "block.reworld.choco": "Чоко",
-      "block.reworld.black_pepper": "Куст черного перца",
-      "item.reworld.blue_mycenae_food": "Синяя мюцена",
       "item.reworld.bland_bread": "Bland Bread",
+      "item.reworld.blue_mycenae_food": "Синяя мюцена",
+      "block.reworld.black_pepper": "Куст черного перца",
       "block.reworld.fibrous_bush": "§aВолокна",
       "item.reworld.snowy_icy_creature_spawn_egg": "Snowy Icy Creature Spawn Egg",
       "effect.reworld.powerof_forest": "Сила леса",
@@ -6989,9 +7127,9 @@
       "block.reworld.eritieric_log": "Eritieric Log",
       "block.reworld.clovers_grass": "Clovers Grass",
       "block.reworld.choco": "Choco",
-      "item.reworld.blue_mycenae_food": "Blue Mycenae",
-      "block.reworld.black_pepper": "Black Pepper Bush",
       "item.reworld.bland_bread": "Bland Bread",
+      "block.reworld.black_pepper": "Black Pepper Bush",
+      "item.reworld.blue_mycenae_food": "Blue Mycenae",
       "block.reworld.fibrous_bush": "§aFiber",
       "item.reworld.snowy_icy_creature_spawn_egg": "Snowy Icy Creature Spawn Egg",
       "effect.reworld.powerof_forest": "Power of the Forest",

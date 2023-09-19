@@ -2,18 +2,15 @@
 package net.mcreator.reworld.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.reworld.entity.MycenaeMorphoEntity;
+import net.mcreator.reworld.client.model.Modelmycenae_morpho;
 
-public class MycenaeMorphoRenderer extends HumanoidMobRenderer<MycenaeMorphoEntity, HumanoidModel<MycenaeMorphoEntity>> {
+public class MycenaeMorphoRenderer extends MobRenderer<MycenaeMorphoEntity, Modelmycenae_morpho<MycenaeMorphoEntity>> {
 	public MycenaeMorphoRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelmycenae_morpho(context.bakeLayer(Modelmycenae_morpho.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

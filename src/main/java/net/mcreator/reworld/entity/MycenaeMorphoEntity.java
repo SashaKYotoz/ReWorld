@@ -100,11 +100,6 @@ public class MycenaeMorphoEntity extends TamableAnimal {
 	}
 
 	@Override
-	public double getMyRidingOffset() {
-		return -0.35D;
-	}
-
-	@Override
 	public SoundEvent getAmbientSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.bat.ambient"));
 	}

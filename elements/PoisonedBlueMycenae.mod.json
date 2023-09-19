@@ -4,9 +4,12 @@
   "definition": {
     "mobName": "Poisoned Blue Mycenae",
     "mobLabel": "",
-    "mobModelName": "Biped",
+    "mobModelName": "Modelpoisoned_blue_mycenae",
     "mobModelTexture": "alive_blue_pomegranate_stone.png",
     "mobModelGlowTexture": "",
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
     "modelWidth": 0.5,
     "modelHeight": 0.6,
     "modelShadowSize": 0.5,

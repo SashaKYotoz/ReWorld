@@ -84,11 +84,6 @@ public class TamorindicLunaButterflyEntity extends PathfinderMob {
 	}
 
 	@Override
-	public double getMyRidingOffset() {
-		return -0.35D;
-	}
-
-	@Override
 	public void playStepSound(BlockPos pos, BlockState blockIn) {
 		this.playSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.parrot.fly")), 0.15f, 1);
 	}

@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Alive Blue Pomegranate Stone",
     "mobLabel": "",
-    "mobModelName": "Biped",
+    "mobModelName": "Modelalive_blue_pomegranate_stone",
     "mobModelTexture": "alive_blue_pomegranate_stone.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {

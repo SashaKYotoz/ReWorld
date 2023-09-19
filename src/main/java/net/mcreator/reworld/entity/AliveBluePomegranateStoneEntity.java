@@ -81,11 +81,6 @@ public class AliveBluePomegranateStoneEntity extends Monster {
 	}
 
 	@Override
-	public double getMyRidingOffset() {
-		return -0.35D;
-	}
-
-	@Override
 	public void playStepSound(BlockPos pos, BlockState blockIn) {
 		this.playSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.gilded_blackstone.step")), 0.15f, 1);
 	}

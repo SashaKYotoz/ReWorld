@@ -2,18 +2,15 @@
 package net.mcreator.reworld.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.reworld.entity.PoisonedBlueMycenaeEntity;
+import net.mcreator.reworld.client.model.Modelpoisoned_blue_mycenae;
 
-public class PoisonedBlueMycenaeRenderer extends HumanoidMobRenderer<PoisonedBlueMycenaeEntity, HumanoidModel<PoisonedBlueMycenaeEntity>> {
+public class PoisonedBlueMycenaeRenderer extends MobRenderer<PoisonedBlueMycenaeEntity, Modelpoisoned_blue_mycenae<PoisonedBlueMycenaeEntity>> {
 	public PoisonedBlueMycenaeRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelpoisoned_blue_mycenae(context.bakeLayer(Modelpoisoned_blue_mycenae.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

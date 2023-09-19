@@ -3468,6 +3468,18 @@
             "type": "entity"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -6455,10 +6467,10 @@
       "registry_name": "alive_snowy_ice",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/entity/AliveSnowyIceEntity.java",
-          "src/main/resources/assets/reworld/models/item/alive_snowy_ice_spawn_egg.json",
           "src/main/java/net/mcreator/reworld/client/renderer/AliveSnowyIceRenderer.java",
-          "src/main/resources/data/reworld/forge/biome_modifier/alive_snowy_ice_biome_modifier.json"
+          "src/main/java/net/mcreator/reworld/entity/AliveSnowyIceEntity.java",
+          "src/main/resources/data/reworld/forge/biome_modifier/alive_snowy_ice_biome_modifier.json",
+          "src/main/resources/assets/reworld/models/item/alive_snowy_ice_spawn_egg.json"
         ]
       },
       "path": "~/Enitity"
@@ -6506,10 +6518,10 @@
       "registry_name": "alive_blue_pomegranate_stone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/reworld/entity/AliveBluePomegranateStoneEntity.java",
-          "src/main/resources/assets/reworld/models/item/alive_blue_pomegranate_stone_spawn_egg.json",
           "src/main/java/net/mcreator/reworld/client/renderer/AliveBluePomegranateStoneRenderer.java",
-          "src/main/resources/data/reworld/forge/biome_modifier/alive_blue_pomegranate_stone_biome_modifier.json"
+          "src/main/resources/data/reworld/forge/biome_modifier/alive_blue_pomegranate_stone_biome_modifier.json",
+          "src/main/resources/assets/reworld/models/item/alive_blue_pomegranate_stone_spawn_egg.json",
+          "src/main/java/net/mcreator/reworld/entity/AliveBluePomegranateStoneEntity.java"
         ]
       },
       "path": "~/Enitity"
@@ -6790,6 +6802,7 @@
     {
       "name": "SmallFlowerBlocks",
       "type": "tag",
+      "sortid": 374,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_flower_blocks",
@@ -6797,11 +6810,13 @@
         "files": [
           "src/main/resources/data/minecraft/tags/blocks/small_flowers.json"
         ]
-      }
+      },
+      "path": "~/Tags"
     },
     {
       "name": "TallFlowerBlocks",
       "type": "tag",
+      "sortid": 375,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tall_flower_blocks",
@@ -6809,11 +6824,13 @@
         "files": [
           "src/main/resources/data/minecraft/tags/blocks/tall_flowers.json"
         ]
-      }
+      },
+      "path": "~/Tags"
     },
     {
       "name": "SmallFlowerItems",
       "type": "tag",
+      "sortid": 376,
       "compiles": true,
       "locked_code": false,
       "registry_name": "small_flower_items",
@@ -6821,7 +6838,8 @@
         "files": [
           "src/main/resources/data/minecraft/tags/items/small_flowers.json"
         ]
-      }
+      },
+      "path": "~/Tags"
     }
   ],
   "variable_elements": [],
@@ -6848,9 +6866,9 @@
       "block.reworld.eritieric_log": "Эритиериковое бревно",
       "block.reworld.clovers_grass": "Клевер",
       "block.reworld.choco": "Чоко",
-      "block.reworld.black_pepper": "Куст черного перца",
-      "item.reworld.blue_mycenae_food": "Синяя мюцена",
       "item.reworld.bland_bread": "Bland Bread",
+      "item.reworld.blue_mycenae_food": "Синяя мюцена",
+      "block.reworld.black_pepper": "Куст черного перца",
       "block.reworld.fibrous_bush": "§aВолокна",
       "item.reworld.snowy_icy_creature_spawn_egg": "Snowy Icy Creature Spawn Egg",
       "effect.reworld.powerof_forest": "Сила леса",
@@ -7025,9 +7043,9 @@
       "block.reworld.eritieric_log": "Eritieric Log",
       "block.reworld.clovers_grass": "Clovers Grass",
       "block.reworld.choco": "Choco",
-      "item.reworld.blue_mycenae_food": "Blue Mycenae",
-      "block.reworld.black_pepper": "Black Pepper Bush",
       "item.reworld.bland_bread": "Bland Bread",
+      "block.reworld.black_pepper": "Black Pepper Bush",
+      "item.reworld.blue_mycenae_food": "Blue Mycenae",
       "block.reworld.fibrous_bush": "§aFiber",
       "item.reworld.snowy_icy_creature_spawn_egg": "Snowy Icy Creature Spawn Egg",
       "effect.reworld.powerof_forest": "Power of the Forest",
@@ -7202,9 +7220,9 @@
       "block.reworld.eritieric_log": "Ерітерична колода",
       "block.reworld.clovers_grass": "Конюшинова трава",
       "block.reworld.choco": "Чоко",
-      "block.reworld.black_pepper": "Кущ чорного перцю",
-      "item.reworld.blue_mycenae_food": "Синя мюцена",
       "item.reworld.bland_bread": "Bland Bread",
+      "item.reworld.blue_mycenae_food": "Синя мюцена",
+      "block.reworld.black_pepper": "Кущ чорного перцю",
       "block.reworld.fibrous_bush": "§aВолокняна трава",
       "item.reworld.snowy_icy_creature_spawn_egg": "Snowy Icy Creature Spawn Egg",
       "effect.reworld.powerof_forest": "Сила лісу",
