@@ -1,6 +1,8 @@
 
 package net.mcreator.reworld.entity;
 
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.entity.*;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
@@ -26,13 +28,6 @@ import net.minecraft.world.entity.ai.goal.BreedGoal;
 import net.minecraft.world.entity.ai.control.FlyingMoveControl;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.TamableAnimal;
-import net.minecraft.world.entity.SpawnPlacements;
-import net.minecraft.world.entity.MobType;
-import net.minecraft.world.entity.MobSpawnType;
-import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
@@ -51,16 +46,29 @@ import net.mcreator.reworld.init.ReworldModEntities;
 import java.util.List;
 
 public class MycenaeMorphoEntity extends TamableAnimal {
+	public final AnimationState idleState = new AnimationState();
+	public final AnimationState flyState = new AnimationState();
+	public final AnimationState deathState = new AnimationState();
 	public MycenaeMorphoEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(ReworldModEntities.MYCENAE_MORPHO.get(), world);
 	}
 
 	public MycenaeMorphoEntity(EntityType<MycenaeMorphoEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
 		xpReward = 3;
 		setNoAi(false);
 		this.moveControl = new FlyingMoveControl(this, 10, true);
+	}
+	public void tickDeath() {
+		if(!this.deathState.isStarted())
+			this.deathState.start(this.tickCount);
+		super.tickDeath();
+	}
+
+	@Override
+	public void die(DamageSource source) {
+		this.deathTime = -40;
+		super.die(source);
 	}
 
 	@Override
@@ -106,7 +114,7 @@ public class MycenaeMorphoEntity extends TamableAnimal {
 
 	@Override
 	public void playStepSound(BlockPos pos, BlockState blockIn) {
-		this.playSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.bat.loop")), 0.15f, 1);
+		this.playSound(SoundEvents.AZALEA_LEAVES_FALL, 0.15f, 1);
 	}
 
 	@Override
@@ -203,6 +211,22 @@ public class MycenaeMorphoEntity extends TamableAnimal {
 	public static void init() {
 		SpawnPlacements.register(ReworldModEntities.MYCENAE_MORPHO.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).getMaterial() == Material.GRASS && world.getRawBrightness(pos, 0) > 8));
+	}
+	private boolean isMoving() {
+		return this.getDeltaMovement().horizontalDistanceSqr() > 1.0E-6D;
+	}
+
+	public void tick() {
+		if (this.level.isClientSide()) {
+			if (this.isMoving()) {
+				this.flyState.startIfStopped(this.tickCount);
+				this.idleState.stop();
+			} else {
+				this.flyState.stop();
+				this.idleState.startIfStopped(this.tickCount);
+			}
+		}
+		super.tick();
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

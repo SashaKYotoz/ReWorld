@@ -1,7 +1,9 @@
 
 package net.mcreator.reworld.entity;
 
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.Mth;
+import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.ai.goal.*;
 import net.minecraft.world.entity.monster.RangedAttackMob;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -37,12 +39,15 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.reworld.procedures.SnowyIcyCreatureOnEntityTickUpdateProcedure;
 import net.mcreator.reworld.procedures.SnowyIcyCreatureEntityIsHurtProcedure;
 import net.mcreator.reworld.init.ReworldModEntities;
+import org.jetbrains.annotations.NotNull;
 
 public class SnowyIcyCreatureEntity extends Monster implements RangedAttackMob {
+	public static boolean isRangeAttacked;
 	public AnimationState attackAnimationState = new AnimationState();
-	public AnimationState attackAnimationState1 = new AnimationState();
+	public AnimationState attack1AnimationState = new AnimationState();
 	public final AnimationState walkAnimationState = new AnimationState();
 	public final AnimationState idleAnimationState = new AnimationState();
+	public final AnimationState deathAnimationState = new AnimationState();
 	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.WHITE, ServerBossEvent.BossBarOverlay.NOTCHED_6);
 
 	public SnowyIcyCreatureEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -51,7 +56,6 @@ public class SnowyIcyCreatureEntity extends Monster implements RangedAttackMob {
 
 	public SnowyIcyCreatureEntity(EntityType<SnowyIcyCreatureEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.75f;
 		xpReward = 15;
 		setNoAi(false);
 		setCustomName(Component.literal("Snowy Icy Creature"));
@@ -78,10 +82,22 @@ public class SnowyIcyCreatureEntity extends Monster implements RangedAttackMob {
 
 	public void handleEntityEvent(byte p_219360_) {
 		if (p_219360_ >= 4 && p_219360_ <= 20) {
-			this.attackAnimationState1.start(this.tickCount);
+			this.attack1AnimationState.start(this.tickCount);
+			isRangeAttacked = false;
 		} else {
 			super.handleEntityEvent(p_219360_);
 		}
+	}
+	protected void tickDeath() {
+		if(!this.deathAnimationState.isStarted())
+			this.deathAnimationState.start(this.tickCount);
+		super.tickDeath();
+	}
+
+	@Override
+	public void die(DamageSource source) {
+		this.deathTime = -40;
+		super.die(source);
 	}
 
 	@Override
@@ -115,16 +131,11 @@ public class SnowyIcyCreatureEntity extends Monster implements RangedAttackMob {
 		}
 
 		public boolean canUse() {
-			return this.creature.getTarget() != null;
+			return this.creature.getTarget() != null && !isRangeAttacked;
 		}
 
 		public void start() {
-			attackTime = 20;
-		}
-
-		public void stop() {
-			attackAnimationState.stop();
-			this.attackTime = -1;
+			attackTime = -RandomSource.create().nextInt(0,30);
 		}
 
 		public boolean requiresUpdateEveryTick() {
@@ -138,13 +149,14 @@ public class SnowyIcyCreatureEntity extends Monster implements RangedAttackMob {
 					if (attackTime == 60) {
 						attackTime = 0;
 						attackAnimationState.start(tickCount);
-						this.creature.performRangedAttack(livingentity, f1);
+						if(attackAnimationState.isStarted())
+							this.creature.performRangedAttack(livingentity, f1);
+						isRangeAttacked = true;
 					} else if (attackTime < 60)
 						attackTime++;
 					this.creature.getNavigation().stop();
 				} else {
 					this.creature.getNavigation().moveTo(livingentity, 0.5);
-					stop();
 				}
 			}
 		}
@@ -164,7 +176,7 @@ public class SnowyIcyCreatureEntity extends Monster implements RangedAttackMob {
 
 	@Override
 	public void playStepSound(BlockPos pos, BlockState blockIn) {
-		this.playSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.powder_snow.step")), 0.15f, 1);
+		this.playSound(SoundEvents.POWDER_SNOW_STEP, 0.15f, 1);
 	}
 
 	@Override
@@ -232,7 +244,7 @@ public class SnowyIcyCreatureEntity extends Monster implements RangedAttackMob {
 	}
 
 	@Override
-	public void performRangedAttack(LivingEntity p_33317_, float p_33318_) {
+	public void performRangedAttack(@NotNull LivingEntity p_33317_, float p_33318_) {
 		FreezingSkewerRangedItemEntity.shoot(this, p_33317_);
 	}
 }

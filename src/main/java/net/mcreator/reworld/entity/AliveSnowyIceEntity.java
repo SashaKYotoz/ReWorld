@@ -1,6 +1,8 @@
 
 package net.mcreator.reworld.entity;
 
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.entity.*;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
@@ -22,12 +24,6 @@ import net.minecraft.world.entity.ai.goal.FollowMobGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.SpawnPlacements;
-import net.minecraft.world.entity.MobType;
-import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.AreaEffectCloud;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.Difficulty;
@@ -40,13 +36,16 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.reworld.init.ReworldModEntities;
 
 public class AliveSnowyIceEntity extends Monster {
+	public final AnimationState idleState = new AnimationState();
+	public final AnimationState walkState = new AnimationState();
+	public final AnimationState attackState = new AnimationState();
+	public final AnimationState deathState = new AnimationState();
 	public AliveSnowyIceEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(ReworldModEntities.ALIVE_SNOWY_ICE.get(), world);
 	}
 
 	public AliveSnowyIceEntity(EntityType<AliveSnowyIceEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
 		xpReward = 3;
 		setNoAi(false);
 	}
@@ -82,7 +81,7 @@ public class AliveSnowyIceEntity extends Monster {
 
 	@Override
 	public void playStepSound(BlockPos pos, BlockState blockIn) {
-		this.playSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.bucket.fill_powder_snow")), 0.15f, 1);
+		this.playSound(SoundEvents.AMETHYST_CLUSTER_HIT, 0.15f, 1);
 	}
 
 	@Override
@@ -116,7 +115,22 @@ public class AliveSnowyIceEntity extends Monster {
 		SpawnPlacements.register(ReworldModEntities.ALIVE_SNOWY_ICE.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL && Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)));
 	}
+	private boolean isMoving() {
+		return this.getDeltaMovement().horizontalDistanceSqr() > 1.0E-6D;
+	}
 
+	public void tick() {
+		if (this.level.isClientSide()) {
+			if (this.isMoving()) {
+				this.walkState.startIfStopped(this.tickCount);
+				this.idleState.startIfStopped(this.tickCount);
+			} else {
+				this.walkState.stop();
+				this.idleState.startIfStopped(this.tickCount);
+			}
+		}
+		super.tick();
+	}
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.2);

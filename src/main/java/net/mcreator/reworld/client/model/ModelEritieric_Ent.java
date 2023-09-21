@@ -173,17 +173,13 @@ public class ModelEritieric_Ent<T extends EntEntity> extends HierarchicalModel<T
 
 	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 		this.root().getAllParts().forEach(ModelPart::resetPose);
+		float f = Math.min((float) entity.getDeltaMovement().lengthSqr() * 100.0F, 8.0F);
 		this.head.yRot = netHeadYaw / (180F / (float) Math.PI);
 		this.head.xRot = headPitch / (180F / (float) Math.PI);
-		if (Math.random() < 0.25)
-			this.animate(entity.attackAnimationState, EntAnimations.ATTACK, ageInTicks);
-		else if (Math.random() < 0.5) {
-			this.animate(entity.attackAnimationState, EntAnimations.ATTACK1, ageInTicks);
-		} else if (Math.random() < 0.125) {
-			this.animate(entity.attackAnimationState, EntAnimations.ATTACK2, ageInTicks);
-		} else {
-			this.animate(entity.attackAnimationState, EntAnimations.ATTACK3, ageInTicks);
-		}
-		this.animate(entity.walkAnimationState, EntAnimations.WALK, ageInTicks);
+		this.animate(entity.attackAnimationState, EntAnimations.ATTACK, ageInTicks);
+		this.animate(entity.attack1AnimationState, EntAnimations.ATTACK1, ageInTicks);
+		this.animate(entity.walkAnimationState, EntAnimations.WALK, ageInTicks, f);
+		this.animate(entity.idleAnimationState, EntAnimations.IDLE, ageInTicks);
+		this.animate(entity.deathAnimationState, EntAnimations.DEATH, ageInTicks);
 	}
 }

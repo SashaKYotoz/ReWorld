@@ -205,7 +205,8 @@ public class Modelsnowy_icy_creature<T extends SnowyIcyCreatureEntity> extends H
 		this.head.yRot = netHeadYaw / (180F / (float) Math.PI);
 		this.head.xRot = headPitch / (180F / (float) Math.PI);
 		this.animate(entity.attackAnimationState, SnowyCreatureAnimations.ATTACK, ageInTicks);
-		this.animate(entity.attackAnimationState1, SnowyCreatureAnimations.ATTACK1, ageInTicks);
+		this.animate(entity.attack1AnimationState, SnowyCreatureAnimations.ATTACK1, ageInTicks);
+		this.animate(entity.deathAnimationState, SnowyCreatureAnimations.DEATH, ageInTicks);
 		this.animate(entity.walkAnimationState, SnowyCreatureAnimations.WALK, ageInTicks);
 		this.animate(entity.idleAnimationState, SnowyCreatureAnimations.IDLE, ageInTicks);
 	}

@@ -1,5 +1,9 @@
 package net.mcreator.reworld;
 
+import net.minecraft.client.Minecraft;
+import net.minecraft.world.entity.EntityType;
+import net.minecraftforge.common.ForgeMod;
+import net.minecraftforge.event.entity.EntityAttributeModificationEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -16,7 +20,6 @@ public class ReWorldModInitialization {
 	public static void init(FMLCommonSetupEvent event) {
 		new ReWorldModInitialization();
 	}
-
 	@Mod.EventBusSubscriber
 	private static class ForgeBusEvents {
 		@OnlyIn(Dist.CLIENT)

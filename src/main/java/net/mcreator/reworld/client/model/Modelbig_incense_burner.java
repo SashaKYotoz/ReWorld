@@ -171,15 +171,11 @@ public class Modelbig_incense_burner<T extends BigIncenseBurnerEntity> extends H
 	@Override
 	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 		this.root().getAllParts().forEach(ModelPart::resetPose);
-		if (Math.random() < 0.5)
-			this.animate(entity.attackAnimationState, BigIncenseBurnerAnimations.GENERAL_ATTACK, ageInTicks);
-		else if (Math.random() < 0.125) {
-			this.animate(entity.attackAnimationState, BigIncenseBurnerAnimations.RED_HEAD_ATTACK, ageInTicks);
-		} else if (Math.random() < 0.25) {
-			this.animate(entity.attackAnimationState, BigIncenseBurnerAnimations.ORANGE_HEAD_ATTACK, ageInTicks);
-		} else if (Math.random() < 0.35) {
-			this.animate(entity.attackAnimationState, BigIncenseBurnerAnimations.PURPLE_HEAD_ATTACK, ageInTicks);
-		}
+		this.animate(entity.attackAnimationState, BigIncenseBurnerAnimations.GENERAL_ATTACK, ageInTicks);
+		this.animate(entity.attackRedHeadState, BigIncenseBurnerAnimations.RED_HEAD_ATTACK, ageInTicks);
+		this.animate(entity.attackPurpleHeadState, BigIncenseBurnerAnimations.PURPLE_HEAD_ATTACK, ageInTicks);
+		this.animate(entity.attackOrangeHeadState, BigIncenseBurnerAnimations.ORANGE_HEAD_ATTACK, ageInTicks);
 		this.animate(entity.idleAnimationState, BigIncenseBurnerAnimations.IDLE, ageInTicks);
+		this.animate(entity.deathAnimationState, BigIncenseBurnerAnimations.DEATH, ageInTicks);
 	}
 }

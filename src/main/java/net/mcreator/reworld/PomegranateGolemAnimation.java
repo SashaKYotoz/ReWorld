@@ -10,7 +10,7 @@ import net.minecraft.client.animation.AnimationChannel;
 
 @OnlyIn(Dist.CLIENT)
 public class PomegranateGolemAnimation {
-	public static final AnimationDefinition IDLE = AnimationDefinition.Builder.withLength(4f).looping()
+	public static final AnimationDefinition IDLE = AnimationDefinition.Builder.withLength(4f).looping()
 			.addAnimation("head",
 					new AnimationChannel(AnimationChannel.Targets.ROTATION, new Keyframe(0.5f, KeyframeAnimations.degreeVec(0f, 0f, 0f), AnimationChannel.Interpolations.LINEAR),
 							new Keyframe(1f, KeyframeAnimations.degreeVec(0f, 30f, 0f), AnimationChannel.Interpolations.LINEAR), new Keyframe(2f, KeyframeAnimations.degreeVec(0f, 0f, 0f), AnimationChannel.Interpolations.LINEAR),
@@ -36,7 +36,8 @@ public class PomegranateGolemAnimation {
 							new Keyframe(0.5f, KeyframeAnimations.degreeVec(0f, 0f, 0f), AnimationChannel.Interpolations.LINEAR), new Keyframe(1.5f, KeyframeAnimations.degreeVec(0f, 0f, 0f), AnimationChannel.Interpolations.LINEAR),
 							new Keyframe(2f, KeyframeAnimations.degreeVec(0f, -3f, 0f), AnimationChannel.Interpolations.LINEAR)))
 			.build();
-	public static final AnimationDefinition WALK = AnimationDefinition.Builder.withLength(2f).looping()
+	public static final AnimationDefinition WALK = AnimationDefinition.Builder.withLength(2f)
+.looping()
 			.addAnimation("body", new AnimationChannel(AnimationChannel.Targets.ROTATION, new Keyframe(0f, KeyframeAnimations.degreeVec(0f, 0f, 0f), AnimationChannel.Interpolations.LINEAR)))
 			.addAnimation("rightArm",
 					new AnimationChannel(AnimationChannel.Targets.ROTATION, new Keyframe(0f, KeyframeAnimations.degreeVec(0f, 0f, 0f), AnimationChannel.Interpolations.LINEAR),

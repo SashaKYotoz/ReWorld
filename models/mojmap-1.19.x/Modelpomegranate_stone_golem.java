@@ -138,16 +138,13 @@ public class Modelpomegranate_stone_golem<T extends PomegranateStoneGolemEntity>
 	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw,
 			float headPitch) {
 		this.root().getAllParts().forEach(ModelPart::resetPose);
-		float f = ageInTicks - (float) entity.tickCount;
+		float f = Math.min((float) entity.getDeltaMovement().lengthSqr() * 100.0F, 8.0F);
 		this.head.yRot = netHeadYaw / (180F / (float) Math.PI);
 		this.head.xRot = headPitch / (180F / (float) Math.PI);
-		if (Math.random() < 0.75)
-			this.animate(entity.attackAnimationState, PomegranateGolemAnimation.ATTACK, ageInTicks);
-		else if (Math.random() < 0.5) {
-			this.animate(entity.attackAnimationState, PomegranateGolemAnimation.ATTACK1, ageInTicks);
-		} else {
-			this.animate(entity.attackAnimationState, PomegranateGolemAnimation.ATTACK2, ageInTicks);
-		}
+		this.animate(entity.attackAnimationState, PomegranateGolemAnimation.ATTACK1, ageInTicks);
+		this.animate(entity.attack1AnimationState, PomegranateGolemAnimation.ATTACK2, ageInTicks);
+		this.animate(entity.deathAnimationState, PomegranateGolemAnimation.DEATH, ageInTicks);
+		this.animate(entity.idleAnimationState, PomegranateGolemAnimation.IDLE, ageInTicks);
 		this.animate(entity.walkAnimationState, PomegranateGolemAnimation.WALK, ageInTicks, f);
 	}
 }

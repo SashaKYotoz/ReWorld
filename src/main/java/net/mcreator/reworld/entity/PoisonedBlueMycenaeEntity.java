@@ -1,6 +1,7 @@
 
 package net.mcreator.reworld.entity;
 
+import net.minecraft.world.entity.*;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
@@ -12,11 +13,6 @@ import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.PathfinderMob;
-import net.minecraft.world.entity.MobType;
-import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
@@ -27,6 +23,8 @@ import net.mcreator.reworld.procedures.PoisonedBlueMycenaePlayerCollidesWithThis
 import net.mcreator.reworld.init.ReworldModEntities;
 
 public class PoisonedBlueMycenaeEntity extends PathfinderMob {
+	public final AnimationState idleState = new AnimationState();
+	public final AnimationState walkState = new AnimationState();
 	public PoisonedBlueMycenaeEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(ReworldModEntities.POISONED_BLUE_MYCENAE.get(), world);
 	}
@@ -89,6 +87,22 @@ public class PoisonedBlueMycenaeEntity extends PathfinderMob {
 
 	@Override
 	protected void pushEntities() {
+	}
+	private boolean isMoving() {
+		return this.getDeltaMovement().horizontalDistanceSqr() > 1.0E-6D;
+	}
+
+	public void tick() {
+		if (this.level.isClientSide()) {
+			if (this.isMoving()) {
+				this.walkState.startIfStopped(this.tickCount);
+				this.idleState.startIfStopped(this.tickCount);
+			} else {
+				this.walkState.stop();
+				this.idleState.startIfStopped(this.tickCount);
+			}
+		}
+		super.tick();
 	}
 
 	public static void init() {

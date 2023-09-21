@@ -1,6 +1,8 @@
 
 package net.mcreator.reworld.entity;
 
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.entity.*;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
@@ -20,11 +22,6 @@ import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.control.FlyingMoveControl;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.SpawnPlacements;
-import net.minecraft.world.entity.PathfinderMob;
-import net.minecraft.world.entity.MobType;
-import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.util.RandomSource;
@@ -37,16 +34,46 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.reworld.init.ReworldModEntities;
 
 public class TamorindicLunaButterflyEntity extends PathfinderMob {
+	public final AnimationState idleState = new AnimationState();
+	public final AnimationState flyState = new AnimationState();
+	public final AnimationState deathState = new AnimationState();
+
 	public TamorindicLunaButterflyEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(ReworldModEntities.TAMORINDIC_LUNA_BUTTERFLY.get(), world);
 	}
 
 	public TamorindicLunaButterflyEntity(EntityType<TamorindicLunaButterflyEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
 		xpReward = 3;
 		setNoAi(false);
 		this.moveControl = new FlyingMoveControl(this, 10, true);
+	}
+	public void tickDeath() {
+		if(!this.deathState.isStarted())
+			this.deathState.start(this.tickCount);
+		super.tickDeath();
+	}
+
+	@Override
+	public void die(DamageSource source) {
+		this.deathTime = -40;
+		super.die(source);
+	}
+	private boolean isMoving() {
+		return this.getDeltaMovement().horizontalDistanceSqr() > 1.0E-6D;
+	}
+
+	public void tick() {
+		if (this.level.isClientSide()) {
+			if (this.isMoving()) {
+				this.flyState.startIfStopped(this.tickCount);
+				this.idleState.stop();
+			} else {
+				this.flyState.stop();
+				this.idleState.startIfStopped(this.tickCount);
+			}
+		}
+		super.tick();
 	}
 
 	@Override
@@ -85,7 +112,7 @@ public class TamorindicLunaButterflyEntity extends PathfinderMob {
 
 	@Override
 	public void playStepSound(BlockPos pos, BlockState blockIn) {
-		this.playSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.parrot.fly")), 0.15f, 1);
+		this.playSound(SoundEvents.PARROT_FLY, 0.15f, 1);
 	}
 
 	@Override

@@ -7,7 +7,7 @@ import net.minecraft.client.animation.AnimationDefinition;
 import net.minecraft.client.animation.AnimationChannel;
 
 public class TamorindicLunaButterflyAnimations {
-	public static final AnimationDefinition IDLE = AnimationDefinition.Builder.withLength(1.5f)
+	public static final AnimationDefinition IDLE = AnimationDefinition.Builder.withLength(1.5f).looping()
 			.addAnimation("forwardrightWing",
 					new AnimationChannel(AnimationChannel.Targets.ROTATION, new Keyframe(0f, KeyframeAnimations.degreeVec(0f, 0f, 0f), AnimationChannel.Interpolations.LINEAR),
 							new Keyframe(0.5f, KeyframeAnimations.degreeVec(0f, 10f, -10f), AnimationChannel.Interpolations.LINEAR), new Keyframe(1f, KeyframeAnimations.degreeVec(0f, 7.5f, 15f), AnimationChannel.Interpolations.LINEAR),
@@ -25,7 +25,7 @@ public class TamorindicLunaButterflyAnimations {
 							new Keyframe(0.5f, KeyframeAnimations.degreeVec(0f, 0f, 5f), AnimationChannel.Interpolations.LINEAR), new Keyframe(1f, KeyframeAnimations.degreeVec(0f, 0f, -25f), AnimationChannel.Interpolations.LINEAR),
 							new Keyframe(1.5f, KeyframeAnimations.degreeVec(0f, 0f, 0f), AnimationChannel.Interpolations.LINEAR)))
 			.build();
-	public static final AnimationDefinition WALK = AnimationDefinition.Builder.withLength(1.5f)
+	public static final AnimationDefinition WALK = AnimationDefinition.Builder.withLength(1.5f).looping()
 			.addAnimation("body",
 					new AnimationChannel(AnimationChannel.Targets.ROTATION, new Keyframe(0f, KeyframeAnimations.degreeVec(0f, 0f, 0f), AnimationChannel.Interpolations.LINEAR),
 							new Keyframe(0.5f, KeyframeAnimations.degreeVec(2.5f, 0f, 0f), AnimationChannel.Interpolations.LINEAR), new Keyframe(1f, KeyframeAnimations.degreeVec(-2.5f, 0f, 0f), AnimationChannel.Interpolations.LINEAR),

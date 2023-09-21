@@ -23,13 +23,19 @@ import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.projectile.ThrownPotion;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.registries.ForgeRegistries;
+import org.jetbrains.annotations.NotNull;
 
 public class BigIncenseBurnerEntity extends Monster {
 	public AnimationState attackAnimationState = new AnimationState();
+	public AnimationState attackRedHeadState = new AnimationState();
+	public AnimationState attackPurpleHeadState = new AnimationState();
+	public AnimationState attackOrangeHeadState = new AnimationState();
 	public final AnimationState idleAnimationState = new AnimationState();
+	public final AnimationState deathAnimationState = new AnimationState();
 	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.GREEN, ServerBossEvent.BossBarOverlay.PROGRESS);
 
 	public BigIncenseBurnerEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -38,10 +44,32 @@ public class BigIncenseBurnerEntity extends Monster {
 
 	public void handleEntityEvent(byte p_219360_) {
 		if (p_219360_ >= 4 && p_219360_ <= 24) {
-			this.attackAnimationState.start(this.tickCount);
-		} else {
+			if (Math.random() > 0 && Math.random() < 0.25) {
+				this.attackPurpleHeadState.start(this.tickCount);
+				LivingEntity target = this.getTarget();
+				Vec3 vec3 = (new Vec3(this.getX() - target.getX(), this.getY() - target.getY(), this.getZ() - target.getZ())).scale(0.1D);
+				target.setDeltaMovement(target.getDeltaMovement().add(vec3));
+			} else if(Math.random() > 0.25 && Math.random() < 0.5)
+				this.attackAnimationState.start(this.tickCount);
+			else if (Math.random() > 0.5 && Math.random() < 0.75)
+				this.attackRedHeadState.start(this.tickCount);
+			else
+				this.attackOrangeHeadState.start(this.tickCount);
+		}
+			else {
 			super.handleEntityEvent(p_219360_);
 		}
+	}
+	protected void tickDeath() {
+		if(!this.deathAnimationState.isStarted())
+			this.deathAnimationState.start(this.tickCount);
+		super.tickDeath();
+	}
+
+	@Override
+	public void die(DamageSource source) {
+		this.deathTime = -40;
+		super.die(source);
 	}
 	@Override
 	public boolean doHurtTarget(Entity p_34491_) {
@@ -50,10 +78,10 @@ public class BigIncenseBurnerEntity extends Monster {
 		} else {
 			this.level.broadcastEntityEvent(this, (byte) 4);
 			this.playSound(SoundEvents.FLOWERING_AZALEA_BREAK, 1.0F, this.getVoicePitch());
-			return BigIncenseBurnerEntity.hurtAndThrowTarget(this, (LivingEntity) p_34491_);
+			return BigIncenseBurnerEntity.hurtTarget(this, (LivingEntity) p_34491_);
 		}
 	}
-	static boolean hurtAndThrowTarget(LivingEntity p_34643_, LivingEntity p_34644_) {
+	static boolean hurtTarget(LivingEntity p_34643_, LivingEntity p_34644_) {
 		float f = (float) p_34643_.getAttributeValue(Attributes.ATTACK_DAMAGE);
 		return p_34644_.hurt(p_34643_.damageSources().mobAttack(p_34643_), f);
 	}
@@ -66,10 +94,21 @@ public class BigIncenseBurnerEntity extends Monster {
 			this.idleAnimationState.stop();
 		super.tick();
 	}
+	@Override
+	public boolean isPushable() {
+		return false;
+	}
+
+	@Override
+	protected void doPush(@NotNull Entity entityIn) {
+	}
+
+	@Override
+	protected void pushEntities() {
+	}
 
 	public BigIncenseBurnerEntity(EntityType<BigIncenseBurnerEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.0f;
 		xpReward = 15;
 		setNoAi(false);
 		setCustomName(Component.literal("Big Incense Burner"));
@@ -85,10 +124,10 @@ public class BigIncenseBurnerEntity extends Monster {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false) {
+		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1, false) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
-				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth() + 2D;
+				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth() + 3D;
 			}
 		});
 		this.targetSelector.addGoal(2, new HurtByTargetGoal(this));

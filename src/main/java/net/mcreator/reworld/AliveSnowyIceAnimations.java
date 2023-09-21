@@ -7,13 +7,13 @@ import net.minecraft.client.animation.AnimationDefinition;
 import net.minecraft.client.animation.AnimationChannel;
 
 public class AliveSnowyIceAnimations {
-	public static final AnimationDefinition IDLE = AnimationDefinition.Builder.withLength(3f)
+	public static final AnimationDefinition IDLE = AnimationDefinition.Builder.withLength(3f).looping()
 			.addAnimation("head",
 					new AnimationChannel(AnimationChannel.Targets.ROTATION, new Keyframe(0f, KeyframeAnimations.degreeVec(0f, 0f, 0f), AnimationChannel.Interpolations.LINEAR),
 							new Keyframe(1f, KeyframeAnimations.degreeVec(-5f, 5f, -5f), AnimationChannel.Interpolations.LINEAR), new Keyframe(2f, KeyframeAnimations.degreeVec(5f, -5f, 5f), AnimationChannel.Interpolations.LINEAR),
 							new Keyframe(2.5f, KeyframeAnimations.degreeVec(0f, 0f, 0f), AnimationChannel.Interpolations.LINEAR)))
 			.build();
-	public static final AnimationDefinition WALK = AnimationDefinition.Builder.withLength(2f)
+	public static final AnimationDefinition WALK = AnimationDefinition.Builder.withLength(2f).looping()
 			.addAnimation("head",
 					new AnimationChannel(AnimationChannel.Targets.ROTATION, new Keyframe(0f, KeyframeAnimations.degreeVec(-5f, 0f, 0f), AnimationChannel.Interpolations.LINEAR),
 							new Keyframe(0.5f, KeyframeAnimations.degreeVec(-2.5f, 0f, 5f), AnimationChannel.Interpolations.LINEAR), new Keyframe(1f, KeyframeAnimations.degreeVec(-5f, 0f, -5f), AnimationChannel.Interpolations.LINEAR),
